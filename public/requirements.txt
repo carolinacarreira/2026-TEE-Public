@@ -1,0 +1,6 @@
+chardet
+jupyterlab
+matplotlib
+numpy
+pandas
+seaborn
