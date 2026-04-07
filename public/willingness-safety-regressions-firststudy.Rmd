@@ -1,0 +1,438 @@
+---
+title: "regressions"
+author: "Carolina Carreira"
+date: ''
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ordinal)
+library(lme4)
+library(dplyr)
+library(car)
+library(sjPlot)
+library(performance)
+library(broom)
+library(EMT)
+library(multcomp)
+library(emmeans)
+library(RVAideMemoire)
+library(ggplot2)
+library(brant)
+library(MASS)
+library(pscl)
+
+ENCODING = 'UTF-8'
+
+```
+
+
+Binomial logistic regression to check if demographic and experience
+factors affect score (Medical Simple)
+
+```{r}
+regression_results <- read.csv('./data/firststudy/regression_willall-meds.csv', header = TRUE)
+regression_results$gender <- as.factor(regression_results$gender)
+regression_results$age <- as.factor(regression_results$age)
+regression_results$combined_IoT_Experience <- as.factor(regression_results$combined_IoT_Experience)
+regression_results$combined_Medical_Experience <- as.factor(regression_results$combined_Medical_Experience)
+regression_results$combined_CS_Experience <- as.factor(regression_results$combined_CS_Experience)
+names(regression_results) <- gsub(" ", "_", names(regression_results))  # Replace spaces with underscores
+regression_results$EXPLN_S1 <- factor(regression_results$EXPLN_S1, levels = c("Unsubstantial", "Hardware", "Trust"))
+regression_results$EXPLN_S2 <- as.factor(regression_results$EXPLN_S2)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$scenario_complexity <- as.factor(regression_results$scenario_complexity)
+regression_results$scenario_scenario <- as.factor(regression_results$scenario_scenario)
+regression_results$scenario <- factor(regression_results$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+
+
+regression_results$safety_pre <- as.factor(ordered(regression_results$safety_pre,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$safety_post <- as.factor(ordered(regression_results$safety_post,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$willingness <- as.factor(ordered(regression_results$willingness,
+                                       levels = c("Would not", "Maybe would","Definitely would")))
+
+
+scores_medicals = regression_results
+
+```
+
+```{r}
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_Medical_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = regression_results, Hess=TRUE, nAGQ = 10)
+  print(model_output)
+  print(summary(model_output))
+  return(model_output)
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = data, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = data, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+```
+
+## Medical simple
+
+```{r}
+regression_model("safety_pre")
+test_proportional_odds("safety_pre")
+
+```
+
+```{r}
+regression_model("safety_post")
+test_proportional_odds("safety_post")
+```
+
+```{r}
+regression_model("willingness")
+test_proportional_odds("willingness")
+```
+
+Binomial logistic regression to check if demographic and experience
+factors affect score (Medical Complex)
+
+```{r}
+regression_results <- read.csv('./data/firststudy/regression_willall-medc.csv', header = TRUE)
+regression_results$gender <- as.factor(regression_results$gender)
+regression_results$age <- as.factor(regression_results$age)
+regression_results$combined_IoT_Experience <- as.factor(regression_results$combined_IoT_Experience)
+regression_results$combined_Medical_Experience <- as.factor(regression_results$combined_Medical_Experience)
+regression_results$combined_CS_Experience <- as.factor(regression_results$combined_CS_Experience)
+names(regression_results) <- gsub(" ", "_", names(regression_results))  # Replace spaces with underscores
+regression_results$EXPLN_S1 <- factor(regression_results$EXPLN_S1, levels = c("Unsubstantial", "Hardware", "Trust"))
+regression_results$EXPLN_S2 <- as.factor(regression_results$EXPLN_S2)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$scenario_complexity <- as.factor(regression_results$scenario_complexity)
+regression_results$scenario_scenario <- as.factor(regression_results$scenario_scenario)
+regression_results$scenario <- factor(regression_results$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+
+
+regression_results$safety_pre <- as.factor(ordered(regression_results$safety_pre,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$safety_post <- as.factor(ordered(regression_results$safety_post,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$willingness <- as.factor(ordered(regression_results$willingness,
+                                       levels = c("Would not", "Maybe would","Definitely would")))
+
+scores_medicalc = regression_results
+    
+```
+
+```{r}
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_Medical_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = regression_results, Hess=TRUE, nAGQ = 10)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = data, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = data, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+```
+
+## Medical complex
+
+```{r}
+regression_model("safety_pre")
+test_proportional_odds("safety_pre")
+```
+```{r}
+regression_model("safety_post")
+test_proportional_odds("safety_post")
+```
+
+```{r}
+regression_model("willingness")
+test_proportional_odds("willingness")
+```
+
+Binomial logistic regression to check if demographic and experience
+factors affect score (IoT Simple)
+
+```{r}
+regression_results <- read.csv('./data/firststudy/regression_willall-iots.csv', header = TRUE)
+regression_results$gender <- as.factor(regression_results$gender)
+regression_results$age <- as.factor(regression_results$age)
+regression_results$combined_IoT_Experience <- as.factor(regression_results$combined_IoT_Experience)
+regression_results$combined_Medical_Experience <- as.factor(regression_results$combined_Medical_Experience)
+regression_results$combined_CS_Experience <- as.factor(regression_results$combined_CS_Experience)
+names(regression_results) <- gsub(" ", "_", names(regression_results))  # Replace spaces with underscores
+regression_results$EXPLN_S1 <- factor(regression_results$EXPLN_S1, levels = c("Unsubstantial", "Hardware", "Trust"))
+regression_results$EXPLN_S2 <- as.factor(regression_results$EXPLN_S2)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$scenario_complexity <- as.factor(regression_results$scenario_complexity)
+regression_results$scenario_scenario <- as.factor(regression_results$scenario_scenario)
+regression_results$scenario <- factor(regression_results$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+
+
+regression_results$safety_pre <- as.factor(ordered(regression_results$safety_pre,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$safety_post <- as.factor(ordered(regression_results$safety_post,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$willingness <- as.factor(ordered(regression_results$willingness,
+                                       levels = c("Would not", "Maybe would","Definitely would")))
+
+scores_iots = regression_results
+    
+```
+
+```{r}
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_IoT_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = regression_results, Hess=TRUE, nAGQ = 10)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_IoT_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = data, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = data, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+```
+
+## IoT simple
+
+```{r}
+regression_model("safety_pre")
+test_proportional_odds("safety_pre")
+```
+```{r}
+regression_model("safety_post")
+test_proportional_odds("safety_post")
+```
+
+```{r}
+regression_model("willingness")
+test_proportional_odds("willingness")
+```
+
+Binomial logistic regression to check if demographic and experience
+factors affect score (IoT Complex)
+
+```{r}
+regression_results <- read.csv('./data/firststudy/regression_willall-iotc.csv', header = TRUE)
+regression_results$gender <- as.factor(regression_results$gender)
+regression_results$age <- as.factor(regression_results$age)
+regression_results$combined_IoT_Experience <- as.factor(regression_results$combined_IoT_Experience)
+regression_results$combined_Medical_Experience <- as.factor(regression_results$combined_Medical_Experience)
+regression_results$combined_CS_Experience <- as.factor(regression_results$combined_CS_Experience)
+names(regression_results) <- gsub(" ", "_", names(regression_results))  # Replace spaces with underscores
+regression_results$EXPLN_S1 <- factor(regression_results$EXPLN_S1, levels = c("Unsubstantial", "Hardware", "Trust"))
+regression_results$EXPLN_S2 <- as.factor(regression_results$EXPLN_S2)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$EXPLN_S3 <- as.factor(regression_results$EXPLN_S3)
+regression_results$scenario_complexity <- as.factor(regression_results$scenario_complexity)
+regression_results$scenario_scenario <- as.factor(regression_results$scenario_scenario)
+regression_results$scenario <- factor(regression_results$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+
+
+regression_results$safety_pre <- as.factor(ordered(regression_results$safety_pre,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$safety_post <- as.factor(ordered(regression_results$safety_post,
+                                       levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+regression_results$willingness <- as.factor(ordered(regression_results$willingness,
+                                       levels = c("Would not", "Maybe would","Definitely would")))
+
+scores_iotc = regression_results
+```
+
+```{r}
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_IoT_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = regression_results, Hess=TRUE, nAGQ = 10)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_IoT_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = data, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = data, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+```
+
+## IoT complex
+
+```{r}
+regression_model("safety_pre")
+test_proportional_odds("safety_pre")
+```
+```{r}
+regression_model("safety_post")
+test_proportional_odds("safety_post")
+```
+
+```{r}
+regression_model("willingness")
+test_proportional_odds("willingness")
+```
+
+# Corrections
+
+```{r}
+
+
+
+
+
+run_BH <- function(dependent_var) {
+  scenario_data <- list(
+    MedicalSimple  = scores_medicals,
+    MedicalComplex = scores_medicalc,
+    IoTSimple      = scores_iots,
+    IoTComplex     = scores_iotc
+  )
+
+  compute_r2 <- function(full_model, data, dependent_var) {
+    null_formula <- as.formula(paste(dependent_var, "~ 1"))
+    null_model <- clm(null_formula, data = data, Hess = TRUE, nAGQ = 1)
+
+    ll_full <- as.numeric(logLik(full_model))
+    ll_null <- as.numeric(logLik(null_model))
+    n <- nobs(full_model)
+
+    r2 <- (1 - exp((2/n) * (ll_null - ll_full))) / (1 - exp(2*ll_null/n))
+    return(r2)
+  }
+
+  get_model_terms <- function(df, scenario) {
+
+    exp_var <- if (grepl("Medical", scenario))
+      "combined_Medical_Experience" else "combined_IoT_Experience"
+
+    f <- as.formula(paste(
+      dependent_var,
+      "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 +",
+      exp_var, "+ combined_CS_Experience"
+    ))
+
+    model <- clm(f, data = df, Hess = TRUE, nAGQ = 10)
+
+    # compute Nagelkerke R2 correctly
+    R2_Nagelkerke <- compute_r2(model, df, dependent_var)
+
+    broom::tidy(model, conf.int = TRUE, conf.level = 0.95) |>
+      mutate(
+        OR      = exp(estimate),
+        OR_low  = exp(conf.low),
+        OR_high = exp(conf.high),
+        CI      = sprintf("[%.3f, %.3f]", OR_low, OR_high),
+        Scenario = scenario,
+        R2_Nagelkerke = R2_Nagelkerke
+      )
+  }
+
+  purrr::imap_dfr(scenario_data, get_model_terms) |>
+    filter(term != "(Intercept)") |>
+    group_by(term) |>
+    mutate(q_value = p.adjust(p.value, method = "BH")) |>
+    ungroup() |>
+    mutate(
+      Question = dependent_var,
+      PreSig  = p.value <= 0.05,
+      PostSig = q_value <= 0.05,
+      Status = case_when(
+        PreSig & !PostSig ~ "Lost significance",
+        !PreSig & PostSig ~ "Gained significance",
+        PreSig & PostSig  ~ "Stayed significant",
+        TRUE ~ ""
+      )
+    ) |>
+    dplyr::select(
+      Question, Scenario, term,
+      estimate, OR, CI, OR_low, OR_high,
+      p.value, q_value, Status,
+      R2_Nagelkerke
+    )
+}
+
+
+
+write.csv(run_BH("willingness"), "BH_correction_1stStudy_will.csv", row.names = FALSE)
+
+
+write.csv(run_BH("safety_pre"), "BH_correction_1stStudy_safety.csv", row.names = FALSE)
+
+```
+
+

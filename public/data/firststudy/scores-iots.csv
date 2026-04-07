@@ -1,0 +1,237 @@
+﻿ResponseId,SCENARIO,COMPLEXITY,A,B,C,D,E,F,G,H,I,J,age,gender,education,previous_medical_research,medical_job,combined_IoT_Experience,combined_Medical_Experience,combined_CS_Experience,EXPLN_S1,EXPLN_S2,EXPLN_S3,scenario
+R_10AzzI3wJmfkFcd,IoT,Simple,1,1,1,1,1,1,0,0,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_10NZtNKNw0GOfUB,IoT,Simple,1,1,0,0,0,1,0,1,1,1,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_12X0hmXAAw3oa7T,IoT,Simple,1,1,1,1,0,0,0,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_12mf4q3UyXdvtS1,IoT,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_13m5UQ2ioHkXEx5,IoT,Simple,1,1,1,1,1,1,0,1,1,0,35-44,Male,High school or below,FALSE,TRUE,FALSE,TRUE,TRUE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_13xuE5GNf2JJEil,IoT,Simple,0,0,0,0,1,1,1,1,0,1,45+,Male,High school or below,FALSE,TRUE,TRUE,TRUE,TRUE,Trust,Technical,Prevents,IoTSimple
+R_147c3Fl0F0zDu0k,IoT,Simple,1,1,1,1,1,1,1,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_16wgPFeQY0NPQ53,IoT,Simple,1,1,1,1,0,0,0,1,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,IoTSimple
+R_19OdQEScuXCpTc5,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_19n6U8YqJ8pPRPA,IoT,Simple,1,1,1,1,1,0,1,0,0,0,35-44,Male,High school or below,FALSE,TRUE,TRUE,TRUE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_19stRKpG4OVbm0N,IoT,Simple,1,0,1,1,1,0,1,0,0,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_1DOb9BeUecTxusQ,IoT,Simple,1,0,1,1,1,0,1,1,0,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_1EoAtAMTyDc5zsa,IoT,Simple,1,1,1,0,1,1,1,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_1ErHeTKg6R1uOE1,IoT,Simple,1,1,1,1,1,1,0,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_1F1Y8wGynsMRT2T,IoT,Simple,1,0,0,0,1,0,1,0,0,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_1F2Nhtk4EsTxMJ4,IoT,Simple,1,1,0,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Technical,No Prevents,IoTSimple
+R_1HB8hccLCE3oeje,IoT,Simple,1,1,0,0,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_1IQIeqlM4dg9IA1,IoT,Simple,1,1,1,1,1,1,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1J3mstVf0wYZFDj,IoT,Simple,1,1,1,1,1,1,1,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1JFxAhldlomGkth,IoT,Simple,1,1,0,1,1,1,1,0,0,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_1MrN1fBUIi3XY0e,IoT,Simple,1,1,1,1,0,0,0,0,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,IoTSimple
+R_1O75iTJCG81RaPn,IoT,Simple,1,1,1,1,1,0,0,0,1,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_1P50q7uBjmmSwzu,IoT,Simple,1,0,1,1,1,1,1,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_1PTQ50PlSQPyrJA,IoT,Simple,1,1,1,1,1,1,1,0,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_1R7PBOYP0Jqvcbv,IoT,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1RaznavDCHne6h6,IoT,Simple,1,1,1,0,1,0,0,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_1VkCiDZ0lUEvkG4,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1W8pjJAMeJGeYiB,IoT,Simple,1,1,1,1,1,0,1,0,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Technical,Prevents,IoTSimple
+R_1WD54s3RGRQbdWr,IoT,Simple,1,1,0,1,1,0,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_1a804pEEXfyBVIt,IoT,Simple,1,1,1,1,1,1,0,1,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_1cyK0rnB5yk0kPn,IoT,Simple,1,0,0,0,1,1,1,1,0,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_1dfLsoEciyPHImj,IoT,Simple,1,1,1,1,0,0,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1eF2ZRue4PsBGKY,IoT,Simple,1,1,1,1,1,0,0,0,1,0,45+,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_1efUiqsrYeXsE7r,IoT,Simple,1,1,1,1,1,1,1,0,0,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1fOhOljcNufcPhc,IoT,Simple,1,1,1,1,1,1,0,1,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1fVnEU62o25xh1g,IoT,Simple,1,0,1,0,1,1,1,0,0,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_1gArMDSFdy6w2U9,IoT,Simple,1,1,1,1,0,0,0,1,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,IoTSimple
+R_1gN3qHH3xQMASgK,IoT,Simple,0,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_1mR0HWJG9wo0sCt,IoT,Simple,1,1,1,0,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_1n65J64IcWJ5Zd8,IoT,Simple,1,1,1,1,1,1,1,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_1nXDkNVtayzy0vv,IoT,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_1pF6Sm99uTl334B,IoT,Simple,1,1,1,1,1,0,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1rpOyyqcdDGYHCD,IoT,Simple,1,1,1,1,1,1,1,0,0,0,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_1rusV32VeaLc8AV,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_1sYKImlKgyKVGkG,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_1srFdtbrZSUM79T,IoT,Simple,1,0,1,1,1,1,1,1,0,1,35-44,Male,High school or below,FALSE,TRUE,FALSE,TRUE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_1v1zR6NB4gp5sd3,IoT,Simple,1,1,1,1,1,1,1,0,1,0,45+,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_1vLDkHEFgv1hoB3,IoT,Simple,1,0,1,0,1,1,1,0,0,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_1zuOmyKUkOkC06R,IoT,Simple,1,1,0,0,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_31gQg0Jdnm2abLn,IoT,Simple,1,1,1,1,1,1,0,1,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_325VcST03ZYcbYs,IoT,Simple,1,1,1,1,0,0,0,0,1,0,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,IoTSimple
+R_32L0pxPM2diEtPB,IoT,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_33VKb5WfiSCYUJ4,IoT,Simple,1,1,0,1,1,0,1,0,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_33rSlUX9TP5TQgw,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Female NB or SD,High school or below,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_34AV4MkRLl2atwf,IoT,Simple,1,1,1,1,0,0,0,1,1,0,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_34MiGZ6AucyINvg,IoT,Simple,1,1,1,0,1,0,0,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_34e2bn2bsOIAJKZ,IoT,Simple,1,1,1,1,1,1,1,0,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_39npzNz9VbFP70C,IoT,Simple,1,1,1,1,1,0,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_39yCzuV37FV6nYt,IoT,Simple,1,1,1,1,1,1,1,1,0,0,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3C1Zm4cBu5szfpL,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_3CQ05NrX1W5KcVQ,IoT,Simple,1,1,1,1,1,0,1,0,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_3ERvChpUf0y8gj7,IoT,Simple,1,1,1,0,1,1,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_3I3O423Dojt2D91,IoT,Simple,1,1,1,0,1,0,0,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_3I5g06gKcSxuiSV,IoT,Simple,1,1,1,1,1,1,0,1,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_3I8jjimAbZ6vbAl,IoT,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_3IAiSepYQCFYNp2,IoT,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3IGJ6LuNwcngfm1,IoT,Simple,1,1,0,0,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,Prevents,IoTSimple
+R_3IW9KNQc3sQBFRr,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_3Ja5mockRWJa6cz,IoT,Simple,1,1,1,1,1,1,0,0,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_3KBJdKOQqVqaafw,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_3KDYxGFxUzPHePF,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3KTIKy0avXC3lTz,IoT,Simple,1,1,1,1,0,0,0,0,1,0,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_3MWkQpRPEql8TSV,IoT,Simple,1,1,1,1,1,1,0,1,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_3NfskA8Ovklri4C,IoT,Simple,1,1,1,1,1,1,0,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3O0v8Vkaflqyw1k,IoT,Simple,1,1,1,1,1,1,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3Q0paE3kpBdqOD2,IoT,Simple,1,1,0,0,1,1,0,0,0,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_3QXnE2tZtGEp8bk,IoT,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_3RLLyli9qudD6zn,IoT,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,High school or below,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_3SYXByP4q8RrykF,IoT,Simple,1,1,0,0,1,1,1,1,1,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_3YgJh67AUNgXpkt,IoT,Simple,1,1,1,1,0,0,0,0,0,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_3cuCnWSworjIFvt,IoT,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_3dMnzKBjAo8loQN,IoT,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_3dxZA7u2ATRiloH,IoT,Simple,0,1,1,0,1,0,1,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Untechnical,Prevents,IoTSimple
+R_3e3kdkIpLRMzwEc,IoT,Simple,0,0,0,1,1,1,1,0,1,1,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Technical,Prevents,IoTSimple
+R_3eJewc2jWA7EK69,IoT,Simple,1,1,1,1,0,1,1,0,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_3fGEEHAd9zYapRB,IoT,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3gHdvho6tQnkFkQ,IoT,Simple,1,1,1,1,0,1,0,0,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3gHqpQiUNLtqts7,IoT,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_3ghW0jp3MfRehpQ,IoT,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Female NB or SD,High school or below,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_3gzs7tVLQz6b8Hy,IoT,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_3jCmsR4kFpEL3Eh,IoT,Simple,1,1,0,0,1,1,0,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_3jcIZgT14ZJptTT,IoT,Simple,1,1,1,1,1,1,1,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_3jdppjYTX6hsrM8,IoT,Simple,1,1,0,0,1,1,1,0,0,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_3kH2hicstCXFcXn,IoT,Simple,1,1,1,1,1,0,0,0,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_3m8fUch8vdPjNct,IoT,Simple,1,1,1,1,1,1,1,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_3nMeXGR2n1KgDxG,IoT,Simple,1,1,0,1,1,0,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_3pQQ5m4r0hug6KP,IoT,Simple,1,1,1,1,1,1,0,1,1,1,18-24,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_3psQxOWcgbKJcfA,IoT,Simple,1,1,1,1,1,0,0,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_3qlqqwOW2tk279v,IoT,Simple,1,1,1,1,1,1,0,1,1,0,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_3vM2rC33rv7v5U5,IoT,Simple,1,1,1,1,1,0,1,1,0,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_3wgBJsnx9iRdtkE,IoT,Simple,1,1,1,1,1,0,1,0,1,1,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_3wmGySo0FCbmm1h,IoT,Simple,1,1,1,1,1,1,0,1,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_3zI4RirL5NYV33z,IoT,Simple,1,1,0,0,1,1,1,0,0,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_510LHSfC0YtUuXL,IoT,Simple,1,1,0,0,1,1,1,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_524ilx5UnMSYEcc,IoT,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_57Ve7Sz6TxR9K7B,IoT,Simple,1,1,1,1,1,1,0,0,1,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_58LE3mjlqV94VEy,IoT,Simple,1,1,1,1,0,1,1,0,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_5Bmpfepy6WmLp0v,IoT,Simple,1,1,1,0,1,1,1,1,1,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5Csa8Q2Oe0pWDHz,IoT,Simple,1,1,1,1,1,0,0,0,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_5DZIzTergroao1w,IoT,Simple,1,1,1,0,1,1,1,1,1,1,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_5DvxSXDCHDXAVPu,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_5EM7LuexuAZr2hd,IoT,Simple,1,0,0,1,1,1,1,1,0,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5ESGZRTmO3O1E2J,IoT,Simple,1,1,1,1,1,1,0,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_5EYeGueyNtB06Do,IoT,Simple,1,1,1,1,1,0,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5EpfnDySqbkv2t3,IoT,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_5FLwwyF3XUuDGox,IoT,Simple,1,1,1,1,1,1,1,1,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5HDBPYubHr5bwOd,IoT,Simple,1,1,1,1,1,1,1,0,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5IgxKAkLh1mrvWR,IoT,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5KqlACpbJWUn9SP,IoT,Simple,1,1,1,1,0,0,0,1,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5MJQziAhHwxJMF4,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Trust,Technical,Prevents,IoTSimple
+R_5MX6ZyOMsFyjAyZ,IoT,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_5MscO3vDwfjl0qd,IoT,Simple,1,1,0,0,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE,Trust,Technical,Prevents,IoTSimple
+R_5ODLMs03e8SD9Jm,IoT,Simple,1,1,1,1,1,1,0,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5PROYUbrP3wvE41,IoT,Simple,1,1,1,1,0,1,0,1,0,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_5SuX0iaMo3MeBFi,IoT,Simple,1,1,0,0,1,1,0,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_5V2Tj01vchsEW6k,IoT,Simple,1,1,1,1,1,1,0,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5WUPnMyzHwcHSAV,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_5eBMIiciV6a9cD7,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5eQYq7OaaCtmPP0,IoT,Simple,1,0,1,1,1,1,1,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_5esFSpWTmbzCYBt,IoT,Simple,1,1,1,1,0,0,0,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_5fdkT2kNr8O2ZtT,IoT,Simple,1,0,1,1,1,1,0,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_5hDPtucHyE2gfT9,IoT,Simple,1,1,0,0,1,1,0,1,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5j5eP5LDcXA0vjb,IoT,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_5jZL0lk5u7obn5j,IoT,Simple,1,1,0,0,1,1,1,0,0,1,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_5kT7IaFBXStCdZl,IoT,Simple,1,0,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_5lLnj2KX2itm0CY,IoT,Simple,1,1,1,1,1,1,0,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_5mJj8dNrnnSbkSp,IoT,Simple,1,1,1,1,1,1,1,1,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_5mcRMgdEXgL8S9b,IoT,Simple,1,1,0,1,1,1,1,1,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5msmKp9skDTwfiV,IoT,Simple,1,1,1,1,1,1,1,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_5p9DujQmRP3Oe3N,IoT,Simple,1,1,1,1,1,0,1,0,0,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_5qC8PuzvLD6OEkj,IoT,Simple,1,1,1,1,1,1,1,1,0,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_5qEVBJnwzUX0Y8N,IoT,Simple,1,1,1,1,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_5qPCUsVzugU3cEF,IoT,Simple,1,1,1,1,1,1,0,0,1,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_5r16v3agJL8g9cC,IoT,Simple,1,1,1,0,0,1,1,1,0,1,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5rZXIYp9uuRQjWW,IoT,Simple,1,1,1,1,1,1,1,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5rk2y0lHGXnkQVp,IoT,Simple,1,1,1,1,0,1,0,1,1,0,25-34,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_5rwI4ltUwuEgebC,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5s1PobAe1Pbc9QO,IoT,Simple,1,1,1,1,1,1,1,1,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_5tlGchsxAZxLb92,IoT,Simple,1,1,1,1,0,1,1,0,1,0,25-34,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_5uEr3uXCRS5HZQH,IoT,Simple,1,1,0,1,1,1,1,1,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_5v6Z2Burrav8pv4,IoT,Simple,1,1,1,1,1,1,0,0,0,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_5w51plaKOsuThnV,IoT,Simple,1,1,1,1,1,0,0,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_5z7grkYQoF33tW9,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_60qKv7Z4O7GGLiv,IoT,Simple,1,1,1,1,1,0,1,0,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_61WW68IJQi7axi8,IoT,Simple,1,1,1,1,1,0,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_62G42KFDazpbpF5,IoT,Simple,1,1,0,1,1,0,0,0,0,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_63jpd5IJisIJJAZ,IoT,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_63sfl6B8FFPM2M9,IoT,Simple,1,1,1,1,1,0,1,0,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_64HkTjAVVRiHku5,IoT,Simple,1,1,0,0,1,1,1,0,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_64ITjseoMvOB8Lh,IoT,Simple,1,1,0,1,1,1,0,0,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_678pfnbHoadOzjd,IoT,Simple,1,1,1,1,1,0,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_69sldsTww1fiyOh,IoT,Simple,1,1,1,1,0,1,0,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_6CxWiol3O6GiiTA,IoT,Simple,0,0,0,1,1,1,1,0,0,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_6EsJK0gECsfTVPk,IoT,Simple,1,1,1,1,1,0,1,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_6F3MJHSLZBhGwO5,IoT,Simple,1,1,1,1,1,1,0,1,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,No Prevents,IoTSimple
+R_6KDflP40KwTZKzD,IoT,Simple,1,1,1,1,1,1,0,1,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,IoTSimple
+R_6KTx2aJaqZe4OYd,IoT,Simple,1,1,1,1,1,1,0,1,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_6Kr99f6XKJ7p1A8,IoT,Simple,1,1,1,0,1,1,1,0,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_6MMWkX45vJCVns5,IoT,Simple,1,1,1,0,1,1,0,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_6Nf5Tz4f3PNCUVA,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_6OouQ4kQKFT6WKE,IoT,Simple,1,0,1,0,1,1,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_6P6knBPbyVrbUml,IoT,Simple,1,0,0,1,0,0,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_6QrFNlk6315MGw4,IoT,Simple,1,0,0,1,1,1,0,1,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_6TlqRCQvwkc0RZD,IoT,Simple,1,1,1,1,1,1,1,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_6aS2iDqA2PGKqnD,IoT,Simple,1,1,1,0,1,1,1,0,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,IoTSimple
+R_6eJ0Xnj5vB818St,IoT,Simple,1,1,0,0,1,1,1,0,0,1,35-44,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_6eM2mL4Le4oPjUZ,IoT,Simple,1,1,1,1,1,1,1,1,1,0,45+,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Trust,Technical,Prevents,IoTSimple
+R_6ghzMi9si1GSqQh,IoT,Simple,1,1,1,1,0,1,1,1,1,0,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_6ivgHix2AxgSYql,IoT,Simple,1,1,1,1,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_6jJ5OplO10oOfjx,IoT,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_6mRfVe211gAMfMB,IoT,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_6pJpXRa0N4MNCwr,IoT,Simple,1,1,1,1,0,1,1,0,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_6qqRCVnmRGcRAar,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_6uNInlwmD7VVslq,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,FALSE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_6wzCEZYUR64lE7E,IoT,Simple,1,1,0,0,0,1,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,IoTSimple
+R_70UPQh8SKevGQN8,IoT,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_71bEiLkH2Ced7hb,IoT,Simple,1,1,1,1,1,1,0,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_73fjFzkgUeEOmFc,IoT,Simple,1,1,1,1,1,1,1,1,0,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_75zXKAfWEtmqE81,IoT,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_77EergnQZOTdxQj,IoT,Simple,1,1,1,0,1,1,0,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_77wqLLCaQmmADqp,IoT,Simple,1,1,1,0,1,1,0,1,1,1,45+,Male,Bachelor or Graduate degree,TRUE,TRUE,FALSE,TRUE,TRUE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_795ExzJFWG9wH4P,IoT,Simple,1,1,0,0,1,1,1,0,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_7BqVUaLp7duVeWH,IoT,Simple,1,1,1,0,1,1,1,0,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple
+R_7DNKpeSFwoz5Qkg,IoT,Simple,1,1,1,1,1,1,0,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_7E5LQRNYbmbZ5PP,IoT,Simple,1,1,1,1,1,1,1,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_7FS0kMKZ2zHJ2vf,IoT,Simple,1,1,1,1,0,1,0,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_7GDs64WpdaqIUXA,IoT,Simple,1,1,1,1,1,1,0,0,1,0,25-34,Male,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_7Gkrr5qGCL6cMB2,IoT,Simple,1,1,1,1,1,1,0,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,TRUE,Trust,Untechnical,Prevents,IoTSimple
+R_7Hqe7JPGG7cNPli,IoT,Simple,1,1,1,1,1,0,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_7In53kUmQfUZxlL,IoT,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_7J7Nr1wZ0C5AiKS,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_7L5YN598zJHSkR2,IoT,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_7M3Zc7KLSXX9O5W,IoT,Simple,1,1,0,0,1,1,0,1,0,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,IoTSimple
+R_7MfecBpHoRJLZIO,IoT,Simple,1,1,0,0,1,1,0,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,IoTSimple
+R_7NnZ85sz7zG6G2d,IoT,Simple,1,1,0,1,1,1,0,0,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_7OPJoJmvKnfHP1P,IoT,Simple,1,1,0,1,0,1,0,1,1,0,35-44,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_7Qby6kqmVxwwLs7,IoT,Simple,1,1,1,1,1,1,1,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_7R95JRyBdAeHxHm,IoT,Simple,0,0,1,1,1,1,1,0,0,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_7U3BpwJHfcfJBb4,IoT,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_7Uat5tqsB4mYK2d,IoT,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Technical,Prevents,IoTSimple
+R_7UfJDEMwnyRRg9B,IoT,Simple,1,1,1,1,0,1,1,0,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,IoTSimple
+R_7YBqotTKWRZ8IdX,IoT,Simple,1,1,1,1,1,1,0,1,1,1,45+,Male,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_7bmmc8iFdjRTBAZ,IoT,Simple,1,1,0,0,1,1,1,0,0,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Untechnical,Prevents,IoTSimple
+R_7dMn5oIqIXYYHy1,IoT,Simple,1,1,1,1,1,0,1,1,1,0,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_7doXkIdkVUwF0ss,IoT,Simple,1,1,1,1,0,1,0,0,0,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_7eEG0rmAHGZb0Si,IoT,Simple,1,1,1,1,1,1,1,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_7f1N76U8aKWZWyv,IoT,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_7fTc2YkUcCrmQda,IoT,Simple,1,1,1,1,0,1,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Untechnical,No Prevents,IoTSimple
+R_7fcrsLInuqF698A,IoT,Simple,1,1,0,0,1,1,1,0,0,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_7g6e2VHDjgr6FAY,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,IoTSimple
+R_7hM6p41cW0gVEQK,IoT,Simple,1,1,1,0,1,0,0,0,0,0,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Untechnical,Prevents,IoTSimple
+R_7hsYPaPQjTS9JD9,IoT,Simple,1,1,0,0,0,0,0,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_7kcCEnqpLgbVLZG,IoT,Simple,1,1,0,0,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_7l66QOldk1iCe2P,IoT,Simple,1,0,1,1,1,0,1,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_7m8iDY5Vl060hLm,IoT,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Untechnical,No Prevents,IoTSimple
+R_7mXjRXovOjuazOd,IoT,Simple,1,1,1,1,1,0,0,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,IoTSimple
+R_7o53NTxwq0OQRb4,IoT,Simple,1,1,1,0,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,No Prevents,IoTSimple
+R_7pR67Wh8tWI8YgF,IoT,Simple,1,1,0,1,1,1,0,1,0,0,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,IoTSimple
+R_7qTEQBUvhFhVK2j,IoT,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,IoTSimple
+R_7rNerDQJf5frAZx,IoT,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_7t3TD4LxpOf1Fq0,IoT,Simple,1,1,1,1,1,0,1,1,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_7tFhkIdInNb6WFN,IoT,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,Prevents,IoTSimple
+R_7wRJ91Nxt1kqusN,IoT,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,IoTSimple
+R_7wnsiRhkmVvaZCM,IoT,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,IoTSimple
+R_7wsrMXVneTQihvt,IoT,Simple,1,1,1,1,1,1,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,IoTSimple
+R_7zyllKYlx5ahuIF,IoT,Simple,0,1,1,1,0,1,0,0,0,0,18-24,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,TRUE,Hardware,Untechnical,No Prevents,IoTSimple

@@ -1,0 +1,234 @@
+﻿ResponseId,SCENARIO,COMPLEXITY,A,B,C,D,E,F,G,H,I,J,age,gender,education,previous_medical_research,medical_job,combined_IoT_Experience,combined_Medical_Experience,combined_CS_Experience,EXPLN_S1,EXPLN_S2,EXPLN_S3,scenario
+R_12mf4q3UyXdvtS1,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_13YlxdIhkGwKWZ3,Medical,Simple,1,1,1,1,1,1,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_147c3Fl0F0zDu0k,Medical,Simple,1,1,1,1,1,1,1,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_16wgPFeQY0NPQ53,Medical,Simple,1,1,1,1,1,0,0,0,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,MedicalSimple
+R_17A5ghNOMhiMzip,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_17TE5prio7BeEBS,Medical,Simple,1,0,0,0,1,1,0,0,0,1,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_19OdQEScuXCpTc5,Medical,Simple,1,1,1,1,1,1,0,1,1,1,35-44,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_1D7pcdNbURwTRm0,Medical,Simple,1,1,0,1,1,0,1,1,1,0,35-44,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE,Trust,Untechnical,Prevents,MedicalSimple
+R_1D7uIGhTiygt1b4,Medical,Simple,1,1,1,1,1,1,0,0,1,0,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_1DOb9BeUecTxusQ,Medical,Simple,1,1,1,1,1,0,1,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_1ErHeTKg6R1uOE1,Medical,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_1F1Y8wGynsMRT2T,Medical,Simple,1,0,0,0,1,1,1,0,0,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_1HB8hccLCE3oeje,Medical,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_1HXQuluInCw1M1E,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,No Prevents,MedicalSimple
+R_1I5WkG7nY9cdHms,Medical,Simple,1,0,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_1IQIeqlM4dg9IA1,Medical,Simple,1,1,1,1,0,0,0,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_1LOIJ6ABi8BvE6l,Medical,Simple,1,1,1,1,1,0,1,1,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_1MrN1fBUIi3XY0e,Medical,Simple,1,0,1,1,1,0,1,0,0,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,MedicalSimple
+R_1NJy3nVqhStmmzf,Medical,Simple,1,1,1,1,1,1,1,1,0,1,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_1O75iTJCG81RaPn,Medical,Simple,1,0,0,0,1,1,0,0,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_1O7GHLrKROKQk36,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_1QLeRXyfVn0fK9Q,Medical,Simple,1,1,1,1,1,1,0,0,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_1R7PBOYP0Jqvcbv,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_1RaznavDCHne6h6,Medical,Simple,1,1,1,1,0,0,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_1WD54s3RGRQbdWr,Medical,Simple,1,1,0,1,0,1,0,0,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_1ZLcN7ttwuXRMch,Medical,Simple,1,1,0,1,1,1,0,0,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_1fOhOljcNufcPhc,Medical,Simple,1,1,1,1,1,1,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_1fVnEU62o25xh1g,Medical,Simple,1,0,1,0,1,1,1,1,0,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_1gArMDSFdy6w2U9,Medical,Simple,1,1,1,1,0,0,0,0,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,MedicalSimple
+R_1izfMAswCCDZEnN,Medical,Simple,1,0,0,0,1,1,1,0,0,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_1lbfpEfy4fjPKxb,Medical,Simple,1,1,1,1,0,1,1,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_1n65J64IcWJ5Zd8,Medical,Simple,1,1,1,1,1,1,1,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_1nXDkNVtayzy0vv,Medical,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_1pRvZHvSerh9Y2t,Medical,Simple,1,1,1,1,1,1,0,1,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Trust,Untechnical,Prevents,MedicalSimple
+R_1pVuesOKSApNqfK,Medical,Simple,1,1,1,1,1,1,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_1rpOyyqcdDGYHCD,Medical,Simple,1,0,0,1,1,1,1,0,0,0,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_1rusV32VeaLc8AV,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_1rwPFRLB5J0rmPA,Medical,Simple,1,1,1,1,1,0,1,0,1,0,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_1zkbB7h90N8nrgT,Medical,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_325VcST03ZYcbYs,Medical,Simple,1,1,1,1,1,0,0,0,1,0,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,MedicalSimple
+R_33rCy3tQBsZClIB,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_34MiGZ6AucyINvg,Medical,Simple,1,1,0,0,1,1,0,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_38CLhDwdJI7Ihot,Medical,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_39npzNz9VbFP70C,Medical,Simple,1,1,1,1,1,0,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_39yCzuV37FV6nYt,Medical,Simple,1,1,1,1,1,1,1,1,0,0,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,TRUE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3AKEKbjvLt1pYkR,Medical,Simple,1,1,0,0,1,1,1,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_3C1Zm4cBu5szfpL,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_3ERvChpUf0y8gj7,Medical,Simple,1,1,0,1,0,1,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_3FLEYhHGnm4KqLG,Medical,Simple,1,1,1,1,0,0,0,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3I3O423Dojt2D91,Medical,Simple,1,1,0,0,1,1,0,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_3I5g06gKcSxuiSV,Medical,Simple,1,1,1,1,1,1,0,1,0,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_3I8jjimAbZ6vbAl,Medical,Simple,1,1,1,1,1,1,1,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_3IAiSepYQCFYNp2,Medical,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3IGJ6LuNwcngfm1,Medical,Simple,1,1,0,0,1,1,1,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,Prevents,MedicalSimple
+R_3KBJdKOQqVqaafw,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_3KDYxGFxUzPHePF,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3KTIKy0avXC3lTz,Medical,Simple,1,1,1,1,0,1,0,1,1,0,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_3MT0zdYK4ZnSKCY,Medical,Simple,1,1,1,0,0,1,1,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_3NfskA8Ovklri4C,Medical,Simple,1,1,0,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3O0v8Vkaflqyw1k,Medical,Simple,1,1,0,1,1,1,0,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3Q0paE3kpBdqOD2,Medical,Simple,1,1,1,0,1,1,1,0,0,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_3RLLyli9qudD6zn,Medical,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,High school or below,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_3SYXByP4q8RrykF,Medical,Simple,1,1,0,0,1,1,1,1,0,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_3TApwxR0NjrtczL,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_3W0KALYEQJ45tn3,Medical,Simple,1,0,0,0,0,1,1,0,1,1,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_3WYCN6g0GQfuf57,Medical,Simple,1,1,0,1,0,1,1,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_3YgJh67AUNgXpkt,Medical,Simple,1,1,1,1,1,0,0,1,0,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_3cuCnWSworjIFvt,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_3dMnzKBjAo8loQN,Medical,Simple,1,1,1,1,1,1,0,0,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_3e3kdkIpLRMzwEc,Medical,Simple,0,0,0,1,0,1,1,1,0,1,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_3egin7VRCA4miOd,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_3gHdvho6tQnkFkQ,Medical,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3gHqpQiUNLtqts7,Medical,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_3ghW0jp3MfRehpQ,Medical,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Female NB or SD,High school or below,TRUE,FALSE,FALSE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3jcIZgT14ZJptTT,Medical,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_3kH2hicstCXFcXn,Medical,Simple,1,1,1,1,1,0,0,0,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_3nWriavwHjSrMEF,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_3qEUGBVTdyUlPci,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_3qX3FcHFJRrpMiQ,Medical,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_3sC45u66HnN0u4x,Medical,Simple,1,1,1,1,0,0,1,0,1,0,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_3snV5y91Azbp79v,Medical,Simple,1,1,1,1,1,0,1,0,0,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_3t07r1quZc1v4to,Medical,Simple,1,1,1,1,1,0,0,1,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_3vM2rC33rv7v5U5,Medical,Simple,1,1,1,1,0,0,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_3zI4RirL5NYV33z,Medical,Simple,1,1,0,0,1,1,0,0,0,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_524ilx5UnMSYEcc,Medical,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_52PiMf40idUY1px,Medical,Simple,1,1,0,1,1,1,1,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_58LE3mjlqV94VEy,Medical,Simple,1,1,0,1,1,1,1,0,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_5AoUVJNB7iOZTLb,Medical,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_5Bmpfepy6WmLp0v,Medical,Simple,1,1,0,1,1,1,1,0,1,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_5BvKvYD9Oximrbr,Medical,Simple,1,1,1,1,0,1,0,0,1,0,45+,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_5Csa8Q2Oe0pWDHz,Medical,Simple,1,1,1,1,1,0,1,1,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_5EM7LuexuAZr2hd,Medical,Simple,1,1,1,1,1,1,0,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_5ESGZRTmO3O1E2J,Medical,Simple,1,1,1,1,1,1,0,1,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_5EYeGueyNtB06Do,Medical,Simple,1,1,1,1,1,0,0,1,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_5EpfnDySqbkv2t3,Medical,Simple,1,1,1,0,1,1,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_5ExMGUDKhJ0lZC7,Medical,Simple,1,1,0,0,1,1,0,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_5F2IiZ77XccT3yD,Medical,Simple,1,1,1,1,1,1,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_5FGNf67jQDOYqxX,Medical,Simple,1,1,1,0,1,1,1,0,0,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_5FldNW0TInNtmJF,Medical,Simple,1,1,1,1,0,0,0,1,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_5HDBPYubHr5bwOd,Medical,Simple,1,1,1,1,0,1,1,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_5IgxKAkLh1mrvWR,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_5LPIoPC2uP6p7Ut,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_5NF1HehRlSttP3A,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_5P61sy3XzcmcobP,Medical,Simple,1,1,1,1,0,1,0,1,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_5PROYUbrP3wvE41,Medical,Simple,1,1,1,1,1,1,0,1,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_5PjzKhZcom7qpLl,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_5PsTXeUB73DpaiY,Medical,Simple,1,1,1,1,1,0,1,1,1,0,18-24,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_5QnLVGIPijUFL6U,Medical,Simple,1,1,0,1,1,1,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_5SuX0iaMo3MeBFi,Medical,Simple,1,1,1,0,1,1,0,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_5Sw7vrxWlSGxi8N,Medical,Simple,1,1,0,1,1,1,1,1,1,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_5T176KdAegLqmHv,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_5TUmwpWw77lXItO,Medical,Simple,1,1,0,1,0,0,0,1,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_5UhXbvilpndYwT1,Medical,Simple,1,1,1,1,1,0,0,0,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_5VlpUMyQEgZbaRZ,Medical,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_5WUPnMyzHwcHSAV,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_5curxvnD3PXWCrr,Medical,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_5cwTJOCzo1teN12,Medical,Simple,1,1,1,1,1,0,0,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_5d3TmRUPjzqqElr,Medical,Simple,1,1,1,1,1,0,1,1,0,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_5dBsVmnnuuvAroB,Medical,Simple,0,1,1,1,1,0,0,1,1,0,18-24,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE,Hardware,Untechnical,Prevents,MedicalSimple
+R_5esFSpWTmbzCYBt,Medical,Simple,1,1,1,1,0,0,0,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_5fdkT2kNr8O2ZtT,Medical,Simple,1,1,1,1,1,0,0,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_5flpGfIZI56XUG5,Medical,Simple,1,1,1,1,1,1,1,1,1,0,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_5hDPtucHyE2gfT9,Medical,Simple,1,1,0,0,1,1,1,0,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_5j5eP5LDcXA0vjb,Medical,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_5jvayVzSJCx8no5,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_5kT7IaFBXStCdZl,Medical,Simple,0,0,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_5kmWAfJnQIGLoNr,Medical,Simple,1,1,1,1,1,1,1,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,TRUE,Hardware,Technical,Prevents,MedicalSimple
+R_5lLnj2KX2itm0CY,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_5mcRMgdEXgL8S9b,Medical,Simple,1,1,0,0,1,1,0,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_5nAzyWxUnxVwQiK,Medical,Simple,1,1,1,1,1,1,0,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_5ouZWjEgGSle0k9,Medical,Simple,1,1,0,0,1,0,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_5p9DujQmRP3Oe3N,Medical,Simple,1,1,1,1,1,1,1,0,0,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_5ptJITUun4fBDk5,Medical,Simple,0,1,1,1,1,0,0,1,0,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_5qC8PuzvLD6OEkj,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_5qEVBJnwzUX0Y8N,Medical,Simple,1,1,0,1,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_5qPCUsVzugU3cEF,Medical,Simple,1,1,1,1,1,1,0,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_5t5ueMdl9QcZ6MS,Medical,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,TRUE,Trust,Technical,No Prevents,MedicalSimple
+R_5tlGchsxAZxLb92,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_5uEr3uXCRS5HZQH,Medical,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_5w51plaKOsuThnV,Medical,Simple,1,1,1,1,1,0,0,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_5yBWzDmzT3dB4Zz,Medical,Simple,1,1,1,1,1,0,0,1,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_63jpd5IJisIJJAZ,Medical,Simple,1,1,1,1,1,1,1,1,0,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_63jqa64fVKoMes6,Medical,Simple,1,1,1,1,1,0,1,0,1,0,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_648Z8k4ntpFt0LO,Medical,Simple,1,1,1,1,0,1,1,1,0,1,25-34,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE,Trust,Untechnical,No Prevents,MedicalSimple
+R_64ITjseoMvOB8Lh,Medical,Simple,1,1,0,1,1,1,0,0,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_678pfnbHoadOzjd,Medical,Simple,0,1,1,1,1,1,1,1,0,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_67IgIuTMdCi85ct,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_6AXLRIBb9mxCmJO,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,TRUE,Trust,Untechnical,Prevents,MedicalSimple
+R_6BmTZP291r3d0Wc,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_6BwEcvXvAncvHgP,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Technical,Prevents,MedicalSimple
+R_6GxMjiI4QrqqYl3,Medical,Simple,1,1,1,1,1,0,1,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE,Trust,Technical,No Prevents,MedicalSimple
+R_6JWOWOpqU55zneh,Medical,Simple,1,1,1,1,1,1,0,0,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,TRUE,Hardware,Untechnical,Prevents,MedicalSimple
+R_6KDflP40KwTZKzD,Medical,Simple,1,1,1,1,1,1,0,1,1,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_6KTx2aJaqZe4OYd,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_6Kr99f6XKJ7p1A8,Medical,Simple,1,1,1,1,1,0,0,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_6LiiJYglqGp76UZ,Medical,Simple,1,1,1,1,0,1,0,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_6MMWkX45vJCVns5,Medical,Simple,1,1,1,0,1,1,1,1,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_6Ok9Iy37g5CfGtZ,Medical,Simple,1,1,1,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_6OouQ4kQKFT6WKE,Medical,Simple,1,1,0,1,1,0,1,0,0,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_6P6knBPbyVrbUml,Medical,Simple,1,1,1,1,1,1,0,0,0,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_6RWXdRxaFpTBDK7,Medical,Simple,1,1,1,1,1,1,1,1,1,0,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_6RlIZHvChCY8eYB,Medical,Simple,1,1,0,0,1,1,0,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_6RmweMJuMuFddUb,Medical,Simple,1,1,1,1,1,1,1,0,1,1,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_6SRfLfdOaqOsyuR,Medical,Simple,1,1,1,1,1,1,0,1,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_6YPu3Zpomps1A8z,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_6aS2iDqA2PGKqnD,Medical,Simple,1,1,1,1,1,0,1,0,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_6aylsM8uKtaGKrw,Medical,Simple,1,1,1,1,0,0,0,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_6cTAeUvPfEsJk6C,Medical,Simple,1,1,1,1,1,1,1,1,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_6cuzQZ7m3I5eqUU,Medical,Simple,1,1,0,0,1,1,1,1,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_6dYRBMv39AUljUy,Medical,Simple,1,1,1,1,1,1,1,1,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_6eM2mL4Le4oPjUZ,Medical,Simple,1,1,1,1,1,1,1,1,1,0,45+,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Trust,Technical,Prevents,MedicalSimple
+R_6eQPhDe7ldiTKzX,Medical,Simple,1,1,1,1,0,1,0,1,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_6fDlkDG2pdetNK1,Medical,Simple,1,0,1,0,1,1,0,0,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_6ghzMi9si1GSqQh,Medical,Simple,1,1,1,1,0,1,1,0,1,0,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_6kh3QCa4kpS6VSe,Medical,Simple,1,1,1,1,1,0,0,1,1,0,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_6kp0GuiXXMIdvCV,Medical,Simple,1,1,0,0,0,1,0,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_6mA6wacQ44aPejD,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_6mRfVe211gAMfMB,Medical,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_6tW2uDEcMQJAb4J,Medical,Simple,1,1,1,1,1,1,1,0,1,1,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_6uNInlwmD7VVslq,Medical,Simple,1,1,1,1,1,1,0,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,FALSE,TRUE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_6w1y8i1rZnWdpmt,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_6wkibX0jJGvDQyZ,Medical,Simple,1,0,1,1,1,0,1,0,0,0,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_6wzCEZYUR64lE7E,Medical,Simple,1,1,0,0,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_70SIg23NLBVBEcr,Medical,Simple,1,1,0,1,1,1,1,0,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Hardware,Technical,No Prevents,MedicalSimple
+R_71HOVlxpzv786TR,Medical,Simple,1,1,1,0,1,1,1,0,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_71IcgNmBTjuFyHn,Medical,Simple,1,1,1,1,1,1,0,1,1,1,35-44,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_71bEiLkH2Ced7hb,Medical,Simple,1,1,1,1,1,1,0,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_741MmmumMLArAQI,Medical,Simple,1,1,1,1,1,1,0,1,1,1,35-44,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_75zXKAfWEtmqE81,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_77EergnQZOTdxQj,Medical,Simple,1,1,1,0,1,0,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_77m0rSeCV22k1UI,Medical,Simple,1,1,1,1,0,1,0,1,1,1,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_795ExzJFWG9wH4P,Medical,Simple,1,1,0,1,1,1,1,1,1,1,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_7DNKpeSFwoz5Qkg,Medical,Simple,1,1,1,1,1,1,0,0,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_7E5LQRNYbmbZ5PP,Medical,Simple,0,0,1,1,1,1,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_7Ep3sI1QjXsCOqP,Medical,Simple,1,1,1,1,1,1,0,0,1,0,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,TRUE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_7FdC1UWcnfcvgzv,Medical,Simple,1,0,0,0,1,1,1,1,0,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_7GDs64WpdaqIUXA,Medical,Simple,1,1,1,1,1,1,0,0,1,0,25-34,Male,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_7IlQlofOXrEJCcT,Medical,Simple,1,1,1,0,1,1,0,0,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_7J7Nr1wZ0C5AiKS,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_7L5YN598zJHSkR2,Medical,Simple,1,1,1,1,1,1,1,1,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Untechnical,No Prevents,MedicalSimple
+R_7LIEr5Yfdkv1wAx,Medical,Simple,1,1,1,0,0,0,1,0,1,1,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_7M3Zc7KLSXX9O5W,Medical,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_7MfecBpHoRJLZIO,Medical,Simple,1,1,0,0,1,1,1,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_7MtuGHHVedwgxpf,Medical,Simple,1,1,0,1,1,1,1,1,1,1,35-44,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE,Unsubstantial,Technical,No Prevents,MedicalSimple
+R_7NDEHPqQVEwWJoX,Medical,Simple,1,1,1,1,1,1,0,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_7OdIUsCOdQNahy6,Medical,Simple,1,1,1,1,1,1,1,1,1,0,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_7Orb9GyhHDgTuwC,Medical,Simple,1,1,1,0,1,1,0,1,1,1,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Technical,Prevents,MedicalSimple
+R_7Qby6kqmVxwwLs7,Medical,Simple,1,1,1,1,1,1,1,0,1,0,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_7StiuCeKPvoOP7P,Medical,Simple,1,1,0,1,1,1,1,0,0,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_7TvMLZnCn6JuH9P,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_7UfJDEMwnyRRg9B,Medical,Simple,1,1,1,1,1,1,1,0,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_7WJqaSty2tQ1Xug,Medical,Simple,1,1,0,1,1,1,1,1,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_7f1N76U8aKWZWyv,Medical,Simple,1,1,1,1,1,1,1,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_7g6e2VHDjgr6FAY,Medical,Simple,1,1,0,1,1,1,1,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple
+R_7gjxhmFGohYBGCJ,Medical,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_7hM6p41cW0gVEQK,Medical,Simple,1,1,1,1,1,1,0,0,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Untechnical,Prevents,MedicalSimple
+R_7hsYPaPQjTS9JD9,Medical,Simple,0,0,0,0,1,1,1,0,0,1,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_7idD1ufUhvmyKl3,Medical,Simple,1,1,1,1,0,0,0,1,1,0,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_7im9qXw05tCEBSp,Medical,Simple,1,1,1,1,1,1,1,1,1,1,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_7isxJTcm2yCLXnS,Medical,Simple,1,1,1,1,1,0,0,0,1,0,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_7kcCEnqpLgbVLZG,Medical,Simple,1,1,0,0,1,1,0,1,0,1,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_7ltYmBXzmLnItae,Medical,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,No Prevents,MedicalSimple
+R_7mXjRXovOjuazOd,Medical,Simple,1,1,1,1,1,0,0,1,1,1,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_7nKtfeDh7UB4LhT,Medical,Simple,1,1,1,1,1,1,1,0,1,1,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_7nML8LiDdckFbzM,Medical,Simple,1,1,1,1,1,1,1,1,1,1,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_7qTEQBUvhFhVK2j,Medical,Simple,1,1,1,1,1,1,1,0,1,1,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Trust,Technical,No Prevents,MedicalSimple
+R_7rM5n9izZuEF6N9,Medical,Simple,1,1,1,1,1,1,0,1,1,1,25-34,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,TRUE,Unsubstantial,Untechnical,Prevents,MedicalSimple
+R_7rNerDQJf5frAZx,Medical,Simple,1,1,1,1,1,1,1,0,1,1,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_7rluSxVBkBMj7Uq,Medical,Simple,1,1,1,1,1,1,0,1,1,0,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE,Trust,Technical,Prevents,MedicalSimple
+R_7sRUx0kmHzTAb68,Medical,Simple,1,1,1,1,1,1,1,1,1,0,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE,Hardware,Technical,Prevents,MedicalSimple
+R_7tFhkIdInNb6WFN,Medical,Simple,1,1,1,1,1,1,0,1,1,1,25-34,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE,Hardware,Untechnical,Prevents,MedicalSimple
+R_7wsrMXVneTQihvt,Medical,Simple,1,1,1,1,1,1,1,0,1,1,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE,Hardware,Untechnical,No Prevents,MedicalSimple
+R_7zNMdn7dafeWTUn,Medical,Simple,1,1,0,0,1,1,1,0,1,1,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE,Unsubstantial,Untechnical,No Prevents,MedicalSimple

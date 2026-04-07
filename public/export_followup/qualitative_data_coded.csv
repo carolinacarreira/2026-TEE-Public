@@ -1,0 +1,501 @@
+ResponseId,id,"What questions do you still have about TEEs, if any? (medical)",med_distrust,med_risk,med_risk2,med_gen,med_gen2,med_use,med_scenario,med_scenario2,med_guarantees,questions-IoT,iot_distrust,iot_risk,iot_risk2,iot_gen,iot_gen2,iot_use,iot_scenario,iot_scenario2,iot_guarantees,notes,Other feedback,code_feedback,SCENARIO_Med,SCENARIO_IoT,EXPLN,FAQ,Med_First
+R_5ZPLzodLXZylvq5,1,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_1wELR6sZz0R9dTn,2,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Show,1
+R_1rjNObilLafcYwF,3,How do TEE help patients with a better healthcare system?,,,,,,,Scenario:Misc,,,How does TEE prevent hackers from accessing the datas?,,Risk:Hacking,,,,,,,,,,,Medical-Simple,IoT-Complex,None,None,1
+R_3KPZjECatePQBeL,4,Have they ever been hacked into?,,Risk:Hacking,,,,Use:Breaches,,,,N/A,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,1
+R_5X46iFwnhZJFFxT,5,"Again, I still struggle to know what exactly TEEs are. I understand they provide some protection but I don't know how. ",,,,Gen:How?,,,,,,"I don't feel like enough of a description of what a TEE is was provided. I'm still left wondering exactly what it is. While it appears to be something to help with protecting data, I don't really know how it does so. ",,,,Gen:What?,,,,,,,,,Medical-Simple,IoT-Complex,None,Hide,0
+R_7h6UkStu0zqws3n,6,No,,,,,,,,,,No,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,Trust,Show,0
+R_2kAGRRUq5C4h6vr,7,HOW CAN MY DATA BE PROTECTED FROM THE FUTURE HACKERS,,Risk:Hacking,,,,,,,,WHY SHOULD I GET EXTRA PROTECTION IF THE INITIAL ONE IS NOT FULLY SAFE,Distrust:Scenario,,,,,,,,,,I REALLY ENJOYED THIS SURVEY AND TEEs SHOULD IMPROVE IT'S SECURITY AND PROTECTION OVER DATA,,Medical-Complex,IoT-Simple,Trust,None,0
+R_51sIuZRXgONAhu3,8,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,1
+R_27p7rYk8oVC8flL,9,no,,,,,,,,,,I would want more information about the data security measure.,,,,Gen:Implementation,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,None,0
+R_3Tt1jQQlqgOihUt,10,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_7S1BG5zlC88ISuB,11,"I have never heard of a TEE, though I'm assuming it's like an NDA for the researchers ",,,,Gen:Misc,,,,,,Same as before,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,None,1
+R_1dFR37Oqw6UJyfF,12,na,,,,,,,,,,NA,,,,,,,,,,,no,,Medical-Complex,IoT-Complex,Trust,Hide,0
+R_2I9N1oe9ysFM79r,13,None,,,,,,,,,,Will they sell my data?,,,,,,,Scenario:Data,,,,N/A,,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_7K14tTx8MUrtHeK,14,No additional questions at this time.,,,,,,,,,,No additional questions. There is no trust in my beliefs once you turn over information to a company. Just look how some of the credit information companies had a breach and data was acccesed by people not part of the company.,Distrust:Scenario,Risk:Real,,,,,,,,,A TEE can only protect from what is know. You can not protect from an unknown bad actor.,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_5lYpcAwd0xT1O4P,15,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,None,1
+R_3Cyrs6khrUSaxT1,16,I have no questions,,,,,,,,,,I have no questions,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_82rRzA7KlidMFLQ,17,I have no questions,,,,,,,,,,N/a,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_7zQFP2cTNKcFoUp,18,none,,,,,,,,,,none,,,,,,,,,,,n/a,,Medical-Simple,IoT-Simple,None,Hide,1
+R_1CrXZ60eJo1RWX2,19,I have no questions.,,,,,,,,,,I have no other questions about TEEs.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_3wcyS3ak9t59vqh,20,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Complex,None,Show,0
+R_78Yi7xDUEtXOIKJ,21,none.,,,,,,,,,,questions primarily focus on the data they are collecting and how long it is maintained before being purged/deleted.,,,,,,,Scenario:Data,,,,,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_7I5LPcvKubRlmod,22,"I can't think of any more questions. Maybe, would be nice to see more real world examples.",,,,,,Use:Real,,,,I don't have any questions.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Show,1
+R_5To6bRTK6kc73ny,23,TEEs don't seem to be open source. Is there a way to audit them?,,,,Gen:Open Source,,,,,Guarantee:General,Are TEEs being adopted more often now?,,,,,,Use:Real,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_2ASjEbHhoocHDcT,24,None :),,,,,,,,,,,,,,,,,,,,,"Nothing but I really enjoyed the survey. I hope I was able to answer everything good for you guys and I hope I get to work with you again in the future, thank you! ",,Medical-Simple,IoT-Simple,Hardware,Hide,0
+R_724JKJkMRqvYu0a,25,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_1cOG8AtZ0Nl7De9,26,I feel like the statement about the TEE in the above scenario doesnt state definitively the extent to which the AI could store or use or recombine my information. The TEE seems like a good start but doesnt really cover all actions or through points for the data which need to be stated more explicitly. I would certainly feel more safe with the idea of a TEE but it appears limited in scope as pertains to data security.,,,,,,,Scenario:Misc,,,"I like the information communicated that the TEE operates independently of other functions, but how impervious to hacks is it, in reality? Might there be a back door vulnerability?",,Risk:General,Risk:Hacking,,,,,,,,It would seem there is a difference that should be expressed to those providing  datasets that a TEE is limited to an essentially mechanical function and it does not cover all aspects of data security in terms of longevity storage or dissemination by any team member including the AI function.,,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_77EdilnaNzCq0gN,27,I don't have any questions.,,,,,,,,,,No questions.,,,,,,,,,,,I believe that in the future advanced A.I. technology could possibly make some Tee systems completely safe.,,Medical-Complex,IoT-Complex,Hardware,None,1
+R_1scZq6bFn5wk1y0,28,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,Show,0
+R_74HIc1hUl9X5tm1,29,,,,,,,,,,," How frequently is the attestation performed, and what specific measures are in place to detect any compromise or misconfiguration in real-time?",,,,Gen:Misc,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,0
+R_232X8VMPQ83p4kc,30,No,,,,,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_10cMl5n3QMI2NTr,31,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,0
+R_2KSy3klavD4T3NL,32,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Complex,None,Show,0
+R_2haPpqFTYBGadZ5,33,can the TEES glitch,,Risk:General,,,,,,,,can you do a heavy background check on the person that access the TEES,,,,,,,Scenario:People,,,,,,Medical-Complex,IoT-Complex,Trust,None,1
+R_2dcZfragNm46tB3,34,none,,,,,,,,,,none,,,,,,,,,,,none,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,0
+R_2N0bbTBA1lns5SF,35,N/A,,,,,,,,,,N/A,,,,,,,,,,,N/A,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_3PD4a5yFFR6n92p,36,Where data is stored? US or elsewhere and if data can be accessed by researchers in foreign countries in the future.,,,,,,,Scenario:Future,Scenario:Misc,,Na,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_5owr4WkUk16lsuJ,37,No,,,,,,,,,,Mo,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Show,1
+R_1IgiPFcvlJxaPUJ,38,I still would like to know exactly how it works to protect my data.,,,,,,,,,,I'd love to know more information about how they work and how they ensure my data is safe.,,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Complex,None,None,0
+R_57EfYf5sGAfTyxe,39,"The point that the TEE protects the data even if software is behaving maliciously is reassuring, however, I don’t fully know the level of protection against a hack. Furthermore, people who just have access to the data set may use it inappropriately.",,Risk:Hacking,Risk:People,,,,,,,"I still don’t understand the level of protection against a hack. I think mostly based on my lack of knowledge about how hacks are facilitated. If it’s only ever using software, that might be more reassuring, but are there manual hacks that could guess the password?",,,,,,,,,,,"The short explanation of a TEE is quite good for basic understanding, but in order to truly understand application you need to have outside knowledge.",,Medical-Complex,IoT-Simple,Trust,None,1
+R_5cqDkkqu8kJfdHb,40,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_2PUaBbGrI7SG5ET,41,N/A,,,,,,,,,,I'm not sure,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,None,0
+R_3pyOykzmmENPj24,42,na,,,,,,,,,,na,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_3a8odbL8Yrg0EXW,43,no questions.,,,,,,,,,,"how are the few people who can access data chosen? what rules, regulations, etc do they have to follow to ensure safety",,,,,,,Scenario:People,,,,"no feedback, thank you",,Medical-Simple,IoT-Complex,Hardware,None,0
+R_7JLPV4M15KIh5Vd,44,N/A,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,1
+R_1SUs6cNrqkHmdAl,45,What are the terms in it,,,,Gen:What?,,,,,,What wee the conditions,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,None,1
+R_2GJQcgOIrraziSZ,46,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,1
+R_3YxZ0cQDzTaB0L6,47,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Show,1
+R_5noAh5XxZZCrh6W,48,N/A,,,,,,,,,,N/A,,,,,,,,,,,N/A,,Medical-Simple,IoT-Complex,Hardware,None,0
+R_1wiYr9GVyqKQUcB,49,who are the authrozied people?,,,,,,,Scenario:People,,,n/a,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,1
+R_15ydZ7GNnhPeeMk,50,,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_2lrDmOIQoyUfzxn,51,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_1qX7dDt2wRvHzm4,52,Need more details about how they work in general without the use of complicated verbiage.,,,,Gen:Untechnical,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Hide,1
+R_3Sq5za66yxiWRW2,53,I think my data would be protected by the TEE in this scenario.,,,,,,,,,,I'm just learning about TEEs but I think I get the gist of them.,,,,,,,,,,,Interesting to learn about TEEs,,Medical-Simple,IoT-Simple,Unsubstantial,None,0
+R_3ikF3lKeVobPuLu,54,none,,,,,,,,,,About how hackable they are.,,Risk:Hacking,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_6JsgXTTwSShoVpc,55,none,,,,,,,,,,none,,,,,,,,,,,none,,Medical-Complex,IoT-Simple,Trust,None,0
+R_3kYLc9mUFqAMtXc,56,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Show,0
+R_1CCcaZORgugK694,57,,,,,,,,,,,,,,,,,,,,,,ive found the more i learn about technology the less i should trust it. this opinion is back up by my programmer wife.,,Medical-Complex,IoT-Simple,Trust,Hide,0
+R_2yk0HvTOfZHpq1d,58,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_3h6CKP7DTm0HLxI,59,none,,,,,,,,,,none,,,,,,,,,,,none,,Medical-Simple,IoT-Simple,Hardware,Hide,1
+R_5p5d4ZlChLf8WPv,60,I've no further questions,,,,,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Show,1
+R_5ZJ1UpCWt3jLMxH,61,The TEE itself sounds relatively secure. The data in it would be my concern.,Distrust:Vague,,,,,,Scenario:Data,,,Development team use would not concern me.,,,,,,,,,,,"None, thank you!",,Medical-Complex,IoT-Simple,Unsubstantial,Hide,0
+R_7tNXR6lAKDCTqV3,62,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_1Puoh2xawl3nsZp,63,"as mentioned before, what counts as 'modern', since I know of countless times when such security as easily bypassed your examples feel not so secure. also not relying on windows is a must for security (only being on the most unsecure OS is limiting at best and inviting attacks at worst) ",,Risk:Real,,Gen:Misc,,,,,,none relating to this particular scenario,,,,,,,,,,,"yeah, first my w key is iffy so sorry about any confustion caused by that, second in the first scenario you ask about ho safe it is from someone else using the same computer. ell its impoossible to say, since it depends on non tee limited settings (ie is the data seperatly encrypted? does anyone ever forget to log out?that leaves risk open but not as a result of the tees since a simple copy/paste is not exactly prohibited (how else would you be able to add/remove data ) or even non encrypted could be copied inadvertently by automated backup systems which Id imagine most reputable organiziations would do
+also a fe questions ask a bit unbelievable statments (ie knowing for certain, yet bugs are always possible anywhere, to automatically assume tees are immune is irresponsible since I imagine new revisions and standards have the same risks of early issues .as anything else secure)",,Medical-Complex,IoT-Complex,Trust,Show,1
+R_3Re69hXEF7vN6M1,64,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_560myjLWrUNqpO1,65,I need to see the results after the first few years,,,,,,Use:New,,,,Nothing,,,,,,,,,,,no,,Medical-Complex,IoT-Complex,Trust,Show,1
+R_1tSWGiskO9tO2Vb,66,N/A,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,None,0
+R_5rH6sqaIKayR6IX,67,None.,,,,,,,,,,How do they handle hackers and rogue employees?,,Risk:Hacking,Risk:People,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_3SRq7J7SiPfkHTj,68,n/a,,,,,,,,,,I don't have any other questions.,,,,,,,,,,,n/a,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_3Sj8FII7a8ujRe1,69,Are the people authorized to use the TEE looked over by anyone else,,,,,,,Scenario:People,,,no,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,None,1
+R_10ZHqKW0zjyX0Vb,70,Can you specify what mechanisms prevent PII from leaving the TEE?,,,,Gen:Implementation,,,,,,"Again, what mechanisms prevent data being copied out of the TEE - and under what circumstances are data copied out?",,,,,,,,,,,none,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_72smmBxWzBohS7O,71,"Same questions as before, any proof of its strengths?",,,,,,,,,Guarantee:General,Who all will have access to the information? Is there anything TEEs do to stop the company collecting the data from selling it outside the TEEs?,Distrust:Scenario,,,,,,Scenario:People,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,0
+R_2lX5q447U9Tfiiy,72,No questions about TEE’s,,,,,,,,,,I don’t have any questions about TEE’s,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,0
+R_8BtkOdhyM1FiidP,73,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,1
+R_3ps8WwKbXyLuuK7,74,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Show,0
+R_3aqvA6cfxpBywXh,75,What makes TEEs secure.,,,,Gen:How?,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,None,1
+R_2ISrYpudrvPKmtc,76,Good details provided on what a TEE is and how it partitions data but still concerns as described above,,,,,,,,,,None,,,,,,,,,,,"Interesting study, wasn't familiar with the term TEE",,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_1dsbJjmFjvRwAAC,77,I need to read independent reviews on this software I would probably find it on YouTube or the internet It's beyond What I can judge to be safe or unsafe.,,,,Gen:Visual,,Use:Request,,,,Like I said I would do more independent research I don't mean a full investigation just some basic backgrounds to see if there has been any issues or leaks.,,,,,,Use:Breaches,,,,,no,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_1hMZVoCFiyG58Lq,78,NA,,,,,,,,,,NA,,,,,,,,,,,NA,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_5ghk4rZj088M7IR,79,None,,,,,,,,,,Perhaps just wondering what some more applications of TEEs are.,,,,,,Use:Real,,,,,No,,Medical-Simple,IoT-Complex,Hardware,Show,0
+R_3XOX5A15QwXaqhr,80,none,,,,,,,,,,none,,,,,,,,,,,none,,Medical-Simple,IoT-Complex,Trust,Show,0
+R_1DuLGtltVYqrUKY,81,I think the explanation presented in the description of the study sounds like unclear double talk.,Distrust:Vague,,,Gen:Untechnical,,,,,,,,,,,,,,,,,I imagine simply using our smart phones mean we use TEE everyday.,,Medical-Simple,IoT-Complex,None,None,1
+R_3s6335bDFIFxTFx,82,I felt the article provided a lot of good info,,,,,,,,,,I feel that tee is a very good program and useful for many devices,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,Hide,0
+R_3qImhlux2XMOGsa,83,No further questions,,,,,,,,,,No further questions,,,,,,,,,,,No,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,1
+R_5t9BYdiGHtuY4Ct,84,What exactly is the TEE going to protect and how?,,,,Gen:How?,,,,,,"I have heard it has something to do with data storage and am inferring it is a safety protocol, but I don't know how it is stored and who at the organization has access to it. Can the data be easily downloaded, etc.",,Risk:People,,Gen:Implementation,,,Scenario:People,,,,No,,Medical-Complex,IoT-Simple,None,None,0
+R_2aVtkY5CbtWSz2v,85,I can't think of anything.,,,,,,,,,,I don't have any additional questions.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,None,0
+R_2BSFaCC292DKrgR,86,None,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,Hide,0
+R_6i57Pd9a3ekxKMz,87,None - it was explained well for me but it could be shortened I think.,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Simple,Hardware,Show,1
+R_5Vr6rJfPuLsZyvc,88,No questions.,,,,,,,,,,No questions.,,,,,,,,,,,No comments at this time.,,Medical-Simple,IoT-Complex,Hardware,Hide,0
+R_1LioC2efJtEJpEJ,89,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,0
+R_6GHQOSosVs4NNSN,90,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,1
+R_3qQhrx0uSEURdam,91,none,,,,,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_5lzB0E2VkveH9HL,92,No,,,,,,,,,,NO,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,Unsubstantial,Show,1
+R_2GfRrKeRDQjgDGw,93,What exactly is a TEE and how does it insure safety of the data.,,,,Gen:How?,Gen:What?,,,,,Any information at all on TEEs. None given.,,,,,,,,,,,TEEs just need explained. Nothing given.,,Medical-Simple,IoT-Complex,None,None,1
+R_1n2VJNjoXewrP35,94,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_5CCiHeyUXPuphC5,95,None.,,,,,,,,,,None.,,,,,,,,,,,No.,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_12FCxDzGW4wwiQd,96,I want a more detailed explanation of TEEs.,,,,Gen:How?,,,,,,They can say it’s protected all they want. Yet even the biggest companies have data breaches.  I don’t trust a light bulb company with my data.,Distrust:Scenario,Risk:Real,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,1
+R_35TSOsZSuDVXQul,97,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Hide,1
+R_2sSI01QWWmTUaai,98,Still need an actual definition,,,,,,,,,,I feel like I definitely at least needed a definition on what a TEE is.,,,,Gen:What?,,,,,,,,,Medical-Complex,IoT-Complex,None,None,0
+R_7iQC57nN9NGO1jP,99,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Show,0
+R_3WGATrQhOIu6ph9,100,,,,,,,,,,,I would like a real life example of what else uses TEE. I don't really have any interest in smart light bulbs.,,,,,,Use:Real,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_3MPu9pNNUUAO65s,101,even the biggest and best companies get hacked so who is to say that this system wouldn't be or couldn't be,,Risk:Hacking,,,,,,,,even the biggest and best companies get hacked so who is to say that this system wouldn't be or couldn't be,,,,,,,,,,,no thank you,,Medical-Complex,IoT-Complex,Trust,None,1
+R_2n79GrPiTZf8Dc4,102,"No further questions
+",,,,,,,,,,no questions,,,,,,,,,,,"I didn't understand what you meant by ""development team."" The software development team or the medical researchers?",,Medical-Complex,IoT-Simple,Unsubstantial,Hide,1
+R_3GE6MIukT2AMH5C,103,,,,,,,,,,,"I'd like to know more about how the TEE specifically ensures that my data remains secure and how it handles potential vulnerabilities. Additionally, I’m curious about what happens if there is a breach—how quickly would I be notified, and what measures would be taken to protect my data in that scenario? ",,,,Gen:Implementation,,,Sceanrio:Fail,,,,,,Medical-Simple,IoT-Simple,Trust,None,0
+R_3mJIFZg6c2wl25Q,104,no questions.,,,,,,,,,,No questions.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Hide,0
+R_7Rn3JPlhvaA33q1,105,N/A,,,,,,,,,,N/A,,,,,,,,,,,N/A,,Medical-Complex,IoT-Simple,Hardware,Show,1
+R_6ezpv2XLxBGl3CW,106,None,,,,,,,,,,,,,,,,,,,,,No,,Medical-Complex,IoT-Complex,None,Show,0
+R_1gmXuCXtaX7wqFr,107,A question could be how many people would have access to the TEE program.,,,,,,,Scenario:People,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,1
+R_3jvUHAqNkptaKs1,108,"I don't have the technical expertise to know for sure how viable this sort of system is, only what I am being told. ",Distrust:Vague,,,,,,,,,Nothing,,,,,,,,,,,Nothing,,Medical-Simple,IoT-Complex,Trust,Show,1
+R_7w0iVWOLZcNUEQJ,109,"How many people actually have access to the TEEs, and am I able to withdraw my own information from it if I choose to do so later on?",,,,,,,Scenario:Data,Scenario:People,,Who is funding the use of the TEEs?,Distrust:Vague,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,1
+R_5kvoUFCoNkgwImo,110,I do not have any,,,,,,,,,,I would need to know more about the specific legal protections offered by TEEs,,,,Gen:Misc,,,,,,,,,Medical-Simple,IoT-Complex,None,None,0
+R_1OJmQcgl7alV9xh,111,Have there been any situations where information in a TEE has been taken? How secure is it?,,,,,,Use:Breaches,,,Guarantee:General,"The process of a TEE seems safe, but not knowing who can access it is the problem.",,,,,,,Scenario:People,,,,The survey itself seemed straightforward and I feel like it explained TEEs fairly well. I had no idea what the process was but now I feel like I generally understand its purpose.,,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_124mL8xHO1YAQYS,112,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Show,0
+R_51i8M0V0EHvYKgp,113,None.,,,,,,,,,,None that I can think of.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_3QXnHMz3J9vTYKq,114,N/A,,,,,,,,,,No more questions,,,,,,,,,,,N/A,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_5IF2HeFRANJv2Au,115,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,1
+R_1Ep3ICX5wtlBKrv,116,None,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,0
+R_3EvwuXmJsQyDTUJ,117,Norhing,,,,,,,,,,Non,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_7LjfIA3AcB6kjcJ,118,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_7jJoFiLbrnZOV06,119,"What is TEE, or TEES,? But regardless, I still feel safe. All because I am use to studies being done by a hospital. My data has never been compromised that I know of. I am scheduled for one this week. I have been working with them for many years, and not one incident. If my data leaks out, then there will be consequences. They can not afford for anyone's data to be shared. ",,,,Gen:What?,,,,,,What are TEES? Is my only question at this point.,,,,,,,,,,,No,,Medical-Complex,IoT-Complex,None,None,1
+R_2aeovcZNZXxSdmN,120,,,,,,,,,,,I don't think anything?,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,0
+R_5JwlZMTa9eBNqpT,121,Is the TEE code open source or no?  Who verified its security?  The company developing the software or 3rd party entities?,,,,Gen:Open Source,,,,,Guarantee:General,None.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,1
+R_10pHs8wBj60IyvC,122,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_72JiCCBbWv4BLht,123,"I feel that I have a grasp on what a TEE is now, though I came in having no idea what they were",,,,,,,,,,What work around an are there for tees? Are they routinely updated and monitored so as to ensure that there are no back door entries to the data?,,Risk:General,,Gen:Misc,,,,,,,Nothing,,Medical-Simple,IoT-Simple,None,Show,1
+R_3L6kOz6ZxqOccVX,124,I would like to  explain  in a simpler way and also include more examples of how TEE currently use technologies that we all use,,,,Gen:Untechnical,,Use:Real,,,,I would like to have informationexplained in a  simpler and more understandable way,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Show,1
+R_6SvIWL7OhJDPz1e,125,I feel like I'd need to see a visual or graphic showing how it works for me personally to understand,,,,Gen:Visual,,,,,,I would need more information to make me feel completely safe,,,,,,,,,,,"This is the first I've heard of TEEs, so thank you for introducing me. I'll likely do some individual research to learn more.",,Medical-Simple,IoT-Complex,Trust,None,1
+R_21jwN8YE21HrHuo,126,just more about the human interaction - set of unique user name /password know who accessing data,,,,Gen:Password,,,Scenario:People,,,whenever thiere is human interaction it is scary,Distrust:Vague,Risk:People,,,,,,,,,"No, but i'm glad i learned about TEES",,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_2K2Jegm3jYBaSJ3,127,"In this scenario, there is no explanation of TEEs at all, so I have all the questions you can have. I wouldn't even know what the letters stand for, if I hadn't just read the consent form.",,,,Gen:What?,,,,,,"I still have no idea what a TEE is, except that it somehow protects data. It sounds like some sort of encryption, but I really don't know what it is or how it works.",,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Simple,None,None,1
+R_2co5KMjyggZzEYl,128,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Hide,1
+R_3ah3mHgaz2fwaaH,129,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,None,0
+R_1VF1ZUxRQMVvV3m,130,How does TEE technology isolate the programs or data in the first place?,,,,Gen:Isolation,,,,,,"TEEs sounds interesting and reminds me of a virtual machine where it isolates software, but this seems interesting, I wonder how it works to form something secure from malware.",,,,Gen:Implementation,Gen:Tech,,,,,,,,Medical-Complex,IoT-Complex,Trust,None,0
+R_7bjf5MhW7A9zf2h,131,Why exactly do they need my address?,,,,,,,Scenario:Data,,,Why exactly do they need my address?,,,,,,,,,,,I have no comments,,Medical-Complex,IoT-Complex,None,None,1
+R_50ZDV8lqt3I63Ob,132,none,,,,,,,,,,none,,,,,,,,,,,no,,Medical-Simple,IoT-Simple,Hardware,Hide,1
+R_5CzCJWzCmuLhxAt,133,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Show,0
+R_7qvrgf8xHz1fhKS,134,No questions,,,,,,,,,,No questions,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_3MfyI75XnvT9WwN,135,None,,,,,,,,,,Nothing,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,1
+R_2LZTSdUcqo04j8n,136,About TEES stores the data,,,,Gen:Implementation,,,,,,How trustworthy is the company,,,,,,,Scenario:Misc,,,,,,Medical-Complex,IoT-Complex,None,None,1
+R_2rr9JC9F94ricbD,137,Is that even a for real thing or just a made up thing for this study?,,,,,,Use:Real,,,,Still not sure if it even real.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,1
+R_27UTlxUJLBtOApZ,138,I feel confident in the security system,,,,,,,,,,Does it have access to other parts of my phone,,,,,,,Scenario:Misc,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_3zcFmapIF1NzFw5,139,I'd like to know more about personal security concerning the small numbe of development team members that have access to my data.,,,,,,,Scenario:People,,,I feel TEEs were adequately explained to provide confidence on the security of my data.,,,,,,,,,,,This was something I didn't know about. It makes me want to read documentation closer when it involves my data.,,Medical-Complex,IoT-Simple,None,Hide,0
+R_3R1pzsiFYJPbY6I,140,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_29OvogslgbwIqOZ,141,,,,,,,,,,,None.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_7eEFu38rfI1KNP3,142,"Other than how long the data is collected for, how much data per individual participant would be stored. ",,,,,,,Scenario:Data,,,"How would I, as a potential customer, be assured that safety precautions would be met in the event such an exploit were to actually happen? ",,,,,,,Sceanrio:Fail,,,,I really enjoyed this particular subject,,Medical-Simple,IoT-Complex,Trust,None,1
+R_5A07Cxr6pWKHIKB,143,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_5AHxmQG7YltLkTj,144,Nothing other than what’s been stated.,,,,,,,,,,"I feel like I would want a longer explanation. Granted, I’m the type of person that likes details and technology. So I’d love to know a little bit more. The more educated I would become the more confident I would feel.",,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_1DHKINnXlwF4EeA,145,"Like I said before, I am a visual learner, and I feel I would need to watch a video or perhaps hear someone explain more about TEEs to fully understand.",,,,,,,,,,I am not exactly sure how it works. I feel like I would need to watch a video on it or something to fully understand.,,,,Gen:How?,Gen:Visual,,,,,,,,Medical-Simple,IoT-Simple,Trust,None,0
+R_3DPhWAe7gX6mmyt,146,n/a,,,,,,,,,,N/a,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Show,0
+R_5rPaVXutIpD7a57,147,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_3DtHMUmqlZkrVR2,148,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_2axJqJlgVL7WBfy,149,How can I ensure that my data is safe in other people hands? Also would there be a way to make sure that my data is only used in studies that I approve of?,,Risk:People,,,,,Scenario:Future,,Guarantee:General,Is there an easy way to request deletion of my data?,,,,,,,Scenario:Data,,,,Thanks for the Survey!,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,1
+R_2iWWI8fz6lUQEzD,150,None.,,,,,,,,,,None.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_1GlcO9vMrkkW2hM,151,None at the moment.,,,,,,,,,,None at the moment.,,,,,,,,,,,None at the moment.,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_5CqGua4Y0VkgvHk,152,Are there any other potential risks?,,Risk:General,,,,,,,,None,,,,,,,,,,,I would like to know what TEEs were at the end. I recommend in the future you include a definition of a TEE AFTER the study has been completed.,,Medical-Simple,IoT-Complex,None,None,1
+R_5iuc8EwO9OpfQ6B,153,n/a,,,,,,,,,,n/a,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_29dlUqXoCgqb8HL,154,"Am I to assume a TEE is a type of program that protects data?  If so, how does it do that?  ",,,,Gen:How?,,,,,,What is a Tee?,,,,Gen:What?,,,,,,,,,Medical-Simple,IoT-Complex,None,None,0
+R_3MOd5RdXX9WItb3,155,How are they installed on my device,,,,Gen:Implementation,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Hide,1
+R_7qCU1vbRWpfx2W9,156,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,0
+R_2Rt4ip3SNq1XNDj,157,How would the AI tool interact with the TEE? Can the TEE segment data so the AI can only access one part of the data stored in there?,,,,Gen:Isolation,,,Scenario:Misc,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_7GB8DNvnOqlY5Zk,158,,,,,,,,,,,,,,,,,,,,,,None,,Medical-Complex,IoT-Simple,Trust,Show,0
+R_3oIvuBU2Ilzbn7X,159,The description sounds safe and secure if it works properly.,,,,,,,,,,Although they have my location I would not want that to be readily available.,,,,,,,Scenario:Data,,,,no thanks,,Medical-Simple,IoT-Simple,Hardware,Hide,1
+R_5O6pPPqarkWhY7A,160,Who is allowed access to TEE?,,,,,,,Scenario:People,,,N/A,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,None,1
+R_5bagT7qXFDdGfRf,161,n/a,,,,,,,,,,n/a,,,,,,,,,,,n/a,,Medical-Complex,IoT-Simple,Hardware,Show,1
+R_3qRX9HfojgX5F6x,162,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,0
+R_10vHYxJwxQu7nZg,163,Just feel not 100% about TEEs.,Distrust:TEE,,,Gen:How?,,,,,,I guess people like me not Computer savvy sometimes have hard time to understand technology lingos.,,,,Gen:Untechnical,,,,,,,"Interesting survey, makes me think about AI more. Enjoyed, thank you!",,Medical-Simple,IoT-Complex,Trust,Show,0
+R_7HMiCax7k2p957H,164,"I don't have any questions about them, I think I have learned enough to know what they are and how they operate. ",,,,,,,,,,"I don't have any more questions, I feel that I understand it and it was explained thoroughly enough.",,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Show,0
+R_7xUHIFKjHyVt9UB,165,Can the TEE be hacked in this situation?,,Risk:Hacking,,,,,,,,Some of the explanations seemed too complicated to me.,,,,Gen:Untechnical,,,,,,,Still don't quite get what TEE is but it was an interesting survey.,,Medical-Simple,IoT-Complex,None,Show,0
+R_7oQKo4NloZH1g2Z,166,No more questions,,,,,,,,,,"It's be interesting to know what tests, hacking, etc TEE has been exposed to",,Risk:Hacking,,,,,,,Guarantee:Testing,,Seems like valid questions you're bringing up. Thank you and best of luck,,Medical-Complex,IoT-Complex,Hardware,Hide,0
+R_2bLvPrv3tvNIjDP,167,"How is it ensured that only approved people can access the sensitive data protected by the TEE? Like if it’s password-protected, someone’s password could be stolen and used by an unapproved person.",,Risk:People,,Gen:Password,,,,,Guarantee:General,"Again, what happens if someone’s password gets stolen? Or if they choose to show some unapproved person my data while they’re logged in?",,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,1
+R_5Ut7QZClm0ecbsd,168,,,,,,,,,,,I don’t really understand but am not highly technologically inclined either.,,,,Gen:Untechnical,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_2jNuYyVQuF9wUz6,169,none,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,0
+R_5effRSqsZHazjha,170,,,,,,,,,,,Where is the data on TEE stored? Is it on some type of cloud?,,,,Gen:Implementation,,,,,,,,,Medical-Complex,IoT-Complex,Trust,None,0
+R_7gp8sqGu1ZQgQ1I,171,No,,,,,,,,,,Information on TEEs was understandable and thorough,,,,,,,,,,,I do not,,Medical-Simple,IoT-Complex,None,Hide,0
+R_3Yvp3ME7UrKiPGp,172,None,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_72LathmkQzTQowQ,173,None at the moment,,,,,,,,,,None at the moment,,,,,,,,,,,None,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_2eze3IiXRvphH3Q,174,None.,,,,,,,,,,none,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_2JMelzQ2zvpefCh,175,None. I think the TEE itself is definitely safe. I just don’t think that 100% of people can be counted on as being safe & incorruptible.,,Risk:People,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,None,0
+R_50V94cgjaswnZLW,176,"who would be in control of updates to the TEE, the hospital's IT group, the company that owns the TEE?",,,,Gen:Misc,,,Scenario:Misc,,,no question,,,,,,,,,,,no comment,,Medical-Complex,IoT-Simple,Unsubstantial,None,1
+R_7TyB9aT59jmSSHL,177,None,,,,,,,,,,None.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,None,1
+R_7Bo0tufa8dXBCvc,178,No questions,,,,,,,,,,No,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,Trust,Show,1
+R_28Ye3DwBmbF5lU1,179,N/a,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Hide,0
+R_5ri7xezJe2Wfhjm,180,,,,,,,,,,,"While I appreciate they have been carefully designed to keep information safe and confidential, I still have many reservations.",Distrust:Vague,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_2zZr2p8vfPXJtAl,181,None,,,,,,,,,,"I just feel like nothing is completely fool proof. Since technologies are still made by a human, they are still may be a select type of human that would be able to access the data illegally",Distrust:Vague,Risk:General,Risk:People,,,,,,,,No,,Medical-Complex,IoT-Complex,Trust,Show,1
+R_22R3qM2OAZ5ZWab,182,"Same comments as before. Too much jargon to explain TEEs. Perhaps use an analogy to help people understand? For example describe a CPU as a building and explain the TEE as a floor that is physically inaccessible except for certain criteria, etc",,,,,,,,,,"I feel there is still a lot of technical jargon, such as “ARM TrustZone” that don’t mean anything to me. I’d love to see the description simplified further and with better examples of how a TEE functions and what assurances I have that it’s actually a Secure Enclave. ",,,,Gen:How?,Gen:Untechnical,Use:Real,,,Guarantee:General,,,,Medical-Simple,IoT-Complex,None,Show,0
+R_2DIH8IGrjr6v96l,183,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,1
+R_3Y2RVsylFjdYBDH,184,none,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,None,0
+R_5xxxzuRy7OcrTIX,185,No further questions.,,,,,,,,,,Would TEEs help hackers from accessing my data?,,Risk:Hacking,,,,,,,,,I am glad to have learned about TEEs.,,Medical-Complex,IoT-Complex,None,Show,0
+R_7zTvqnMiC70rxH5,186,it seems to do a good job of answerng my questions,,,,,,,,,,I think it answered my questions,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,0
+R_3cTySR3pxcJApn7,187,i do not have any other questions,,,,,,,,,,Nothing else,,,,,,,,,,,No other thoughts,,Medical-Complex,IoT-Simple,Unsubstantial,Show,1
+R_3PXnv8ObhARrfvJ,188,NA,,,,,,,,,,NA,,,,,,,,,,,NA,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,1
+R_3Ug85hqULRCTAjb,189,,,,,,,,,,,How often are TEEs used? Does every voice assistant use these?,,,,,,Use:Real,,,,,"I have never heard of TEEs before, but I hope they are used often as they seem like useful tools!",,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_7j1laVyTcz5ab4k,190,They seem to work like ledgers where you need a physical key. I just wonder how much security is in place to protect them.,,,,Gen:Tech,,,,,Guarantee:General,None,,,,,,,,,,,Maybe add a couple more examples to really nail down the idea of what a tee is,,Medical-Complex,IoT-Complex,None,Hide,1
+R_1tLV5Q4hw8R88V3,191,I feel like I have an understanding of TEEs,,,,,,,,,,No questions.,,,,,,,,,,,None,,Medical-Simple,IoT-Complex,Trust,Hide,1
+R_165etZjmk6BEO5P,192,,,,,,,,,,,Is a TEE the same thing as an authenticator app?,,,,Gen:Tech,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,0
+R_7wKQL8raceUPbN5,193,No additional questions.,,,,,,,,,,I have no additional questions.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Hide,0
+R_3j7ElPlGw6mF0Xh,194,I feel mentioning how often that data will be accessed by anyone would help due to the fact that its usually at those moments that data is usually compromised or lost.,,,,,,,Scenario:Data,,,I feel that if instead of a name there could be a nick name used instead that would make it better or a good reason on why the actual name is needed.,,,,,,,Scenario:Data,,,,Great study had no issues at all and all information was clear and easy to understand.,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_2m1X7uJjtTSZ9LU,195,n/a,,,,,,,,,,n.a,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_7QJgq2lICPYPl2M,196,How many individuals would have access to the device.  What is the probability that the device gets hacked and TEE is bypassed?,,Risk:Hacking,,,,,Scenario:People,,,N/A,,,,,,,,,,,"I feel like I learned quite a bit about TEEs and how they work in real life. I would not have had this knowledge before this survey, Thank you. ",,Medical-Simple,IoT-Simple,Hardware,Show,1
+R_2QFU9Wkr71TD8Ye,197,None,,,,,,,,,,Nothing,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Show,1
+R_47HCPFsz2CwDF27,198,What is a TEE? How does a TEE work? Who has access to the data even with the TEE in place. I have many questions about a TEE.,,,,Gen:How?,Gen:What?,,Scenario:People,,,I am not exactly sure that I know what a tee is or how it would protect my data,,,,,,,,,,,"I feel like there was minimum info provided about a TEE and that was the main thing the study was about, but this could have been done purposefully.",,Medical-Simple,IoT-Complex,None,None,0
+R_5R9ODTw95CVJr8L,199,No I think I understand the concept,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_1MuF98wh9bRo5iO,200,None,,,,,,,,,,N/A,,,,,,,,,,,no,,Medical-Complex,IoT-Simple,Trust,None,0
+R_50U9t0Z841omKGU,201,How can you be sure it’s entirely safe?,,,,,,,,,Guarantee:General,Is it really safe?,Distrust:TEE,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_7KvbW5LOCeZSySu,202,Can they be hacked?,,,,,,,,,,Have they ever been hacked before? How do we know the company won't be nefarious with our data?,Distrust:Scenario,Risk:Hacking,,,,Use:Breaches,,,,,,,Medical-Complex,IoT-Complex,None,Show,0
+R_8wKvbep4AIOKDZx,203,no idea what it is,,,,Gen:What?,,,,,,Don't really understand how TEE works,,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,1
+R_5cwn4x6lCAV3qfB,204,What happens with my 'safe' data?,Distrust:Vague,,,,,,Scenario:Data,,,How can we trust the developers/company not to do anything with my data?,Distrust:Scenario,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,Hide,1
+R_2OUbZRor7RO9KFh,205,N/A,,,,,,,,,,N/A,,,,,,,,,,,N/A,,Medical-Simple,IoT-Simple,Trust,None,0
+R_2disK5yfxuTSehx,206,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Hide,0
+R_7zZ7NybrJxjLzfJ,207,What does TEE stand for?,,,,Gen:What?,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Hide,1
+R_5ImQWUZn2dwNbHj,208,Na,,,,,,,,,,Na,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Show,1
+R_7zdsImcqgDFZIAE,209,,,,,,,,,,,Here is a thought... You are paying us to take this survey and collecting date.  Why don't every company or app pay the person they take data from.. if I was getting paid to use the light and you collect data. I would buy it. The thing that bothers me is that we hear so much about data hacking...what is going to truly stop some to hack into this...,,Risk:Hacking,,,,,Scenario:Incentive,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,0
+R_846r3AwDU1F5x7F,210,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,Show,0
+R_34qT1k414OX4xS9,211,i don’t have any,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,1
+R_5VlvJlCaosrwzjI,212,No other questions.,,,,,,,,,,None.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_7SJOAye9oPCObDB,213,No questions currently.,,,,,,,,,,No questions.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,1
+R_3PFvmR3OK7qVsic,214,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,0
+R_3hgoJx5F5OCOGLn,215,,,,,,,,,,,None.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,Hide,1
+R_38Vh4Wp3KdGIttK,216,No,,,,,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Show,0
+R_1Yyr4nUTWwyUaGo,217,None,,,,,,,,,,None,,,,,,,,,,,NA,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_5bA4neqFPvXjjfr,218,,,,,,,,,,,no questions at this time,,,,,,,,,,,none,,Medical-Complex,IoT-Simple,None,None,0
+R_2kYaFWU3lMclduN,219,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,1
+R_1tFQ6ukESbvfwHF,220,N/a,,,,,,,,,,n/a,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_2LcYSG1VcKrsYpt,221,Nonr,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,Hardware,Hide,0
+R_11jFwQonAXyM2rL,222,NA,,,,,,,,,,NA,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_7zk8UQGJvHSZ7gJ,223,what protocols are put in place to prevent hackers from breaking into the secured information stored in the TEE?,,Risk:Hacking,,Gen:Implementation,,,,,,"I do trust in the security of TEE, I do not trust in large corporation and humans with an ulterior motive such as money.",Distrust:Scenario,Risk:People,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Hide,1
+R_1oHhdweMs01O4Eo,224,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,1
+R_6QKD8rt5gKvyckI,225,"Firewall, PHI, How is access controlled",,,,Gen:Auth,Gen:Tech,,,,,Why would you leave a person's PII/PHI on the server? Why can't you anonymize it?,,,,,,,Scenario:Data,,,,,,Medical-Complex,IoT-Complex,Trust,Show,1
+R_1nNozTwmmAycTRg,226,,,,,,,,,,,"Whether there's any backdoor built into the design, for when data is subpoenaed by the government or some other institution",Distrust:Manufactuerer,,,,,,Scenario:Misc,,,,,,Medical-Simple,IoT-Simple,Trust,Hide,0
+R_2MSCTGgdtK996tj,227,I do not have further questions at this time.,,,,,,,,,,I have no further questions.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,1
+R_1yJYrjZjGbTcYRb,228,none,,,,,,,,,,none,,,,,,,,,,,n/a,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_3iPSzgcltVXxNQU,229,,,,,,,,,,,,,,,,,,,,,,My personal data has been stolen so many times from so many companies that I mostly do not trust any technology that claims to be safe,,Medical-Simple,IoT-Complex,None,Hide,1
+R_3BnH3zfGDylqRvH,230,Are TEEs being used currently?,,,,,,Use:Real,,,,Are TEEs new? Why don’t companies specify that they use them?,,,,,,Use:New,,,,,"Interesting topic, seamless survey. Thanks! ",,Medical-Complex,IoT-Complex,Unsubstantial,None,0
+R_2tO1bMa1v2sjW5X,231,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,1
+R_5pLkl0M18JfBn2z,232,None,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,Hide,0
+R_7zn0DhGtRE5trVv,233,It all depends on the honesty of the developers,,Risk:People,,,,,,,,How complicated and time-consuming would TEE be to use?,,,,Gen:Misc,,,,,,,The print on the questions under the headings are too light to read easily,,Medical-Complex,IoT-Simple,Trust,None,0
+R_7PRFV6lIBu7g9FF,234,I do not have any other questions.,,,,,,,,,,I do not have any other questions about TEEs after reading the given information.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_5PrMlopgl0sMSFX,235,None,,,,,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_5mt1BlnOflO1Q0U,236,What legal repercussions does that TEE hold for anyone who violates it?,,,,Gen:Misc,,,,,,n/a,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,None,1
+R_7esh7Iy32xayEDx,237,Nothing is ever fully protected in hyperspace. Or anywhere.,Distrust:Vague,,,,,,,,,None really!,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,None,1
+R_2Y9PBYLrgQzKwC5,238,Unsure about the companies hired to protect the TEE?,Distrust:Manufactuerer,,,,,,,,,How long before the company protecting the TEE is hacked?,,Risk:Hacking,,,,,,,,,Still very unsure about this type of protection.,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_2vqWNOiTrS6nhS1,239,Why do they need access to information later?,,,,,,,Scenario:Future,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_7M3C9RkOkuM0psd,240,I have no questions.,,,,,,,,,,"I didn’t know what TEE was by name, but after the FAQs, I now understand as I understood the concept previously. ",,,,,,,,,,,No,,Medical-Simple,IoT-Simple,None,Hide,0
+R_231H2WvQrum7lZv,241,,,,,,,,,,,How does communication between trusted/untrusted aspects of the software work and how does the TEE determine which is which?,,,,Gen:Isolation,Gen:Misc,,,,,,,,Medical-Simple,IoT-Simple,None,Show,0
+R_3Ptou46cJDlh9QG,242,NA,,,,,,,,,,NA,,,,,,,,,,,NA,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_5qgxGE9OHrGzQdf,243,none,,,,,,,,,,What does TEE stand for?,,,,Gen:What?,,,,,,,,,Medical-Simple,IoT-Complex,None,Hide,0
+R_55zw5htYAGs5fmS,244,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Simple,Trust,None,1
+R_2AGyFMdGSBm1abB,245,No questions,,,,,,,,,,Honestly i think there is too much information. Nobody is going to read all that stuff.,,,,,,,,,,,Nope,,Medical-Complex,IoT-Simple,Trust,Show,0
+R_1jTConqCIb5p3YF,246,None,,,,,,,,,,"I want to know a little more about how they work, how my data is used and protected. ",,,,Gen:How?,,,Scenario:Data,,,,"Nope, thank you for enlightening me! ",,Medical-Complex,IoT-Complex,None,Show,0
+R_65T3NbzgilF1Vdf,247,Are there instances where TEE is overridden by people?,,,,,,Use:Breaches,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_5Hka4KjcsPaQYMo,248,How exactly is the data kept safe from hackers.,,Risk:Hacking,,,,,,,,How many developers will have access to the intital data.,,,,,,,Scenario:People,,,,,,Medical-Simple,IoT-Simple,Hardware,None,0
+R_2EchjRGEAqVaue9,249,Are they infallible?,,,,,,,,,Guarantee:General,Could digital keys eventually process code searches quickly enough to unlock a TEE?,,Risk:General,,,,,,,,,No additional feedback.,,Medical-Complex,IoT-Simple,None,Show,0
+R_5eysE98hJ1hOiFY,250,no,,,,,,,,,,no,,,,,,,,,,,no,,Medical-Complex,IoT-Complex,None,None,0
+R_5CxRapNvSwvQITL,251,What are vulnerabilities of TEEs not discussed here?,,Risk:General,,,,,,,,I would like to know if certain parties could still access data stored in a TEE if they have the physical device,,,,Gen:Misc,,,,,,,no feedback,,Medical-Simple,IoT-Simple,Trust,Hide,0
+R_2HGk11Ixzo1maOh,252,"None, really.",,,,,,,,,,"I'd love some more specifics on who has access to the data in the Trusted Zone, or the protected data.",,,,,,,Scenario:People,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_3LAsaUyyDtd00eJ,253,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_5CwBkF1jpGwNs09,254,I do not have any question,,,,,,,,,,No question,,,,,,,,,,,No please,,Medical-Simple,IoT-Complex,None,Show,1
+R_3rSwUFTDOv0eAjI,255,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Hide,1
+R_2fqb4RQvZQ6LV1T,256,no,,,,,,,,,,no,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,0
+R_279eKUExdsEdYNy,257,How often have TEE's been used in the past?,,,,,,Use:Real,,,,No questions,,,,,,,,,,,No,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,1
+R_30pYFeE50gFSSva,258,"I am not sure I understand the mechanics of it, but I feel I can trust that it will do it's job and keep my info safe. ",,,,Gen:How?,,,,,,I think I understand how TEE's work but I worry that hackers might eventually learn how to get around the TEE.,,Risk:Hacking,,,,,,,,,I feel that my data is somewhat safe but I worry  that  hackers are always trying to get around the safety features that are in place protecting my data,,Medical-Simple,IoT-Complex,Hardware,Hide,1
+R_7QsnBPjdlRVIw9N,259,I still feel like I don't quite understand what a TEE is. The language used to describe them was pretty technical and I would have appreciated if the language was simplified. I also would like to know how the hospital staff is trained on this and what measures they take to keep the data safe.,,,,Gen:Untechnical,Gen:What?,,Scenario:People,,,I would be curious to know if the company collecting the data uses TEEs for other products or if this is the first time using them for data collection on smart products.,,,,,,,Scenario:Misc,,,,None,,Medical-Complex,IoT-Simple,None,Show,1
+R_54vn37PXUEfao4H,260,Same as before,,,,,,,,,,I now understand what they do but there are more functions I would like to know about.  Can the TEE be overridden?  Who oversees it?,,,,Gen:Misc,,,Scenario:People,,,,,,Medical-Simple,IoT-Complex,Trust,None,0
+R_2fHSAfOMiFgr9Po,261,I hope the tee can protect my info,,,,,,,,,,I think the tee is supposed to be safe but you just never know,Distrust:Vague,,,,,,,,,,Good survey taught me about tees,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_7VEor5uGCXOKZ4g,262,"How can we trust the ""authorized"" personnel in contact with the data? What credentials do these individuals possess?",,,,,,,Scenario:People,,,none,,,,,,,,,,,none,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,1
+R_53pQnZAEFfEzlQg,263,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_7941iDVEhKRE5k5,264,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Show,1
+R_3dKrsQYbYVTaJki,265,I want to make sure professionals are taking care of my data security.,,,,,,,,,,I need more information about the team that will be collecting my data safe.,,,,,,,Scenario:People,,,,,,Medical-Simple,IoT-Simple,None,None,0
+R_7jm4emIKd2sa7ER,266,No,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Hide,0
+R_6ON4hidbARdhpKI,267,What is the strength of the cryptographic security,,,,Gen:Encryption,,,,,,N/a,,,,,,,,,,,No,,Medical-Complex,IoT-Complex,Trust,Show,1
+R_12Fi2cMn9TtMgYu,268,Are the diagnostics from the TEEs aggregated in any way?,,,,,,,Scenario:Misc,,,How do I know that there is a TEE being used? Is there any indication to the user that there is a TEE being used to protect their data?,,,,,,,,,,,It was not clear what other aspects of data protection we should consider in these scenarios? For example will the data be archived? What is the data retention policy? etc. It would be good to be clear if those areas are in/out of scope for this project.,,Medical-Complex,IoT-Simple,None,Hide,1
+R_14N2Kha2GlL5ZPN,269,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_2ReiEwAn0er80zq,270,Does it run on a VPN network. Also doe it have security flaws or bugs?,,Risk:General,,Gen:Tech,,,,,,N/A,,,,,,,,,,,Don't forget to install security updates.,,Medical-Simple,IoT-Simple,Trust,None,1
+R_5j5Yo2jVqC4Se1X,271,N/A- same question as in the last scenario,,,,,,,,,,"i don’t understand enough to feel confident that a TEE is truly completely protected from the other parts of the computer that it is on. i don’t understand how if a virus infects that computer, maybe even a virus specifically made to target TEEs, how it wouldn’t be able to access that part of the computer. it’s all on the same system regardless, wouldn’t it be possible to find a way to access it?",Distrust:TEE,Risk:General,,Gen:Implementation,Gen:Isolation,,,,,,,,Medical-Complex,IoT-Complex,Hardware,None,0
+R_2GWyi8e7wvBfm9N,272,none,,,,,,,,,,None,,,,,,,,,,,none,,Medical-Simple,IoT-Simple,None,Hide,0
+R_196vTHT8ROJaJS0,273,How is a TEE 100% hacker proof?,,Risk:Hacking,,,,,,,,No,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Show,1
+R_7iQZ4JLqLiI0ba4,274,How many people have access to the data in the TEE? What happens to the data once the study is done?,,,,,,,Scenario:Future,Scenario:People,,N/A,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,1
+R_2RxcgujTXgM15Ci,275,No.,,,,,,,,,,No.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_5N2s61uk8LBJmcV,276,None,,,,,,,,,,None,,,,,,,,,,,Thank you for the opportunity,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_3f8uvF1X2gEyrag,277,none,,,,,,,,,,No,,,,,,,,,,,No. Have a nice day!,,Medical-Complex,IoT-Complex,Trust,Hide,0
+R_2c1Iedrs5uo796x,278,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_14zG1Wjwv5TQ9ih,279,none,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_3Ln8quyqDAEFSs6,280,I have no more questions.,,,,,,,,,,None,,,,,,,,,,,I had no issues. Have a blessed day!,,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_2gRPT91gKb7KvMZ,281,No,,,,,,,,,,No,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Show,1
+R_5rDvVoC3O41GNw0,282,nothing additional.,,,,,,,,,,Nothing additional.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Hide,0
+R_1DZmZRiwLP7zF1h,283,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,1
+R_7ItlNLZKE0jwkGV,284,No,,,,,,,,,,None.  I just think it's unnecessary for companies to collect my data or have me opt in to data collection by simply using a product,,,,,,,Scenario:Data,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,0
+R_2OrDqx9KSyvtg02,285,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_5iGIGfSiRFcBFpn,286,No comment,,,,,,,,,,I do not have any questions.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_2kpSmV2yo8iuFVW,287,How safe is Tee,,,,,,,,,Guarantee:General,does the TEE often has errors??,,Risk:General,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_2s1xBdG98f5lJTa,288,Why are they necessary for this?,,,,,,,Scenario:Misc,,,How much will it cost to use and maintain?,,,,Gen:Misc,,,,,,,This was great!,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_2n8iFFVE2yuHTAB,289,I felt like there was enough information,,,,,,,,,,no other questions,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Show,1
+R_72L4R8C7qjp92kB,290,You might as well be explaining neuroscience to me. I have a lot of questions about what I read. Why are yes even needed. What do they do etc,,,,Gen:Untechnical,Gen:What?,,,,,None,,,,,,,,,,,Good luck with your research,,Medical-Complex,IoT-Complex,None,Show,1
+R_2USojRxwBSDVHzP,291,,,,,,,,,,,I have no question.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_2r0stXlwu0qvM1y,292,Will the data be used and transferred to other parties,,,,,,,Scenario:Data,,,No,,,,,,,,,,,Great survey,,Medical-Simple,IoT-Complex,None,Hide,1
+R_27VEE4RMsBq3nB6,293,A TEE works best if it is a proprietary system that only certain groups have access to. At least that is my opinion.,,,,Gen:Misc,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Hide,1
+R_71G1u738PLJxtaH,294,N/A,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_3ilCRvykVXnmkgc,295,How much testing has been done?,,,,,,,,,Guarantee:Testing,There is always space for error.,Distrust:Vague,Risk:General,,,,,,,,,No,,Medical-Complex,IoT-Complex,None,Show,0
+R_6DZ8u8vHztdOJ1a,296,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,1
+R_3KefU3pNg600M49,297,none,,,,,,,,,,none,,,,,,,,,,,Have a good day,,Medical-Complex,IoT-Simple,None,None,0
+R_2lrafMlzQQPJFw3,298,,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Hide,0
+R_6Iy10WMsjaSKVG1,299,I would like a bit more of an explanation of who can access the info and how it is stored.,,,,Gen:Implementation,,,Scenario:People,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,None,1
+R_57WHvUUWJTnYghP,300,None. I would not use in this scenario,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_2WwehaFkwNvI6e9,301,none,,,,,,,,,,none,,,,,,,,,,,n/a,,Medical-Complex,IoT-Simple,Trust,Show,0
+R_5CyyKMngr1WZTgI,302,none,,,,,,,,,,none,,,,,,,,,,,thanks,,Medical-Simple,IoT-Simple,Hardware,Hide,1
+R_2f7tc2n647RHVQ6,303,None.,,,,,,,,,,"The more I read about it, the more I became confused.  Do TEEs make processors run faster?",,,,Gen:Misc,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_7qsrDhKJCsJZ9AZ,304,The technology behind it at.,,,,Gen:How?,,,,,,Nothing,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,Hardware,Show,1
+R_14NmsOn2QH4nsSM,305,gaining a deeper understanding of these aspects of TEEs would help in assessing their suitability for safeguarding sensitive data and ensuring trust in their use within research studies and other applications.,,,,Gen:How?,,,,,,standardization efforts can help ensure consistency and compatibility in TEE implementations.,,,,,,,,,,,none,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_1g11QGDFTU6xez6,306,I am curious if I have used one before without being told the name.,,,,,,Use:Real,,,,No questions at this time,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,1
+R_2sTFbTiISHObfi1,307,I really don't have any more questions about it. I feel very negative that information is not mishandled in some way shape or form or hacked. As a matter of fact I just received a letter yesterday saying my information was exposed by a hacker and it was AT&T which I should feel safe about right?,Distrust:Vague,Risk:Hacking,Risk:Real,,,,,,,I don't think it matters if someone wants your data they're going to get it but for the most part I think companies try hard to make sure that that doesn't happen. But not I am not convinced at all that information floating out there is safe,,,,,,,,,,,Regardless of my negativity I believe that companies really try hard to protect data and assure people that their data is safe. I just don't believe just because someone says they're protecting your data that it actually can not be hacked.,,Medical-Simple,IoT-Complex,Hardware,None,1
+R_21RDHYWAVaRU3fq,308,No questions,,,,,,,,,,Where can I purchase?,,,,,,,Scenario:Misc,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Show,0
+R_5nIubqs4bQagPB5,309,no question comes to mind,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,None,1
+R_72OMfikqlWrnCI8,310,Nothing in particular.  I think that it is probably a good idea.,,,,,,,,,,How would the company profit from collecting my data.,Distrust:Scenario,,,,,,Scenario:Data,,,,Nothing in particular.,,Medical-Complex,IoT-Complex,Hardware,None,1
+R_205XCDeCIy0SWNv,311,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Hide,1
+R_371qkkYCFm6khWY,312,,,,,,,,,,,It was well explained I don't have any questions.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,0
+R_1lMQ3NxoIAHVCPE,313,no,,,,,,,,,,none,,,,,,,,,,,no,,Medical-Complex,IoT-Simple,None,Hide,0
+R_5tnvbdPcetyj3RT,314,No questions.,,,,,,,,,,No question.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,0
+R_6rG3SO8hBsDqqYt,315,,,,,,,,,,,"After reading the description, I'm still not sure how safe TEEs are. I believe that companies often try to put effort into safekeeping data, but there have been several leaks in the last few years. ",,Risk:Real,,,,,,,Guarantee:General,,"This was an interesting survey and I learned more about this topic, but I still don't feel confident in how much I understand TEEs.",,Medical-Complex,IoT-Simple,None,Hide,0
+R_1PdEUY7dzY2gFIM,316,"I don't have specific questions about TEEs at this time, as the description provided in the scenario and in the answers to the FAQ seems quite complete.",,,,,,,,,,I would like to better understand how security updates and patches are managed in Trusted Execution Environments (TEEs). How do you ensure that these updates are done securely without compromising the integrity of the TEE or the data protected by it?,,,,Gen:Misc,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Hide,0
+R_1q4alCJcER26EPv,317,no,,,,,,,,,,no,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Hide,0
+R_5yLyXQ6njIOxtC1,318,"I don't have any questions, I mostly understand it.",,,,,,,,,,I don't have any questions.,,,,,,,,,,,Everything was smooth. I find it interesting to learn how PINs and such work.,,Medical-Complex,IoT-Simple,Hardware,Show,1
+R_3jOCveTsQro8Nhq,319,No questions,,,,,,,,,,No questions,,,,,,,,,,,No comments.,,Medical-Simple,IoT-Complex,Unsubstantial,Show,1
+R_8iPCaSiHHS7sbiQ,320,What protections against hackers into this system are there?,,Risk:Hacking,,,,,,,,no,,,,,,,,,,,no,,Medical-Simple,IoT-Complex,Trust,Show,1
+R_5224ET6kbNcfjq1,321,None,,,,,,,,,,What protections does a TEE have. It’s isolated but it seems these days that anything can be hacked.,Distrust:Vague,Risk:Hacking,,Gen:How?,,,,,,,You actually educated me a little about TEEs.,,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_2HLbmP2oOatWfMj,322,Are TEEs  regularly tested for vulnerabilities? Who are the main vendors of TEEs and what is their reputation for security and safety?,,,,Gen:Answered,,,,,Guarantee:Testing,I never heard of TEEs till this study. Is there a common name of this technology? Does this technology slow down the system significantly?,,,,Gen:Misc,,Use:Real,,,,,Maybe the history of TEEs and how long they have been used would make TEEs more trusted.,,Medical-Simple,IoT-Simple,Trust,Show,1
+R_50IUbYswWY79Nn3,323,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_2nGUq0TMIRy9x2F,324,no questions,,,,,,,,,,No questions about TEEs in general,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,None,0
+R_8b43mrgMwApy7sW,325,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Hide,1
+R_1CfR0aofwfWqwe4,326,Nope,,,,,,,,,,Nope,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,None,0
+R_28NdY33hRilOgey,327,I think I understand it pretty well,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_2HugklosnmgLmAY,328,The ways in which TEEs behave puts me at ease when it comes to feeling that my data will be safe and protected.,,,,,,,,,,The fact that TEEs protect programs and data even when other software on the computer is acting maliciously is what puts my mind at ease that my data will be safe.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,None,0
+R_21ToDeqhPQTY74t,329,n/a,,,,,,,,,,n/a,,,,,,,,,,,n/a,,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_3qvAt7olpNlWl9O,330,None,,,,,,,,,,"The idea seems so abstract, more information or an example might be helpful",,,,Gen:How?,,Use:Real,,,,,No,,Medical-Simple,IoT-Simple,None,Hide,0
+R_1qjW65lkqYC7fdg,331,"Seems like a program is safe to use and secure to a point. Data is collected and saved, then used. ",,,,,,,,,,Program seems safe and is working as good as programmed by the human creators.,,,,,,,,,,,"Thank you. Words read well on my Android Smartphone. No technical issues either. This project was a bit technical in reading nature, I had to reread paragraphs to try to understand all the written language. Have a good day.",,Medical-Complex,IoT-Simple,Hardware,Show,1
+R_3tg6hGEvXMOerqA,332,Just who gets access to information on my chart.,,,,,,,Scenario:People,,,How long the information is stored. What one would have to do to remove their information.,,,,,,,Scenario:Data,,,,Best of luck with your study.,,Medical-Complex,IoT-Complex,None,Show,0
+R_1BIOYfojeGoif2p,333,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_7DvYkelERHA2K7N,334,"None, thank you",,,,,,,,,,"None, thank you",,,,,,,,,,,"No, thank you",,Medical-Simple,IoT-Complex,Trust,Hide,0
+R_2lcJwAxXh4Zdwdr,335,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Show,1
+R_75AhqCnbb7F31Z1,336,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_7XaQ0ifXrvmWnQp,337,"How does it isolate itself, statistics on efficiency, more specific information about the process. ",,,,Gen:Implementation,Gen:Isolation,,,,,Level of protection peer reviewed,,,,,,,,,Guarantee:General,,Nothing can ever be 100% safe,,Medical-Simple,IoT-Complex,Trust,None,1
+R_81KfWNaviHn4zBf,338,NA,,,,,,,,,,NA,,,,,,,,,,,NA,,Medical-Complex,IoT-Simple,Trust,Hide,0
+R_2CB7WnOrnWj1c8V,339,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,0
+R_3wBtJB0LRcUczMD,340,none,,,,,,,,,,no,,,,,,,,,,,no,,Medical-Simple,IoT-Complex,None,Show,1
+R_52aJA6joLZZWleS,341,What do they do? How are they used? What are their benefits?,,,,Gen:How?,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Simple,None,None,1
+R_2EoOQQllatTs7kG,342,"I am pretty sure that I comprehend what they are, but I do think that I need it broken down into simpler explanations or maybe with a visual example.",,,,Gen:Visual,,,,,,Nothing more than previously stated.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_1VSA4XziOQm59Wp,343,,,,,,,,,,,I think more explanation on how it protects users would put my trust into it more.,,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,0
+R_2ivaJrNFt1BLfbz,344,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,Show,0
+R_1uvn0gTA3pUqAIH,345,I have none,,,,,,,,,,I have none,,,,,,,,,,,humans can't be trusted 100%,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_3FQgGcvo9kx4adg,346,TEEs are likely not failsafe. There is always a chance of misuse of data.,Distrust:TEE,Risk:General,,,,,,,,I understand TEEs but don't fully trust anything with my data.,Distrust:Vague,,,,,,,,,,"No, I don't.",,Medical-Simple,IoT-Simple,None,None,1
+R_1KYMsSvZuFvbo6R,347,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Hide,0
+R_8pvt4M0BHJpHKkp,348,None,,,,,,,,,,None,,,,,,,,,,,N/A,,Medical-Complex,IoT-Complex,Unsubstantial,Show,1
+R_7KVQYI9SKZSCxVv,349,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Hide,0
+R_3J2RUjqv2NOMYnR,350,none at this time.,,,,,,,,,,"no questions about TEEs. It makes sense, but anything can be hacked ultimately. ",Distrust:Vague,Risk:Hacking,,,,,,,,,nothing at this time. Thanks for allowing me to participate. Great to learn something new!,,Medical-Simple,IoT-Simple,Hardware,Show,0
+R_2DLUd8otc8zeuMO,351,What is a TEE???,,,,,,,,,,What is a TEE??,,,,Gen:What?,,,,,,,,,Medical-Complex,IoT-Simple,None,None,0
+R_2uyvUlWJ6wDBm8a,352,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Hardware,Show,1
+R_85qKULfHypJrh1D,353,None.,,,,,,,,,,None,,,,,,,,,,,I think in order to trust TEEs there needs to be a clearer explanation of how it is different so that hackers can’t access the information.,,Medical-Complex,IoT-Simple,Trust,None,1
+R_1oj5YlCZeZNEP75,354,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_2AMYQPElahTE8GC,355,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Show,1
+R_20tMc4u2zEGKrMH,356,None,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_6dFx0wTHXFbSLS5,357,,,,,,,,,,,,,,,,,,,,,,I thought this was pretty interesting! I had no idea what TEEs were and am actually going to look into them now.,,Medical-Complex,IoT-Simple,None,Hide,0
+R_3l4aASoH0UirNA4,358,What is the oversight on the TEE company,,Risk:General,,,,,,,,Is there any insurance on my data if the TEE were to get hacked? What other programs/devices use this same TEE system?,,Risk:Hacking,,,,,Sceanrio:Fail,Scenario:Misc,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_7IL6NwYCvXCSyoq,359,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Complex,Hardware,Show,1
+R_2CBFjBbpQvivs3b,360,I guess what training is required to access it?,,,,,,,Scenario:People,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,1
+R_7qjVm78A7fUXbhH,361,N/A,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,None,0
+R_7BzgNGsj6wdBmIQ,362,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Complex,Trust,None,1
+R_8Gzzl0RnfAUxMiJ,363,,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,1
+R_2BRl8liY1EDVqxP,364,Nothing,,,,,,,,,,Nothing,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,None,0
+R_5W8jRbjfY26qwBX,365,I want to know how well it works and what it if does not work what do you do,,Risk:Fail,,,,,Sceanrio:Fail,,Guarantee:General,Nothing at all,,,,,,,,,,,good survey,,Medical-Complex,IoT-Simple,Trust,None,1
+R_5E6smihTvN5qKV1,366,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,1
+R_2AEGfbtZ67nq5ow,367,N/a,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,0
+R_1PKLXfV089xvWPL,368,More lamen terms understanding of how TEEs work.,,,,Gen:Untechnical,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Hide,1
+R_3puva9ckOnGVx4q,369,N/A,,,,,,,,,,N/A,,,,,,,,,,,N/A,,Medical-Complex,IoT-Complex,Hardware,None,0
+R_1sVSKvoicXyMrAt,370,None,,,,,,,,,,N/a,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,Hardware,Show,0
+R_1Q59GpUY1E8zdNq,371,How can we be sure Tee can evolve with upcoming technology?,,,,Gen:Misc,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,1
+R_2C3aN7RRIJxWsTI,372,none I think I understand them well,,,,,,,,,,none I feel like I understand them well,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Unsubstantial,None,0
+R_2gM9wABLgHgaWNS,373,No questions at this time! :),,,,,,,,,,I have no questions! :),,,,,,,,,,,"I really enjoyed learning about TEEs, it helped me feel more comfortable about my data being shared.",,Medical-Simple,IoT-Simple,Trust,Hide,0
+R_2kRkpeOSwexeLRf,374,i am pretty confident i understand how the TEEs work.,,,,,,,,,,is there safety in protecting from people who work with the information that they cant leak it?,,Risk:People,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Show,1
+R_2dXTLbyHDNyDelH,375,Up abovr.,,,,,,,,,,Can all thwse functions be turned off. And what if anything or where if any where is my data sent ro google or amazon or is my data stay put.,,,,Gen:Misc,,,Scenario:Data,,,,This was vry hard to follow.,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_3E5Um2tCLyQAIqn,376,How is this different than any other program used to secure data,,,,Gen:Misc,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Hide,1
+R_8ffH1rjS69tQ5Vf,377,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Complex,IoT-Simple,Trust,None,0
+R_3DtNPfIsUVo7FET,378,None,,,,,,,,,,Why should a TEE make me feel any less weird about how invasive tracking my data is?,Distrust:Vague,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,0
+R_3gOupvonU31s74C,379,I still would like assurance on how data is protected after the company and relative collectors are done.,,,,,,,,,,"Relative to above, my question would still be what happens to the protections provided by TEEs AFTER the fact?",,,,,,,Scenario:Future,,,,I enjoyed wrestling with some of these concepts and their implications. Thanks for having me!,,Medical-Simple,IoT-Simple,Unsubstantial,Hide,0
+R_8mUVmBeywZsPjLi,380,What happens to your data when the research is finished and it is no longer needed. Is there truly a way to completely delete it.,,,,,,,Scenario:Data,,,I would love to see a diagram of this and how it works to even better comprehend the transactions between the TEE and the hardware and software up front.,,,,Gen:How?,,,,,,,How will TEEs evolve?  What is the future for this type of technology. Is there a way to store my personal data for myself in something like a TEE that only I can access or people I allow?,,Medical-Complex,IoT-Complex,Hardware,Hide,0
+R_5qaK1G3cf1n5Jn1,381,I'm not clear on why TEEs wouldn't be applied everywhere. Data breaches are becoming so common; what is the downside of using a TEE?,,Risk:General,,,,,,,,"Once again, what is the downside (if any) of using a TEE?",,,,,,,,,,,I don't have any feedback,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_25NMsbSseZxGszx,382,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_7QatRifTVsNtw9W,383,N/a,,,,,,,,,,N/a,,,,,,,,,,,N/a,,Medical-Complex,IoT-Simple,Trust,None,0
+R_7U58l0dDt0rvQrr,384,I think what made me unsure of safety are the words 'when other software on the computer is behaving maliciously.',Distrust:Vague,,,,,,,,,"Again, the words, 'when other software on the computer is behaving maliciously', makes me feel unsafe. ",,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,None,1
+R_7PRxZJR79aOxswB,385,Nothing comes to mind.,,,,,,,,,,Nothing comes to mind.,,,,,,,,,,,Nothing comes to mind.,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_81nscanoUCDrw9B,386,Understanding how my information would be used could be helpful,,,,,,,Scenario:Data,,,No questions at this point,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,None,1
+R_3X6EJZMsrqGRyhO,387,,,,,,,,,,,the researchers can open the tee and use the data. so they can access the tee. it is possible someone with ill intent can steal the data,,Risk:People,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Show,1
+R_7OiQNKH5EorPgrv,388,"I feel I understood enough. More info is always more helpful, but there was a good amount there.",,,,,,,,,,Not now,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Hide,1
+R_1e7axH5nRjXpgJj,389,NA,,,,,,,,,,Maybe they could add more detailed information how they save data and protect it,,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_10U61XwpgeK3L2c,390,I have no other questions.,,,,,,,,,,No other questions.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Show,1
+R_2PiA8BsVIy2Rqq5,391,N/A,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_31636W8VIisYRzk,392,n/a,,,,,,,,,,n/a,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Show,1
+R_29YQTPFrQaEGPSN,393,,,,,,,,,,,What exactly can be changed within the program and data,,,,Gen:Misc,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,None,0
+R_3bQPiVdsmMAEo6J,394,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Show,1
+R_5CjDE3wo6YQxgk0,395,What kind of protections do TEE's give?,,,,Gen:What?,,,,,,No questions at this time.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,None,1
+R_3zjybtkKhUN0DmN,396,no,,,,,,,,,,no,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_3iDvwjBt8r3GSQh,397,i dont have any questions.,,,,,,,,,,No other questions.,,,,,,,,,,,Great Survey! Very interesting!,,Medical-Simple,IoT-Complex,None,Show,0
+R_5CytN6W5J7rroqd,398,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_2njwNgqTK9DmXBo,399,None,,,,,,,,,,I don't have any questions,,,,,,,,,,,"I always felt data on my phone is safe from hackers. Knowing it is probably by use of  a TEE was informative. I'm usually untrusting of giving my data away, but I'm sure data is always being taken without my knowledge anyways. ",,Medical-Simple,IoT-Simple,Hardware,Show,0
+R_1cnqZx8E4s2KrVn,400,I don't think I have any.,,,,,,,,,,I don't think I have any.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_8FLEkkZmLze3zNO,401,,,,,,,,,,,"There are no safeguards, regulations or standards. Even if there were, there is still not an agency responsible for oversight. So, the consumer is left to just trust that a corporation will safeguard their privacy, data and information? It’s laughable that people really believe that companies actually have altruistic policies. ",Distrust:Manufactuerer,,,,,,,,Guarantee:Cert,,,,Medical-Complex,IoT-Complex,None,None,0
+R_6dMgwdTV7jrm2HL,402,no questions,,,,,,,,,,I don't have any questions about TEE's,,,,,,,,,,,none,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,0
+R_1QKm2BDvyTWFwsZ,403,When do hospitals or people decide when to use TEEs or not,,,,,,,Scenario:Misc,,,Which companies use TEEs,,,,,,Use:Real,,,,,,,Medical-Simple,IoT-Simple,None,Show,0
+R_5hLpzqemwXgv0rC,404,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_7R9RZqHohjodqKL,405,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,None,1
+R_57drjoPwkXJvv0i,406,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,Show,1
+R_5Vm0EWANqjMoKJ3,407,Non,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Simple,IoT-Simple,Unsubstantial,Show,1
+R_1dLUaIlnxXaypIP,408,None,,,,,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_75AgL4odiTMfqWY,409,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_20v0N65dLCOcAUh,410,Currently do not have any questions about TEEs.,,,,,,,,,,I currently do not have any questions about TEEs.,,,,,,,,,,,No feedback.,,Medical-Complex,IoT-Complex,Trust,None,0
+R_3OQ8MuIpZKGwKm7,411,None,,,,,,,,,,None,,,,,,,,,,,Thank you for the learning experience. I hope whoever reads this has a great rest of their day.,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_5aqqXbZRRwy6B4k,412,I feel positive about the TEE itself and would like to see it utilized.,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_5FWGDCrHvJCG573,413,n/a,,,,,,,,,,n/a,,,,,,,,,,,n/a,,Medical-Simple,IoT-Simple,Hardware,Show,0
+R_7wbfseINWTZGAoL,414,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_5zpU0uH9VTtEgtT,415,I still want to understand what ways they can or cannot be hacked by malevolent others.,,,,,,,,,,"I need more information about TEEs. I want to understand if they can be hacked, if data from them can appear on the dark web, and how predictable the encryption patterns are or aren't (if that even is an appropriate question to ask). ",,Risk:General,Risk:Hacking,Gen:Encryption,Gen:How?,,,,,,"This is a super interesting study! I am curious about more ways or examples that TEEs could be exemplified, particularly in explaining how they are (or aren't) impenetrable by hackers and other cyber attacks. ",,Medical-Simple,IoT-Complex,None,Show,0
+R_7YSzTGMkZA9VitD,416,I don't really have any questions.,,,,,,,,,,None.,,,,,,,,,,,No.,,Medical-Complex,IoT-Complex,Unsubstantial,None,1
+R_7oYii1LmVfBiDDX,417,None,,,,,,,,,,No,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_1shU2dOtAd1ItNj,418,None,,,,,,,,,,I have an inherent distrust of AI and this type of information-collecting technology.,Distrust:Scenario,,,,,,,,,,I learned about TEEs for the first time.,,Medical-Complex,IoT-Complex,Hardware,Hide,0
+R_2sc67ESgU29lsCl,419,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Hide,0
+R_5PoudNrvgTIfyIv,420,None,,,,,,,,,,None it’s just another program/ policy that if implemented correctly maybe good for the consumers but I have limited faith. It’s all legal jargon to cover corporate powers.,Distrust:Vague,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_5CvYWX49HUUeJtt,421,How effective are they at protecting information in the event of a data leak,,Risk:Fail,,,,,,,,How effective they are at protecting info in a data leak.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,None,1
+R_1wLHVNbnO4cXAoR,422,Who are the authorized personnel that would have access to the information and change the program.,,,,,,,Scenario:People,,,Who has access to my data?,,,,,,,,,,,I have no questions at this time.,,Medical-Simple,IoT-Complex,Trust,None,1
+R_33fZSKLxNjYY5Q1,423,"Without knowing the exact configuration and architecture of the TEE, among other unknown technical aspects, it is impossible to know how much safer it really makes things. Many exploits have existed in similar applications.",,Risk:Real,,Gen:Implementation,,,,,,"No question, other than I want to know the configuration of the TEE and the processor its running on.",,,,,,,,,,,Could have included more information about the TEE,,Medical-Simple,IoT-Simple,None,None,1
+R_3f6D8oyw8TwAk5k,424,How do I keep my data completely confidential from everyone,,,,,,,,,,how do I keep my entire data confidential,,,,Gen:How?,,,,,,,,,Medical-Simple,IoT-Simple,None,None,0
+R_3WLTmuiK2rWpqcV,425,N/A,,,,,,,,,,N/A,,,,,,,,,,,N/A,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_5EYhvMyhTa0JI3B,426,,,,,,,,,,,,,,,,,,,,,,"TEEs may work as they are designed, however it’s the human factor that makes the protected data vulnerable. Researchers who have access to the data are human and can ultimately misuse it for their own reasons.",,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_80NV9dAxyo95hse,427,no questions,,,,,,,,,,no questions,,,,,,,,,,,No feedback,,Medical-Complex,IoT-Complex,None,Show,1
+R_2JLujRaJB3zW7yU,428,"Overall I feel that the information about TEEs is clear, but the different softwares involved make it more complicated; hard to follow.",,,,Gen:Untechnical,,,,,,I feel that I have a fairly good idea about TEEs.,,,,,,,,,,,Great study with an interesting premise!,,Medical-Complex,IoT-Complex,Unsubstantial,Show,1
+R_2YRjZaUtsg2fj9O,429,Is the goal to somehow use TEEs as a marketing element? Sounds like a stretch of purpose to me.,,,,,,,,,,"How is the code declared trusted? Is there independent review? Key escrow? There is still a lot of ""blind trust"" in your description of a TEE.",Distrust:TEE,,,,,,,,Guarantee:General,,"It appears that researchers may be over-stating the benefits and protections of TEEs, or perhaps they are trying to see if people are over-influenced by such language. ",,Medical-Complex,IoT-Complex,Unsubstantial,Hide,0
+R_11Nwa5gLTmWXkn5,430,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,0
+R_2WvAcPCguhYCLwl,431,None.,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,None,0
+R_8poqwBt5UTiIpXp,432,How many known programs have been able to emulate a trusted application to mimic and allow access that should be denied?,,,,,,Use:Breaches,,,,This application almost seems like it would be overkill to implement a TEE for data protection.  I would imagine that standard data security procedures would be enough for this.,,,,Gen:Misc,,,,,,,,,Medical-Complex,IoT-Simple,Trust,Hide,1
+R_80pFJzaj9s58GF7,433,N/A,,,,,,,,,,I would like to learn more about TEEs to accurately judge just how secure this process truly is.,,,,Gen:How?,,,,,,,N/A,,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_1QU66JPD2Sy0dJ7,434,Are TEEs vulnerable to zero day exploits or viruses and attacks that target virtual machines and isolated systems?,,Risk:General,,Gen:Tech,,,,,,None,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_27j81arMXdtU0PW,435,,,,,,,,,,,how about quantum computers,,,,Gen:Misc,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,0
+R_1yrJKqGsDYtuYTv,436,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_7fmYQSc1vO0vkWt,437,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_2Hk3tr3wUA8Njw6,438,NA,,,,,,,,,,NA,,,,,,,,,,,"Overall, the protections offered by TEEs are a significant advancement in data security. However, the effectiveness of these protections depends on correct implementation, user education, and continuous improvement. Surveys like this are valuable for understanding user concerns and guiding future developments in TEE technology.
+",,Medical-Complex,IoT-Complex,None,Show,1
+R_5WAPGDHtzOqBfnX,439,,,,,,,,,,,What exactly makes it less prone to data breeches?,,Risk:General,,Gen:How?,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_20IimbcslKBs9e9,440,No questions at the moment.,,,,,,,,,,None at the moment.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_5DJtqtTZ57zjbR7,441,Still want to known about the “stored separately” quantity,,,,Gen:Isolation,,,,,,Not sure the isolation is good enough to secure data,Distrust:TEE,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_2rP9Bf9tnzToq39,442,Although both could be detrimental Personal data and health data are two separate concerns of mine?,,,,,,,Scenario:Data,,,Even if the data is safe now in our current climate who knows how safe the data will be in the future?,Distrust:Vague,,,,,,,,,,Thank you,,Medical-Complex,IoT-Complex,None,Show,0
+R_5CeUWSrEuFGhVRC,443,What makes it different from the built in safety measures of the computer.,,,,Gen:Tech,,,,,,"I want to know specifics, like the technical side of how it is safe even if the computer is compromised.",,,,Gen:Implementation,Gen:Isolation,,,,,,Great survey! looking forward to more!,,Medical-Simple,IoT-Simple,Trust,None,1
+R_7E25JM6lhLt4kM1,444,No questions,,,,,,,,,,No questions.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,1
+R_5CJLpfFgeFRhDO5,445,I don't have any additional questions.,,,,,,,,,,I have no questions about TEEs.,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_7jv62qaMdTS9Ssn,446,,,,,,,,,,,,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Hide,1
+R_2jPgy2o7dhfyL9n,447,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,0
+R_5JahoonT2AMp8I1,448,n/a,,,,,,,,,,n/a,,,,,,,,,,,n/a,,Medical-Complex,IoT-Complex,Trust,Show,1
+R_81lgWqsHMwj4enD,449,Would the people in the research team be under contract to not leak any personal information?,,,,,,,Scenario:People,,,"Don't have any questions, just unsure if they can be completely safe.",Distrust:Vague,,,,,,,,,,,,Medical-Complex,IoT-Simple,Trust,None,1
+R_5P6SFIavR4ABtlY,450,"None, that was a good description in the above text.",,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Unsubstantial,None,1
+R_7rDvZHB9ez4IDs1,451,How do these differ from a virtual machine or running the program in a sandbox environment?,,,,Gen:Tech,,,,,,I do not have further questions at the moment.,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,1
+R_2U4t6crFXgDhE6k,452,In a real world scenario I would probably feel more safe sharing my information if I knew which company of researchers was collecting my data for the hospital.,,,,,,,Scenario:People,,,The only portion of the question and scenario that feels unsafe or rather worrisome is the desire to collect information on my address. Unless explained why that information is needed it comes off as a too personal of information to share with a company over a lightbulb. The TEE itself and the description of what it provides in terms of protected data and how it works sounds perfectly safe.,,,,,,,Scenario:Data,,,,I have no further feedback.,,Medical-Simple,IoT-Simple,Unsubstantial,Show,0
+R_7daIzbWGhqb7vZi,453,Who owns and controls the data the hospital or the medical institute or the AI company.,,,,,,,Scenario:Data,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Hide,1
+R_7t9TraIlqoFWFat,454,None,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Complex,IoT-Simple,Unsubstantial,Show,1
+R_5jDQGrEz2j46YVb,455,n/a,,,,,,,,,,n/a,,,,,,,,,,,n/a,,Medical-Simple,IoT-Simple,Hardware,Hide,1
+R_3JZRK4A5GVZXhi9,456,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_15TsxcbH10l6kq5,457,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Complex,IoT-Complex,Hardware,None,0
+R_2nr9GJdLi700Prb,458,The elusive TEE remains unexplained...,,,,,,,,,,"TEE completely unexplained, I have no idea what impact it has on safety. Not having available option to select ""unsure/don't know"" probably invalidates results",,,,Gen:What?,,,,,,,"Not sure if TEEs was explained and I missed it, or if this was all part of the study?",,Medical-Complex,IoT-Complex,None,None,0
+R_58zFKBIJGj3Gnio,459,No,,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Complex,None,Show,0
+R_3j71REwxc60rkLh,460,No questions.,,,,,,,,,,What strategies are going to be implemented to insure a very low probability that the system will be not hacked?,,Risk:Hacking,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,None,0
+R_1OxlOWvHeLPEQBv,461,It seems safe but I know nothing is 100% which is why I chose the answers I did.,Distrust:Vague,,,,,,,,,None,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Trust,Hide,1
+R_1Uc7Ugz57JHI7Hk,462,N/a,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Hide,0
+R_259y0EzF7o6ODfP,463,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Trust,Show,0
+R_2xWbzgIVcx8CvI8,464,i think i understand.,,,,,,,,,,generally technology makes me feel more safe. i like that the information is protected by a tee.,,,,,,,,,,,thank you :),,Medical-Complex,IoT-Simple,Unsubstantial,None,0
+R_3XpX69wiO1joU3n,465,I'd like to know if a TEE has ever been compromised and what was the circumstances that led to the compromise.,,,,,,Use:Breaches,,,,"I liked the first scenario and the ""real world"" example as to how a TEE is used in an Android phone. The one thing that got me stumped was the use of SGX, I have no idea what that is and I couldn't find an explanation in the information provided.",,,,Gen:Misc,Gen:Untechnical,,,,,,"I found this very informative and enjoyed the study. I really want to know if a TEE has ever been compromised, so I will be looking that up.",,Medical-Complex,IoT-Simple,Hardware,Show,0
+R_1Cl20FydBDOpFZ9,466,No questions,,,,,,,,,,no questions,,,,,,,,,,,No feedback,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_58JahOiJ0YHqcdy,467,I think explaining the limits and issues of those who access the information would be helpful.,,,,Gen:Misc,,,,,,Nothing else,,,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,1
+R_7rjufige301IWaF,468,N/A,,,,,,,,,,N/A,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,None,1
+R_3PpyETNMNAoMvo2,469,"None, I feel like it is something that can be trusted.",,,,,,,,,,"None, though I would like to know why the name or address matter at all for lights data",,,,,,,Scenario:Data,,,,None,,Medical-Complex,IoT-Simple,None,Hide,1
+R_2C9AGhafKeCFiIV,470,nothing comes to mind,,,,,,,,,,nothing comes to mind,,,,,,,,,,,"not really, I feel I need to research TEEs to learn what this would mean for me",,Medical-Simple,IoT-Simple,Hardware,Show,0
+R_51gILf07pcgGMIG,471,,,,,,,,,,,Reminds me of the movie The Net.,Distrust:Vague,,,Gen:Misc,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Show,0
+R_7f8QCw4hLAdoHM2,472,None,,,,,,,,,,I was confused about the TrustZone and SGX examples - do those exist currently and is one better than the other?,,,,Gen:Misc,,Use:Real,,,,,,,Medical-Complex,IoT-Complex,Hardware,Hide,0
+R_6zhy4vJjoVSghRv,473,none,,,,,,,,,,none,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Unsubstantial,Hide,1
+R_20q4QPdULShNl7J,474,None,,,,,,,,,,none,,,,,,,,,,,No,,Medical-Simple,IoT-Complex,None,None,1
+R_1pJJiGeAHpB8TuB,475,N/a,,,,,,,,,,I want to know what makes it un hackable.,,Risk:Hacking,,Gen:How?,,,,,,,N/a,,Medical-Complex,IoT-Simple,Trust,Show,0
+R_3qJQk2dkarfyoZh,476,None,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_7C6nvDxRShMcA1P,477,Only the same question I had before.,,,,,,,,,,Why aren’t TEES in more programs if they’re so great?,Distrust:Vague,,,,,Use:Real,,,,,N/A,,Medical-Complex,IoT-Simple,Trust,None,0
+R_5kZVczZuKhn0j5n,478,No questions,,,,,,,,,,How long has this TEE been in the making and how long has it been tested and is it safe to bring ok the market,,,,,,Use:New,,,Guarantee:Testing,,,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,0
+R_2MA4GFZM0SlJGrE,479,None,,,,,,,,,,None,,,,,,,,,,,No,,Medical-Complex,IoT-Simple,Trust,None,1
+R_8EMAASHWm1eOChr,480,I feel like one would need a more in depth explanation about how TEEs work.,,,,Gen:How?,,,,,,NA,,,,,,,,,,,,,Medical-Complex,IoT-Complex,None,Hide,1
+R_7N8016YJaAzPusp,481,How is data protected from future research projects that may not be as ethical.,,,,,,,Scenario:Future,,,Are there any ways around the stated safeguards.  Can a TEE be compromised?,,Risk:General,,,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_53rUkAsbSdlf58c,482,I have none so far,,,,,,,,,,"So far I don’t have any questions, i seem to trust them more knowing they’re currently in almost every device we use, everyday",,,,Gen:Misc,,,,,,,,,Medical-Simple,IoT-Complex,Unsubstantial,Show,0
+R_6Qtlh3JgrcbbJcc,483,,,,,,,,,,,,,,,,,,,,,,,,Medical-Complex,IoT-Simple,None,None,0
+R_1Cx48mmwendGAgj,484,Would like a more understandable summary as well as examples where they have succeeded and failed if available).,,,,Gen:Untechnical,,Use:Real,,,,Same as first scenario.,,,,,,,,,,,,,Medical-Simple,IoT-Simple,Hardware,Show,1
+R_5wSVhJrI9bSIPwl,485,no questions,,,,,,,,,,no,,,,,,,,,,,no,,Medical-Complex,IoT-Complex,Hardware,Hide,1
+R_2TATje6AHBGtFMQ,486,"same as before.  ability to delete, retention policy.  ",,,,,,,,,,is data kept indefinitely? can I request deletion of my history?,,,,,,,Scenario:Data,,,,"i understand the concept, but I’m always leery of claims something is completely secure.  ",,Medical-Simple,IoT-Complex,Unsubstantial,None,0
+R_2OE40tXyuj8KoRr,487,None,,,,,,,,,,None,,,,,,,,,,,None,,Medical-Simple,IoT-Simple,Hardware,None,1
+R_2zIvNAAjXnTbRxD,488,No questions,,,,,,,,,,No questions.,,,,,,,,,,,No,,Medical-Simple,IoT-Simple,Trust,Hide,1
+R_7D2j6sji7kzsfT9,489,No questions,,,,,,,,,,I have no questions.,,,,,,,,,,,No other thoughts,,Medical-Complex,IoT-Complex,Unsubstantial,Hide,0
+R_2QKlaRJVizoprdb,490,"None, really.",,,,,,,,,,None.,,,,,,,,,,,"TEEs are an interesting development, that's all.",,Medical-Complex,IoT-Complex,Hardware,Show,1
+R_3pmttqgW1ZQvUMO,491,I don’t think anything further would bring my assurance levels any higher.,,,,,,,,,,I don’t have further questions at this time,,,,,,,,,,,I don’t have any at this time,,Medical-Simple,IoT-Complex,Hardware,Hide,1
+R_57zqWdN7PF5L1mN,492,N/A,,,,,,,,,,"Need more information, never heard of a TEE. Would like to hear instances when a TEE would be used.",,,,Gen:How?,,Use:Real,,,,,N/A,,Medical-Complex,IoT-Complex,Unsubstantial,None,0
+R_81Mc0ZltMOJAKbn,493,Whether or not TEE is an open-sourced method or a closed-sourced method.,,,,,,,,,,Whether or not this method is an open-sourced method or a closed-sourced method.,,,,Gen:Open Source,,,,,,,,,Medical-Simple,IoT-Simple,Trust,Hide,0
+R_7ErRM0QrKAmPNlS,494,Does the research team get thorough background checks?,,,,,,,Scenario:People,,,,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,Show,0
+R_8FfAfEhsQYBPKY1,495,"Prior to searching an explanation for myself, i had no idea what a TEE was or how it protected my data",,,,Gen:What?,,,,,,none,,,,,,,,,,,,,Medical-Simple,IoT-Simple,None,None,1
+R_3agQzmIw7YgMYjT,496,Security for TEE access?,,,,Gen:Misc,,,,,,Nothing right now.,,,,,,,,,,,,,Medical-Complex,IoT-Simple,Hardware,Hide,1
+R_2k1i2ZlnFR3d8Ik,497,What protections are in place to keep from getting hacked?,,Risk:Hacking,,,,,,,,None.,,,,,,,,,,,"A little more information to consumers about how TEE works in regard to safety would be good I think. You all do describe who and how the information is protected as far as who it goes to, but what keeps it truly safe? Thanks!",,Medical-Complex,IoT-Complex,None,None,1

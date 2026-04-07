@@ -1,0 +1,99 @@
+---
+title: "Safety Aspects: With vs. Without TEE Information"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Do safety perceptions differ when participants have TEE information?
+
+We test whether perceived safety across five aspects differs between
+participants who received any TEE information (any explanation or FAQ)
+and those who received none, separately per scenario.
+
+A Mann-Whitney U test (`wilcox.test`, unpaired) is used for each
+aspect × scenario combination. Benjamini-Hochberg (BH) correction is
+applied across the five aspects **within each scenario**.
+
+Results are saved to `Mann-Whitney_U_bh_corrections.csv`.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(purrr)
+library(tibble)
+```
+
+---
+
+## Load data
+
+```{r load-data}
+scores <- read.csv('./data/followup/scores_all_levels_safety.csv', header = TRUE)
+
+safety_levels <- c(
+  "Definitely safe", "Somewhat safe",
+  "Neither safe nor unsafe",
+  "Somewhat unsafe", "Definitely unsafe"
+)
+
+convert_to_numeric <- function(x) {
+  factor(x, levels = safety_levels, labels = c(5, 4, 3, 2, 1))
+}
+
+scores <- scores |>
+  dplyr::mutate(across(starts_with("safety_"), convert_to_numeric))
+
+scores$EXPLN <- factor(scores$EXPLN,
+  levels = c("No explanation", "Unsubstantial", "Hardware", "Trust"))
+scores$FAQ   <- factor(scores$FAQ,
+  levels = c("No FAQ", "Hide", "Show"))
+scores$scenario <- factor(scores$scenario,
+  levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+
+# info = TRUE if participant received any explanation or FAQ
+scores <- scores |>
+  dplyr::mutate(info = !(EXPLN == "No explanation" & FAQ == "No FAQ"))
+```
+
+---
+
+## Mann-Whitney U tests per scenario with BH correction
+
+```{r run-tests}
+scenarios <- c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple")
+aspects   <- c("safety_people", "safety_data", "safety_companyHospital",
+               "safety_purpose", "safety_tee")
+
+perform_test <- function(data, aspect) {
+  numeric_data <- as.numeric(as.character(data[[aspect]]))
+  test_data    <- data.frame(value = numeric_data, info = data$info)
+  out          <- wilcox.test(value ~ info, data = test_data)
+  tibble::tibble(
+    aspect = aspect,
+    W      = unname(out$statistic),
+    p_raw  = out$p.value
+  )
+}
+
+results <- purrr::map_dfr(scenarios, function(sc) {
+  subset <- dplyr::filter(scores, .data$scenario == sc)
+  purrr::map_dfr(aspects, ~perform_test(subset, .x)) |>
+    dplyr::mutate(
+      scenario = sc,
+      p_BH    = p.adjust(p_raw, method = "BH"),
+      PreSig  = p_raw <= 0.05,
+      PostSig = p_BH  <= 0.05,
+      Status  = dplyr::case_when(
+        PreSig & !PostSig ~ "Lost significance",
+        !PreSig & PostSig ~ "Gained significance",
+        PreSig & PostSig  ~ "Stayed significant",
+        TRUE              ~ "Not significant"
+      )
+    ) |>
+    dplyr::select(scenario, aspect, W, p_raw, p_BH, Status)
+})
+
+write.csv(results, "Mann-Whitney_U_bh_corrections.csv", row.names = FALSE)
+print(results)
+```

@@ -1,0 +1,479 @@
+---
+title: "Comprehension Regressions: First Study"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Binomial Logistic Regressions — First Study Comprehension
+
+We run binomial logistic regressions to test whether explanation type
+(`EXPLN_S1`, `EXPLN_S2`, `EXPLN_S3`) and domain experience predict correct
+answers for each comprehension question (Q1–Q10, stored as columns A–J).
+
+Models are fit separately per scenario (Medical Simple, Medical Complex,
+IoT Simple, IoT Complex). Benjamini-Hochberg (BH) correction is applied
+across the four scenarios **within each predictor term**.
+
+Results include odds ratios (OR), 95% confidence intervals, and
+McFadden's R². They are saved to `BH_correction_1stStudy.csv`.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(broom)
+library(sjPlot)
+library(car)
+library(purrr)
+```
+
+---
+
+## Load data
+
+```{r load-data}
+scores_medicals <- read.csv('./data/firststudy/scores-medicals.csv', header = TRUE)
+scores_medicalc <- read.csv('./data/firststudy/scores-medicalc.csv', header = TRUE)
+scores_iots     <- read.csv('./data/firststudy/scores-iots.csv',     header = TRUE)
+scores_iotc     <- read.csv('./data/firststudy/scores-iotc.csv',     header = TRUE)
+
+prepare_data <- function(df) {
+  names(df) <- gsub(" ", "_", names(df))
+  df$EXPLN_S1 <- factor(df$EXPLN_S1, levels = c("Unsubstantial", "Hardware", "Trust"))
+  df$combined_CS_Experience      <- as.factor(df$combined_CS_Experience)
+  df$combined_Medical_Experience <- as.factor(df$combined_Medical_Experience)
+  df$combined_IoT_Experience     <- as.factor(df$combined_IoT_Experience)
+  df
+}
+
+scores_medicals <- prepare_data(scores_medicals)
+scores_medicalc <- prepare_data(scores_medicalc)
+scores_iots     <- prepare_data(scores_iots)
+scores_iotc     <- prepare_data(scores_iotc)
+```
+
+---
+
+## Medical Simple
+
+```{r}
+regression_results <- scores_medicals
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_Medical_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = regression_results, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+scores_medicals = regression_results
+
+```
+
+## MedS 1
+
+```{r}
+results <- regression_model("A")
+```
+## MedS 2
+
+```{r}
+results <- regression_model("B")
+```
+
+## MedS 3
+
+```{r}
+results <- regression_model("C")
+```
+
+## MedS 4
+
+```{r}
+results <- regression_model("D")
+```
+
+## MedS 5
+
+```{r}
+results <- regression_model("E")
+```
+
+## MedS 6
+
+```{r}
+results <- regression_model("F")
+```
+
+## MedS 7
+
+```{r}
+results <- regression_model("G")
+```
+
+## MedS 8
+
+```{r}
+results <- regression_model("H")
+```
+
+## MedS 9
+
+```{r}
+results <- regression_model("I")
+```
+
+
+## MedS 10
+
+```{r}
+results <- regression_model("J")
+```
+
+## Medical Complex
+
+```{r}
+regression_results <- scores_medicalc
+
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_Medical_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = regression_results, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+
+scores_medicalc = regression_results
+```
+
+## MedC 1
+
+```{r}
+results <- regression_model("A")
+```
+## MedC 2
+
+```{r}
+results <- regression_model("B")
+```
+
+## MedC 3
+
+```{r}
+results <- regression_model("C")
+```
+
+## MedC 4
+
+```{r}
+results <- regression_model("D")
+```
+
+## MedC 5
+
+```{r}
+results <- regression_model("E")
+```
+
+## MedC 6
+
+```{r}
+results <- regression_model("F")
+```
+
+## MedC 7
+
+```{r}
+results <- regression_model("G")
+```
+
+## MedC 8
+
+```{r}
+results <- regression_model("H")
+```
+
+## MedC 9
+
+```{r}
+results <- regression_model("I")
+```
+
+
+## MedC 10
+
+```{r}
+results <- regression_model("J")
+```
+
+## IoT Simple
+
+```{r}
+regression_results <- scores_iots
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_IoT_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = regression_results, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+scores_iots = regression_results
+
+```
+
+## IoTS 1
+
+```{r}
+results <- regression_model("A")
+```
+## IoTS 2
+
+```{r}
+results <- regression_model("B")
+```
+
+## IoTS 3
+
+```{r}
+results <- regression_model("C")
+```
+
+## IoTS 4
+
+```{r}
+results <- regression_model("D")
+```
+
+## IoTS 5
+
+```{r}
+results <- regression_model("E")
+```
+
+## IoTS 6
+
+```{r}
+results <- regression_model("F")
+```
+
+## IoTS 7
+
+```{r}
+results <- regression_model("G")
+```
+
+## IoTS 8
+
+```{r}
+results <- regression_model("H")
+```
+
+## IoTS 9
+
+```{r}
+results <- regression_model("I")
+```
+
+
+## IoTS 10
+
+```{r}
+results <- regression_model("J")
+```
+
+Binomial logistic regression to check if demographic and experience
+factors affect score (IoT Complex)
+
+```{r}
+regression_results <- scores_iotc
+
+
+regression_model <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 + combined_IoT_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = regression_results, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+scores_iotc = regression_results
+
+```
+
+## IoTC 1
+
+```{r}
+results <- regression_model("A")
+```
+## IoTC 2
+
+```{r}
+results <- regression_model("B")
+```
+
+## IoTC 3
+
+```{r}
+results <- regression_model("C")
+```
+
+## IoTC 4
+
+```{r}
+results <- regression_model("D")
+```
+
+## IoTC 5
+
+```{r}
+results <- regression_model("E")
+```
+
+## IoTC 6
+
+```{r}
+results <- regression_model("F")
+```
+
+## IoTC 7
+
+```{r}
+results <- regression_model("G")
+```
+
+## IoTC 8
+
+```{r}
+results <- regression_model("H")
+```
+
+## IoTC 9
+
+```{r}
+results <- regression_model("I")
+```
+
+
+## IoTC 10
+
+```{r}
+results <- regression_model("J")
+```
+
+# Corrections
+
+```{r}
+
+
+
+run_BH_logistics <- function(dependent_var) {
+  scenario_data <- list(
+    MedicalSimple  = scores_medicals,
+    MedicalComplex = scores_medicalc,
+    IoTSimple      = scores_iots,
+    IoTComplex     = scores_iotc
+  )
+
+  get_model_terms <- function(df, scenario) {
+    exp_var <- if (grepl("Medical", scenario))
+      "combined_Medical_Experience" else "combined_IoT_Experience"
+    
+    f <- as.formula(paste(
+      dependent_var,
+      "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 +",
+      exp_var, "+ combined_CS_Experience"
+    ))
+    
+    model <- glm(f, data = df, family = binomial)
+    broom::tidy(model) |> dplyr::mutate(Scenario = scenario)
+  }
+
+  res <- purrr::imap_dfr(scenario_data, get_model_terms) |>
+    dplyr::filter(term != "(Intercept)") |>
+    dplyr::group_by(term) |>
+    dplyr::mutate(q_value = p.adjust(p.value, method = "BH")) |>
+    dplyr::ungroup() |>
+    dplyr::mutate(
+      Question = dependent_var,
+      PreSig = p.value <= 0.05,
+      PostSig = q_value <= 0.05,
+      Status = dplyr::case_when(
+        PreSig & !PostSig ~ "Lost significance",
+        !PreSig & PostSig ~ "Gained significance",
+        PreSig & PostSig  ~ "Stayed significant",
+        TRUE              ~ ""
+      )
+    ) |>
+    dplyr::select(Question, Scenario, term, p.value, q_value, Status)
+    invisible(res)
+}
+
+
+
+lapply(LETTERS[1:10], run_BH_logistics)
+
+holm_results_letters <- purrr::map_dfr(LETTERS[1:10], run_BH_logistics)
+write.csv(holm_results_letters, "BH_correction_1stStudy.csv", row.names = FALSE)
+
+```
+
+
+
+```{r}
+
+run_Holm_logistics <- function(dependent_var) {
+  scenario_data <- list(
+    MedicalSimple  = scores_medicals,
+    MedicalComplex = scores_medicalc,
+    IoTSimple      = scores_iots,
+    IoTComplex     = scores_iotc
+  )
+
+  get_model_terms <- function(df, scenario) {
+    exp_var <- if (grepl("Medical", scenario))
+      "combined_Medical_Experience" else "combined_IoT_Experience"
+    
+    f <- as.formula(paste(
+      dependent_var,
+      "~ EXPLN_S1 + EXPLN_S2 + EXPLN_S3 +",
+      exp_var, "+ combined_CS_Experience"
+    ))
+    
+    model <- glm(f, data = df, family = binomial)
+    broom::tidy(model) |> dplyr::mutate(Scenario = scenario)
+  }
+
+  res <- purrr::imap_dfr(scenario_data, get_model_terms) |>
+    dplyr::filter(term != "(Intercept)") |>
+    dplyr::group_by(term) |>
+    dplyr::mutate(q_value = p.adjust(p.value, method = "holm")) |>
+    dplyr::ungroup() |>
+    dplyr::mutate(
+      Question = dependent_var,
+      PreSig = p.value <= 0.05,
+      PostSig = q_value <= 0.05,
+      Status = dplyr::case_when(
+        PreSig & !PostSig ~ "Lost significance",
+        !PreSig & PostSig ~ "Gained significance",
+        PreSig & PostSig  ~ "Stayed significant",
+        TRUE              ~ ""
+      )
+    ) |>
+    dplyr::select(Question, Scenario, term, p.value, q_value, Status)
+  
+  res
+}
+
+
+lapply(LETTERS[1:10], run_Holm_logistics)
+
+holm_results_letters <- purrr::map_dfr(LETTERS[1:10], run_Holm_logistics)
+write.csv(holm_results_letters, "Holm_logistics_results_letters.csv", row.names = FALSE)
+
+
+
+```

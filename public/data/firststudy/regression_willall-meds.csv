@@ -1,0 +1,234 @@
+﻿ResponseId,willingness,scenario,safety_post,safety_pre,scenario_complexity,scenario_scenario,EXPLN_S1,EXPLN_S2,EXPLN_S3,age,gender,education,previous_medical_research,medical_job,combined_IoT_Experience,combined_Medical_Experience,combined_CS_Experience
+R_12mf4q3UyXdvtS1,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_13YlxdIhkGwKWZ3,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_147c3Fl0F0zDu0k,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_16wgPFeQY0NPQ53,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Technical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_17A5ghNOMhiMzip,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_17TE5prio7BeEBS,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_19OdQEScuXCpTc5,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1D7pcdNbURwTRm0,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_1D7uIGhTiygt1b4,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1DOb9BeUecTxusQ,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1ErHeTKg6R1uOE1,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1F1Y8wGynsMRT2T,Maybe would,MedicalSimple,Not at all safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_1HB8hccLCE3oeje,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1HXQuluInCw1M1E,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1I5WkG7nY9cdHms,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1IQIeqlM4dg9IA1,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1LOIJ6ABi8BvE6l,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1MrN1fBUIi3XY0e,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1NJy3nVqhStmmzf,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1O75iTJCG81RaPn,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1O7GHLrKROKQk36,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1QLeRXyfVn0fK9Q,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1R7PBOYP0Jqvcbv,Maybe would,MedicalSimple,Completely safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_1RaznavDCHne6h6,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1WD54s3RGRQbdWr,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1ZLcN7ttwuXRMch,Would not,MedicalSimple,Somewhat safe,Not at all safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1fOhOljcNufcPhc,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1fVnEU62o25xh1g,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1gArMDSFdy6w2U9,Definitely would,MedicalSimple,Completely safe,Not at all safe,Simple,Medical,Hardware,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1izfMAswCCDZEnN,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1lbfpEfy4fjPKxb,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1n65J64IcWJ5Zd8,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1nXDkNVtayzy0vv,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1pRvZHvSerh9Y2t,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1pVuesOKSApNqfK,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1rpOyyqcdDGYHCD,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1rusV32VeaLc8AV,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1rwPFRLB5J0rmPA,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1zkbB7h90N8nrgT,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_325VcST03ZYcbYs,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_33rCy3tQBsZClIB,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_34MiGZ6AucyINvg,Would not,MedicalSimple,Not at all safe,Not at all safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_38CLhDwdJI7Ihot,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_39npzNz9VbFP70C,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_39yCzuV37FV6nYt,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,TRUE
+R_3AKEKbjvLt1pYkR,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3C1Zm4cBu5szfpL,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_3ERvChpUf0y8gj7,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3FLEYhHGnm4KqLG,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3I3O423Dojt2D91,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3I5g06gKcSxuiSV,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3I8jjimAbZ6vbAl,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_3IAiSepYQCFYNp2,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_3IGJ6LuNwcngfm1,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3KBJdKOQqVqaafw,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3KDYxGFxUzPHePF,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_3KTIKy0avXC3lTz,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3MT0zdYK4ZnSKCY,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3NfskA8Ovklri4C,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3O0v8Vkaflqyw1k,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3Q0paE3kpBdqOD2,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3RLLyli9qudD6zn,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Female NB or SD,High school or below,TRUE,FALSE,FALSE,TRUE,FALSE
+R_3SYXByP4q8RrykF,Maybe would,MedicalSimple,Somewhat safe,Not at all safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3TApwxR0NjrtczL,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3W0KALYEQJ45tn3,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3WYCN6g0GQfuf57,Maybe would,MedicalSimple,Not at all safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3YgJh67AUNgXpkt,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3cuCnWSworjIFvt,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3dMnzKBjAo8loQN,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3e3kdkIpLRMzwEc,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_3egin7VRCA4miOd,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_3gHdvho6tQnkFkQ,Definitely would,MedicalSimple,Completely safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3gHqpQiUNLtqts7,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3ghW0jp3MfRehpQ,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,High school or below,TRUE,FALSE,FALSE,TRUE,FALSE
+R_3jcIZgT14ZJptTT,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_3kH2hicstCXFcXn,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3nWriavwHjSrMEF,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_3qEUGBVTdyUlPci,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3qX3FcHFJRrpMiQ,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3sC45u66HnN0u4x,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3snV5y91Azbp79v,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3t07r1quZc1v4to,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3vM2rC33rv7v5U5,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3zI4RirL5NYV33z,Would not,MedicalSimple,Not at all safe,Not at all safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_524ilx5UnMSYEcc,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_52PiMf40idUY1px,Would not,MedicalSimple,Somewhat safe,Not at all safe,Simple,Medical,Trust,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_58LE3mjlqV94VEy,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_5AoUVJNB7iOZTLb,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5Bmpfepy6WmLp0v,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5BvKvYD9Oximrbr,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_5Csa8Q2Oe0pWDHz,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5EM7LuexuAZr2hd,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5ESGZRTmO3O1E2J,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5EYeGueyNtB06Do,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5EpfnDySqbkv2t3,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5ExMGUDKhJ0lZC7,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5F2IiZ77XccT3yD,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5FGNf67jQDOYqxX,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Untechnical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5FldNW0TInNtmJF,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5HDBPYubHr5bwOd,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5IgxKAkLh1mrvWR,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5LPIoPC2uP6p7Ut,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5NF1HehRlSttP3A,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5P61sy3XzcmcobP,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5PROYUbrP3wvE41,Would not,MedicalSimple,Somewhat safe,Not at all safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5PjzKhZcom7qpLl,Would not,MedicalSimple,Not at all safe,Not at all safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5PsTXeUB73DpaiY,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5QnLVGIPijUFL6U,Would not,MedicalSimple,Not at all safe,Not at all safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5SuX0iaMo3MeBFi,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5Sw7vrxWlSGxi8N,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5T176KdAegLqmHv,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_5TUmwpWw77lXItO,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5UhXbvilpndYwT1,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5VlpUMyQEgZbaRZ,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5WUPnMyzHwcHSAV,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5curxvnD3PXWCrr,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_5cwTJOCzo1teN12,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5d3TmRUPjzqqElr,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5dBsVmnnuuvAroB,Definitely would,MedicalSimple,Completely safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_5esFSpWTmbzCYBt,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5fdkT2kNr8O2ZtT,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5flpGfIZI56XUG5,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Untechnical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5hDPtucHyE2gfT9,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5j5eP5LDcXA0vjb,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5jvayVzSJCx8no5,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE
+R_5kT7IaFBXStCdZl,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5kmWAfJnQIGLoNr,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,TRUE
+R_5lLnj2KX2itm0CY,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5mcRMgdEXgL8S9b,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5nAzyWxUnxVwQiK,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_5ouZWjEgGSle0k9,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5p9DujQmRP3Oe3N,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5ptJITUun4fBDk5,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5qC8PuzvLD6OEkj,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5qEVBJnwzUX0Y8N,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_5qPCUsVzugU3cEF,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5t5ueMdl9QcZ6MS,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,25-34,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,TRUE
+R_5tlGchsxAZxLb92,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_5uEr3uXCRS5HZQH,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_5w51plaKOsuThnV,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5yBWzDmzT3dB4Zz,Would not,MedicalSimple,Somewhat safe,Not at all safe,Simple,Medical,Hardware,Untechnical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_63jpd5IJisIJJAZ,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_63jqa64fVKoMes6,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_648Z8k4ntpFt0LO,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_64ITjseoMvOB8Lh,Maybe would,MedicalSimple,Not at all safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_678pfnbHoadOzjd,Maybe would,MedicalSimple,Not at all safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_67IgIuTMdCi85ct,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6AXLRIBb9mxCmJO,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,TRUE
+R_6BmTZP291r3d0Wc,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6BwEcvXvAncvHgP,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6GxMjiI4QrqqYl3,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_6JWOWOpqU55zneh,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,TRUE
+R_6KDflP40KwTZKzD,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6KTx2aJaqZe4OYd,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6Kr99f6XKJ7p1A8,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6LiiJYglqGp76UZ,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_6MMWkX45vJCVns5,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6Ok9Iy37g5CfGtZ,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6OouQ4kQKFT6WKE,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_6P6knBPbyVrbUml,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6RWXdRxaFpTBDK7,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6RlIZHvChCY8eYB,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6RmweMJuMuFddUb,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Untechnical,Prevents,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6SRfLfdOaqOsyuR,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6YPu3Zpomps1A8z,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_6aS2iDqA2PGKqnD,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6aylsM8uKtaGKrw,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6cTAeUvPfEsJk6C,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6cuzQZ7m3I5eqUU,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6dYRBMv39AUljUy,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6eM2mL4Le4oPjUZ,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,45+,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_6eQPhDe7ldiTKzX,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6fDlkDG2pdetNK1,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6ghzMi9si1GSqQh,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6kh3QCa4kpS6VSe,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6kp0GuiXXMIdvCV,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6mA6wacQ44aPejD,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6mRfVe211gAMfMB,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6tW2uDEcMQJAb4J,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6uNInlwmD7VVslq,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,FALSE,TRUE,FALSE
+R_6w1y8i1rZnWdpmt,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6wkibX0jJGvDQyZ,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6wzCEZYUR64lE7E,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_70SIg23NLBVBEcr,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_71HOVlxpzv786TR,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_71IcgNmBTjuFyHn,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,No Prevents,35-44,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_71bEiLkH2Ced7hb,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_741MmmumMLArAQI,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,FALSE
+R_75zXKAfWEtmqE81,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_77EergnQZOTdxQj,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_77m0rSeCV22k1UI,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_795ExzJFWG9wH4P,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7DNKpeSFwoz5Qkg,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7E5LQRNYbmbZ5PP,Maybe would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Ep3sI1QjXsCOqP,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,TRUE
+R_7FdC1UWcnfcvgzv,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7GDs64WpdaqIUXA,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Technical,Prevents,25-34,Male,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7IlQlofOXrEJCcT,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7J7Nr1wZ0C5AiKS,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Trust,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7L5YN598zJHSkR2,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_7LIEr5Yfdkv1wAx,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_7M3Zc7KLSXX9O5W,Would not,MedicalSimple,Somewhat safe,Not at all safe,Simple,Medical,Unsubstantial,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7MfecBpHoRJLZIO,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7MtuGHHVedwgxpf,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_7NDEHPqQVEwWJoX,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7OdIUsCOdQNahy6,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Orb9GyhHDgTuwC,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Technical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Qby6kqmVxwwLs7,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7StiuCeKPvoOP7P,Would not,MedicalSimple,Not at all safe,Not at all safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7TvMLZnCn6JuH9P,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7UfJDEMwnyRRg9B,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_7WJqaSty2tQ1Xug,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7f1N76U8aKWZWyv,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7g6e2VHDjgr6FAY,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7gjxhmFGohYBGCJ,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7hM6p41cW0gVEQK,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_7hsYPaPQjTS9JD9,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7idD1ufUhvmyKl3,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7im9qXw05tCEBSp,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7isxJTcm2yCLXnS,Definitely would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE
+R_7kcCEnqpLgbVLZG,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7ltYmBXzmLnItae,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7mXjRXovOjuazOd,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_7nKtfeDh7UB4LhT,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7nML8LiDdckFbzM,Maybe would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7qTEQBUvhFhVK2j,Definitely would,MedicalSimple,Somewhat safe,Completely safe,Simple,Medical,Trust,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7rM5n9izZuEF6N9,Would not,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,TRUE
+R_7rNerDQJf5frAZx,Definitely would,MedicalSimple,Completely safe,Completely safe,Simple,Medical,Hardware,Untechnical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7rluSxVBkBMj7Uq,Maybe would,MedicalSimple,Completely safe,Somewhat safe,Simple,Medical,Trust,Technical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_7sRUx0kmHzTAb68,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7tFhkIdInNb6WFN,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_7wsrMXVneTQihvt,Maybe would,MedicalSimple,Somewhat safe,Somewhat safe,Simple,Medical,Hardware,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7zNMdn7dafeWTUn,Would not,MedicalSimple,Not at all safe,Not at all safe,Simple,Medical,Unsubstantial,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE

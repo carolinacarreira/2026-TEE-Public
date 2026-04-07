@@ -1,0 +1,123 @@
+---
+title: "Comprehension: Features vs. Limitations Questions"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Do features questions score better than limitations questions?
+
+We test whether participants score higher on average on questions about TEE
+**features** (things the TEE protects against — False statements) compared to
+questions about TEE **limitations** (things the TEE does not protect against —
+True statements).
+
+This is tested separately for the first study and the follow-up study, and
+separately per scenario (Medical Complex, Medical Simple, IoT Complex, IoT
+Simple). We use Wilcoxon signed-rank tests with Benjamini-Hochberg (BH)
+correction for multiple comparisons across the four scenarios.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(purrr)
+library(tibble)
+
+scenarios <- c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple")
+```
+
+---
+
+## Follow-up Study
+
+Questions Q1–Q12. The features and limitations groups use the original question
+numbering:
+
+- **Features** (False — TEE protects against): Q1, Q2, Q3, Q4, Q9
+- **Limitations** (True — TEE does not protect against): Q5, Q6, Q7, Q8, Q10
+
+```{r followup-load}
+scores <- read.csv('./data/followup/scores_all_levels_safety.csv',
+                   header = TRUE)
+scores$scenario <- as.factor(scores$scenario)
+
+scores$Q1  <- as.numeric(scores$Q1)
+scores$Q2  <- as.numeric(scores$Q2)
+scores$Q3  <- as.numeric(scores$Q3)
+scores$Q4  <- as.numeric(scores$Q4)
+scores$Q5  <- as.numeric(scores$Q5)
+scores$Q6  <- as.numeric(scores$Q6)
+scores$Q7  <- as.numeric(scores$Q7)
+scores$Q8  <- as.numeric(scores$Q8)
+scores$Q9  <- as.numeric(scores$Q9)
+scores$Q10 <- as.numeric(scores$Q10)
+
+scores$Q_features    <- rowMeans(scores[, c("Q1", "Q2", "Q3", "Q4", "Q9")],  na.rm = TRUE)
+scores$Q_limitations <- rowMeans(scores[, c("Q5", "Q6", "Q7", "Q8", "Q10")], na.rm = TRUE)
+```
+
+```{r followup-wilcox}
+simplified <- scores[, c("id", "scenario", "Q_features", "Q_limitations")]
+
+results_followup <- purrr::map_dfr(scenarios, function(sc) {
+  subset <- dplyr::filter(simplified, .data$scenario == sc)
+  wtest  <- wilcox.test(subset$Q_features, subset$Q_limitations, paired = TRUE)
+  tibble::tibble(scenario = sc, W = unname(wtest$statistic), p_raw = wtest$p.value)
+}) %>%
+  dplyr::mutate(
+    p_BH    = p.adjust(p_raw, method = "BH"),
+    PreSig  = p_raw <= 0.05,
+    PostSig = p_BH  <= 0.05,
+    Status  = dplyr::case_when(
+      PreSig & !PostSig ~ "Lost significance",
+      !PreSig & PostSig ~ "Gained significance",
+      PreSig & PostSig  ~ "Stayed significant",
+      TRUE              ~ "Not significant"
+    )
+  )
+
+write.csv(results_followup, file = "wilcox_BH_followup.csv", row.names = FALSE)
+print(results_followup)
+```
+
+---
+
+## First Study
+
+Questions Q1–Q10, stored in columns A–J in the data file (A = Q1, …, J = Q10).
+
+- **Features** (False — TEE protects against): A(Q1), B(Q2), C(Q3), D(Q4), I(Q9)
+- **Limitations** (True — TEE does not protect against): E(Q5), F(Q6), G(Q7), H(Q8), J(Q10)
+
+```{r firststudy-load}
+scores1 <- read.csv('./data/firststudy/scores_regression.csv',
+                    header = TRUE)
+scores1$scenario <- as.factor(scores1$scenario)
+
+scores1$Q_features    <- rowMeans(scores1[, c("A", "B", "C", "D", "I")], na.rm = TRUE)
+scores1$Q_limitations <- rowMeans(scores1[, c("E", "F", "G", "H", "J")], na.rm = TRUE)
+```
+
+```{r firststudy-wilcox}
+simplified1 <- scores1[, c("ResponseId", "scenario", "Q_features", "Q_limitations")]
+
+results_firststudy <- purrr::map_dfr(scenarios, function(sc) {
+  subset <- dplyr::filter(simplified1, .data$scenario == sc)
+  wtest  <- wilcox.test(subset$Q_features, subset$Q_limitations, paired = TRUE)
+  tibble::tibble(scenario = sc, W = unname(wtest$statistic), p_raw = wtest$p.value)
+}) %>%
+  dplyr::mutate(
+    p_BH    = p.adjust(p_raw, method = "BH"),
+    PreSig  = p_raw <= 0.05,
+    PostSig = p_BH  <= 0.05,
+    Status  = dplyr::case_when(
+      PreSig & !PostSig ~ "Lost significance",
+      !PreSig & PostSig ~ "Gained significance",
+      PreSig & PostSig  ~ "Stayed significant",
+      TRUE              ~ "Not significant"
+    )
+  )
+
+write.csv(results_firststudy, file = "wilcox_BH_firststudy.csv", row.names = FALSE)
+print(results_firststudy)
+```

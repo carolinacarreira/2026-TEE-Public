@@ -1,0 +1,498 @@
+id,gender,age,education,previous_medical_research,medical_job,IoT_ownership,IoT_automation
+1,Female,35-44,Bachelor or associate degree,False,False,True,True
+2,Female,25-34,Bachelor or associate degree,True,False,True,True
+3,Male,18-24,High school or equivalent,False,False,True,False
+4,Prefer not to say,35-44,Prefer not to say,False,True,False,False
+5,Male,25-34,Graduate degree,True,False,True,False
+6,Female,25-34,High school or equivalent,False,True,True,False
+7,Female,35-44,Bachelor or associate degree,True,True,True,True
+8,Male,25-34,Bachelor or associate degree,False,False,True,True
+9,Female,45-54,Graduate degree,False,False,True,True
+10,Male,35-44,High school or equivalent,False,False,True,True
+11,Female,25-34,Graduate degree,True,False,True,False
+12,Female,18-24,High school or equivalent,False,False,True,False
+13,Male,35-44,Bachelor or associate degree,False,False,True,True
+14,Male,55+,Bachelor or associate degree,False,False,False,False
+15,Male,55+,Bachelor or associate degree,True,False,True,False
+16,Male,35-44,Bachelor or associate degree,False,False,True,False
+17,Female,18-24,Graduate degree,False,False,True,False
+18,Female,25-34,Bachelor or associate degree,True,True,True,False
+19,Female,18-24,High school or equivalent,False,False,True,False
+20,Male,18-24,High school or equivalent,False,False,True,False
+21,Male,55+,Bachelor or associate degree,False,False,True,True
+22,Male,35-44,High school or equivalent,False,False,True,True
+23,Female,55+,Graduate degree,False,False,True,True
+24,Female,18-24,High school or equivalent,True,False,True,False
+25,Male,45-54,High school or equivalent,False,False,False,False
+26,Female,55+,Bachelor or associate degree,False,False,True,False
+27,Male,35-44,High school or equivalent,False,False,True,True
+28,Female,45-54,Bachelor or associate degree,False,True,True,True
+29,Male,18-24,High school or equivalent,False,False,True,True
+30,Male,35-44,Bachelor or associate degree,False,False,True,False
+31,Female,25-34,Graduate degree,False,False,False,False
+32,Male,35-44,Bachelor or associate degree,False,False,True,False
+33,Female,18-24,Bachelor or associate degree,True,True,True,False
+34,Female,25-34,Graduate degree,False,True,True,False
+35,Female,35-44,Bachelor or associate degree,False,False,True,False
+36,Female,35-44,Graduate degree,False,False,True,False
+37,Female,18-24,High school or equivalent,True,True,True,False
+38,Female,25-34,Bachelor or associate degree,False,False,True,False
+39,Female,25-34,Graduate degree,True,True,True,True
+40,Female,25-34,High school or equivalent,False,False,True,False
+41,Female,18-24,Bachelor or associate degree,False,False,False,False
+42,Male,25-34,Bachelor or associate degree,False,False,True,True
+43,Female,25-34,Bachelor or associate degree,True,True,True,True
+44,Male,18-24,High school or equivalent,False,False,True,False
+45,Female,18-24,Bachelor or associate degree,False,False,True,False
+46,Female,25-34,High school or equivalent,False,False,False,False
+47,Female,35-44,Bachelor or associate degree,True,False,False,True
+48,Non-binary / third gender,18-24,High school or equivalent,False,False,False,True
+49,Male,25-34,High school or equivalent,False,False,False,False
+50,Female,25-34,Bachelor or associate degree,False,True,True,False
+51,Female,35-44,Bachelor or associate degree,False,False,False,False
+52,Female,25-34,Bachelor or associate degree,False,True,False,False
+53,Male,45-54,Bachelor or associate degree,False,False,True,True
+54,Female,35-44,Graduate degree,False,False,True,True
+55,Female,35-44,Bachelor or associate degree,False,False,True,False
+56,Female,25-34,Bachelor or associate degree,True,True,True,False
+57,Female,35-44,High school or equivalent,False,False,False,False
+58,Female,25-34,High school or equivalent,False,False,True,True
+59,Female,25-34,Bachelor or associate degree,False,True,True,False
+60,Female,35-44,High school or equivalent,False,False,True,False
+61,Female,55+,High school or equivalent,False,False,True,True
+62,Female,25-34,Bachelor or associate degree,True,True,True,True
+63,Male,35-44,High school or equivalent,False,False,False,False
+64,Non-binary / third gender,18-24,High school or equivalent,False,False,True,False
+65,Male,35-44,Bachelor or associate degree,False,True,True,False
+66,Male,35-44,Bachelor or associate degree,False,False,True,True
+67,Female,35-44,High school or equivalent,False,False,True,True
+68,Female,35-44,Bachelor or associate degree,False,False,True,False
+69,Male,25-34,Have not completed high school,False,False,False,False
+70,Male,45-54,Graduate degree,True,False,True,False
+71,Male,35-44,Bachelor or associate degree,False,False,True,False
+72,Male,18-24,High school or equivalent,False,False,True,False
+73,Female,45-54,High school or equivalent,False,False,False,False
+74,Male,18-24,High school or equivalent,False,False,True,True
+75,Female,45-54,High school or equivalent,False,False,True,True
+76,Male,55+,Bachelor or associate degree,False,False,True,True
+77,Male,55+,High school or equivalent,True,False,True,False
+78,Male,18-24,High school or equivalent,False,False,True,False
+79,Non-binary / third gender,25-34,Bachelor or associate degree,True,False,True,False
+80,Female,35-44,Bachelor or associate degree,False,True,True,True
+81,Female,55+,Bachelor or associate degree,False,False,True,False
+82,Female,45-54,High school or equivalent,False,False,True,False
+83,Male,25-34,Bachelor or associate degree,False,False,False,False
+84,Male,45-54,Graduate degree,False,False,True,True
+85,Male,35-44,High school or equivalent,False,False,True,False
+86,Male,25-34,Bachelor or associate degree,False,False,True,False
+87,Male,25-34,Graduate degree,True,True,True,True
+88,Male,25-34,Bachelor or associate degree,False,False,True,False
+89,Male,35-44,Bachelor or associate degree,False,False,True,True
+90,Male,25-34,Bachelor or associate degree,False,False,True,True
+91,Female,55+,Bachelor or associate degree,True,True,True,True
+92,Male,35-44,Graduate degree,False,False,True,True
+93,Male,45-54,High school or equivalent,True,False,True,False
+94,Female,18-24,Bachelor or associate degree,False,False,False,False
+95,Male,35-44,High school or equivalent,True,False,True,False
+96,Male,45-54,High school or equivalent,False,False,True,False
+97,Male,55+,Bachelor or associate degree,False,False,True,True
+98,Male,18-24,High school or equivalent,False,False,False,False
+99,Male,35-44,Graduate degree,False,False,True,True
+100,Female,25-34,Graduate degree,False,False,True,False
+101,Female,55+,Bachelor or associate degree,False,False,True,True
+102,Female,55+,Bachelor or associate degree,False,False,True,False
+103,Female,25-34,Bachelor or associate degree,False,False,True,True
+104,Female,25-34,High school or equivalent,True,True,True,False
+105,Male,35-44,Bachelor or associate degree,True,False,True,False
+106,Male,25-34,Bachelor or associate degree,True,True,True,False
+107,Female,18-24,High school or equivalent,False,False,True,True
+108,Male,35-44,Graduate degree,False,False,False,False
+109,Female,18-24,High school or equivalent,False,True,True,False
+110,Male,18-24,Bachelor or associate degree,False,False,True,False
+111,Male,25-34,High school or equivalent,False,False,True,True
+112,Male,18-24,High school or equivalent,False,False,False,False
+113,Female,18-24,High school or equivalent,True,False,True,False
+114,Female,18-24,High school or equivalent,True,False,True,False
+115,Female,45-54,Bachelor or associate degree,False,False,True,False
+116,Female,55+,Graduate degree,False,False,True,False
+117,Female,55+,Bachelor or associate degree,True,False,True,False
+118,Female,18-24,Bachelor or associate degree,False,False,True,False
+119,Female,55+,High school or equivalent,False,False,True,False
+120,Female,25-34,Graduate degree,False,False,True,False
+121,Male,45-54,Bachelor or associate degree,False,False,True,False
+122,Female,18-24,Bachelor or associate degree,True,False,True,True
+123,Male,35-44,High school or equivalent,False,False,True,True
+124,Female,18-24,Bachelor or associate degree,False,False,True,True
+125,Female,25-34,Bachelor or associate degree,False,False,True,False
+126,Female,55+,Bachelor or associate degree,False,False,True,True
+127,Female,55+,High school or equivalent,True,False,False,False
+128,Female,25-34,High school or equivalent,False,False,True,True
+129,Female,18-24,Bachelor or associate degree,False,False,True,False
+130,Male,18-24,Have not completed high school,False,False,True,False
+131,Prefer not to say,Prefer not to say,Prefer not to say,False,False,False,False
+132,Male,35-44,High school or equivalent,False,False,True,False
+133,Male,55+,High school or equivalent,False,True,False,False
+134,Female,25-34,Bachelor or associate degree,False,False,True,True
+135,Male,25-34,Bachelor or associate degree,False,False,True,False
+136,Male,25-34,Bachelor or associate degree,False,False,True,False
+137,Male,45-54,Bachelor or associate degree,True,True,True,True
+138,Male,25-34,Bachelor or associate degree,False,False,True,True
+139,Male,45-54,Bachelor or associate degree,True,False,True,True
+140,Male,25-34,High school or equivalent,True,False,True,True
+141,Male,35-44,High school or equivalent,False,False,True,False
+142,Male,25-34,Bachelor or associate degree,True,False,True,True
+143,Male,45-54,Graduate degree,False,False,False,False
+144,Male,35-44,Bachelor or associate degree,False,False,True,True
+145,Non-binary / third gender,25-34,Graduate degree,False,False,True,False
+146,Male,55+,Bachelor or associate degree,False,False,True,True
+147,Female,25-34,Bachelor or associate degree,False,False,True,True
+148,Male,18-24,Bachelor or associate degree,False,False,True,False
+149,Male,18-24,High school or equivalent,True,False,True,True
+150,Male,35-44,High school or equivalent,False,False,True,True
+151,Female,35-44,Graduate degree,False,False,True,False
+152,Male,45-54,Graduate degree,False,False,True,False
+153,Female,18-24,Bachelor or associate degree,False,False,True,False
+154,Female,45-54,Bachelor or associate degree,False,False,True,True
+155,Female,25-34,Graduate degree,True,True,True,False
+156,Male,25-34,High school or equivalent,False,False,True,False
+157,Female,25-34,Graduate degree,False,False,True,False
+158,Female,35-44,High school or equivalent,False,True,True,False
+159,Female,55+,High school or equivalent,False,False,True,True
+160,Female,25-34,Bachelor or associate degree,False,True,True,True
+161,Female,25-34,High school or equivalent,False,False,True,True
+162,Male,35-44,Bachelor or associate degree,False,False,True,True
+163,Female,45-54,Bachelor or associate degree,False,False,True,True
+164,Female,25-34,High school or equivalent,False,False,True,True
+165,Female,45-54,Graduate degree,False,False,True,False
+166,Female,55+,High school or equivalent,True,False,False,False
+167,Female,18-24,Bachelor or associate degree,False,False,False,False
+168,Female,25-34,Graduate degree,True,False,True,True
+169,Male,25-34,Bachelor or associate degree,True,False,True,True
+170,Male,25-34,Bachelor or associate degree,True,True,True,False
+171,Male,25-34,Graduate degree,False,False,True,True
+172,Male,25-34,High school or equivalent,False,False,True,True
+173,Male,45-54,Bachelor or associate degree,False,False,True,False
+174,Female,45-54,High school or equivalent,False,False,True,False
+175,Female,35-44,Bachelor or associate degree,False,False,True,True
+176,Female,55+,Bachelor or associate degree,False,True,True,False
+177,Male,35-44,Graduate degree,False,False,False,False
+178,Female,25-34,Bachelor or associate degree,False,False,False,True
+179,Male,35-44,Graduate degree,False,False,True,True
+180,Female,35-44,Bachelor or associate degree,True,True,True,False
+181,Female,45-54,High school or equivalent,True,True,True,False
+182,Male,45-54,Bachelor or associate degree,False,False,True,True
+183,Male,35-44,Bachelor or associate degree,False,False,True,True
+184,Male,25-34,Bachelor or associate degree,False,False,False,False
+185,Female,35-44,High school or equivalent,False,False,True,False
+186,Male,35-44,High school or equivalent,False,False,True,True
+187,Male,55+,Graduate degree,False,False,True,False
+188,Male,25-34,Graduate degree,True,False,True,False
+189,Female,18-24,Bachelor or associate degree,False,False,True,False
+190,Male,25-34,High school or equivalent,False,False,True,False
+191,Male,35-44,Bachelor or associate degree,False,False,True,True
+192,Female,25-34,High school or equivalent,False,False,True,False
+193,Male,25-34,Graduate degree,True,True,True,True
+194,Male,25-34,High school or equivalent,False,False,True,True
+195,Male,45-54,Bachelor or associate degree,True,True,True,False
+196,Male,35-44,Bachelor or associate degree,True,True,True,True
+197,Male,45-54,Have not completed high school,False,False,False,False
+198,Male,35-44,High school or equivalent,False,False,True,True
+199,Male,18-24,Bachelor or associate degree,False,False,True,True
+200,Male,18-24,High school or equivalent,False,False,True,True
+201,Female,25-34,High school or equivalent,False,False,True,False
+202,Male,25-34,Graduate degree,True,True,True,True
+203,Male,25-34,Graduate degree,False,False,True,False
+204,Female,25-34,High school or equivalent,False,False,True,False
+205,Female,25-34,High school or equivalent,True,True,True,True
+206,Female,35-44,High school or equivalent,False,False,False,False
+207,Female,35-44,High school or equivalent,False,True,True,True
+208,Female,25-34,High school or equivalent,True,True,True,True
+209,Male,45-54,Bachelor or associate degree,True,False,True,True
+210,Female,18-24,Bachelor or associate degree,False,False,True,True
+211,Female,18-24,Bachelor or associate degree,False,False,True,True
+212,Female,55+,Bachelor or associate degree,False,False,False,False
+213,Male,25-34,High school or equivalent,False,True,True,True
+214,Female,18-24,Bachelor or associate degree,False,False,True,False
+215,Male,25-34,High school or equivalent,False,False,False,False
+216,Female,25-34,High school or equivalent,False,False,False,False
+217,Male,25-34,Graduate degree,True,True,True,True
+218,Female,18-24,Graduate degree,False,False,True,False
+219,Female,25-34,Bachelor or associate degree,False,False,True,False
+220,Female,18-24,Bachelor or associate degree,False,False,True,True
+221,Female,25-34,Graduate degree,False,True,True,True
+222,Female,35-44,High school or equivalent,False,True,True,False
+223,Female,35-44,Bachelor or associate degree,False,True,True,False
+224,Female,25-34,Bachelor or associate degree,False,True,True,False
+225,Male,45-54,Graduate degree,False,False,True,False
+226,Male,45-54,High school or equivalent,False,False,True,False
+227,Female,45-54,High school or equivalent,False,False,True,False
+228,Female,35-44,High school or equivalent,False,False,False,False
+229,Female,45-54,High school or equivalent,False,False,True,False
+230,Female,25-34,Bachelor or associate degree,False,False,True,True
+231,Female,35-44,High school or equivalent,False,False,False,False
+232,Female,25-34,High school or equivalent,False,False,True,False
+233,Female,55+,Bachelor or associate degree,False,False,True,False
+234,Female,18-24,High school or equivalent,False,False,False,False
+235,Female,25-34,High school or equivalent,False,False,True,False
+236,Female,25-34,Bachelor or associate degree,False,False,True,True
+237,Male,35-44,High school or equivalent,False,False,True,False
+238,Male,55+,Bachelor or associate degree,False,False,True,True
+239,Female,35-44,Bachelor or associate degree,False,True,True,False
+240,Male,35-44,Bachelor or associate degree,False,False,True,True
+241,Male,35-44,Graduate degree,False,False,False,False
+242,Female,18-24,Bachelor or associate degree,False,False,True,False
+243,Male,55+,Bachelor or associate degree,True,False,True,False
+244,Female,25-34,High school or equivalent,False,True,True,True
+245,Male,35-44,High school or equivalent,False,False,True,True
+246,Female,45-54,Bachelor or associate degree,False,False,True,False
+247,Female,35-44,Graduate degree,True,True,True,False
+248,Female,45-54,Graduate degree,False,False,True,True
+249,Female,45-54,Bachelor or associate degree,False,False,True,True
+250,Female,45-54,Graduate degree,True,True,True,True
+251,Female,45-54,Bachelor or associate degree,False,True,True,False
+252,Female,18-24,High school or equivalent,False,False,True,False
+253,Female,35-44,Bachelor or associate degree,False,False,False,False
+254,Female,25-34,Bachelor or associate degree,False,False,True,True
+255,Female,25-34,High school or equivalent,False,False,True,False
+256,Male,18-24,High school or equivalent,True,True,False,False
+257,Female,45-54,High school or equivalent,False,False,True,True
+258,Female,55+,Bachelor or associate degree,False,False,True,True
+259,Female,25-34,Bachelor or associate degree,False,False,True,False
+260,Male,25-34,Bachelor or associate degree,False,False,True,True
+261,Male,35-44,High school or equivalent,False,False,True,True
+262,Male,25-34,Bachelor or associate degree,False,False,True,True
+263,Female,18-24,High school or equivalent,False,False,True,False
+264,Male,25-34,High school or equivalent,False,False,True,True
+265,Male,25-34,High school or equivalent,False,False,True,True
+266,Male,18-24,Bachelor or associate degree,True,True,True,False
+267,Male,25-34,Bachelor or associate degree,False,False,True,False
+268,Male,55+,Graduate degree,False,False,True,True
+269,Female,25-34,Bachelor or associate degree,False,False,True,True
+270,Male,45-54,High school or equivalent,False,False,True,True
+271,Female,25-34,Bachelor or associate degree,False,False,True,True
+272,Male,25-34,Bachelor or associate degree,False,False,True,False
+273,Female,35-44,Bachelor or associate degree,False,False,True,True
+274,Male,35-44,Bachelor or associate degree,False,False,True,True
+275,Male,25-34,High school or equivalent,False,False,True,False
+276,Male,45-54,Bachelor or associate degree,False,False,True,True
+277,Male,45-54,Have not completed high school,False,False,False,False
+278,Male,25-34,High school or equivalent,True,True,False,False
+279,Male,35-44,High school or equivalent,False,False,True,False
+280,Male,25-34,High school or equivalent,False,False,False,False
+281,Male,35-44,Bachelor or associate degree,False,False,False,False
+282,Male,35-44,Bachelor or associate degree,False,False,True,False
+283,Male,25-34,Bachelor or associate degree,False,False,False,False
+284,Male,35-44,Bachelor or associate degree,False,False,True,False
+285,Male,45-54,Graduate degree,False,False,True,False
+286,Male,25-34,High school or equivalent,False,False,False,False
+287,Male,18-24,Bachelor or associate degree,True,False,True,True
+288,Male,18-24,Bachelor or associate degree,False,False,True,False
+289,Male,25-34,Bachelor or associate degree,False,False,True,False
+290,Male,45-54,Graduate degree,False,False,True,True
+291,Male,35-44,Graduate degree,False,False,True,True
+292,Male,45-54,Bachelor or associate degree,False,False,True,True
+293,Male,45-54,Bachelor or associate degree,False,False,True,True
+294,Male,18-24,High school or equivalent,False,False,False,False
+295,Male,55+,Graduate degree,False,True,True,False
+296,Male,35-44,Graduate degree,False,False,True,True
+297,Male,45-54,High school or equivalent,False,False,True,False
+298,Male,45-54,High school or equivalent,False,True,True,True
+299,Male,35-44,Bachelor or associate degree,False,False,False,False
+300,Male,45-54,Bachelor or associate degree,False,False,True,False
+301,Male,45-54,Bachelor or associate degree,True,False,True,True
+302,Male,35-44,High school or equivalent,False,False,True,False
+303,Male,35-44,Graduate degree,True,False,True,True
+304,Male,25-34,Bachelor or associate degree,False,False,True,True
+305,Male,25-34,Bachelor or associate degree,True,False,True,True
+306,Male,25-34,Bachelor or associate degree,False,False,False,False
+307,Male,55+,Bachelor or associate degree,True,False,True,True
+308,Male,35-44,High school or equivalent,False,False,True,False
+309,Male,35-44,Bachelor or associate degree,False,False,True,False
+310,Male,45-54,Graduate degree,False,False,True,False
+311,Male,35-44,High school or equivalent,False,False,True,True
+312,Male,25-34,Bachelor or associate degree,False,False,True,False
+313,Male,25-34,Bachelor or associate degree,False,False,True,True
+314,Male,25-34,Bachelor or associate degree,False,False,True,True
+315,Female,25-34,Bachelor or associate degree,False,False,False,False
+316,Male,35-44,Bachelor or associate degree,False,False,True,False
+317,Male,18-24,Bachelor or associate degree,False,False,True,False
+318,Male,25-34,High school or equivalent,False,False,True,False
+319,Male,45-54,Bachelor or associate degree,False,False,False,False
+320,Female,45-54,Bachelor or associate degree,False,False,True,True
+321,Male,55+,High school or equivalent,False,False,True,True
+322,Male,35-44,High school or equivalent,False,False,True,True
+323,Female,18-24,Bachelor or associate degree,False,False,True,True
+324,Female,35-44,Bachelor or associate degree,True,True,True,True
+325,Female,25-34,High school or equivalent,False,False,True,False
+326,Female,25-34,Bachelor or associate degree,False,False,True,True
+327,Female,18-24,High school or equivalent,False,False,True,False
+328,Male,35-44,High school or equivalent,False,False,True,False
+329,Female,18-24,Bachelor or associate degree,True,True,True,True
+330,Female,35-44,Bachelor or associate degree,False,False,True,False
+331,Female,55+,High school or equivalent,False,False,True,False
+332,Female,45-54,High school or equivalent,False,False,True,True
+333,Female,35-44,Bachelor or associate degree,True,False,True,False
+334,Female,35-44,High school or equivalent,False,False,True,True
+335,Female,25-34,Bachelor or associate degree,False,True,False,False
+336,Female,35-44,Bachelor or associate degree,False,False,True,False
+337,Female,45-54,High school or equivalent,True,True,True,True
+338,Female,25-34,Graduate degree,False,False,True,True
+339,Female,55+,Bachelor or associate degree,False,False,True,False
+340,Female,18-24,High school or equivalent,False,True,True,False
+341,Male,18-24,High school or equivalent,True,False,True,True
+342,Female,25-34,High school or equivalent,False,False,True,True
+343,Female,25-34,Bachelor or associate degree,False,False,True,False
+344,Female,25-34,Bachelor or associate degree,False,False,True,True
+345,Female,35-44,High school or equivalent,False,False,True,True
+346,Female,55+,Graduate degree,True,True,True,True
+347,Non-binary / third gender,18-24,High school or equivalent,False,False,True,False
+348,Female,45-54,Bachelor or associate degree,False,True,True,False
+349,Female,25-34,Graduate degree,False,False,True,False
+350,Female,25-34,Bachelor or associate degree,False,False,True,False
+351,Female,25-34,Graduate degree,False,False,False,True
+352,Female,18-24,High school or equivalent,False,False,False,False
+353,Female,45-54,Bachelor or associate degree,False,False,True,False
+354,Male,45-54,Bachelor or associate degree,False,False,True,True
+355,Female,45-54,Graduate degree,False,False,False,False
+356,Male,35-44,High school or equivalent,False,False,True,False
+357,Non-binary / third gender,18-24,High school or equivalent,False,False,True,False
+358,Female,25-34,Graduate degree,True,True,True,False
+359,Non-binary / third gender,25-34,High school or equivalent,True,True,True,True
+360,Female,25-34,Bachelor or associate degree,True,False,True,False
+361,Female,18-24,Bachelor or associate degree,True,True,True,True
+362,Male,45-54,High school or equivalent,False,False,True,False
+363,Female,35-44,Bachelor or associate degree,False,False,True,False
+364,Male,35-44,Bachelor or associate degree,True,False,True,True
+365,Male,45-54,Bachelor or associate degree,False,False,True,False
+366,Female,25-34,High school or equivalent,False,True,True,True
+367,Female,45-54,High school or equivalent,False,True,True,True
+368,Female,25-34,High school or equivalent,False,False,True,False
+369,Female,45-54,High school or equivalent,False,True,True,False
+370,Female,35-44,High school or equivalent,False,False,True,False
+371,Male,25-34,High school or equivalent,False,False,True,False
+372,Male,18-24,Bachelor or associate degree,False,False,False,False
+373,Female,25-34,High school or equivalent,False,False,True,False
+374,Male,35-44,Bachelor or associate degree,False,False,True,True
+375,Female,45-54,High school or equivalent,False,False,False,False
+376,Male,45-54,High school or equivalent,False,False,True,True
+377,Male,18-24,High school or equivalent,True,False,True,True
+378,Male,18-24,Bachelor or associate degree,True,False,True,False
+379,Male,25-34,Bachelor or associate degree,True,False,True,True
+380,Male,45-54,Bachelor or associate degree,False,False,True,False
+381,Female,55+,Bachelor or associate degree,False,False,True,False
+382,Male,25-34,Graduate degree,True,True,True,False
+383,Male,18-24,High school or equivalent,False,False,True,True
+384,Female,55+,High school or equivalent,False,False,True,False
+385,Male,25-34,Graduate degree,False,False,True,True
+386,Male,25-34,High school or equivalent,False,False,True,False
+387,Male,45-54,Bachelor or associate degree,False,False,False,False
+388,Male,45-54,High school or equivalent,False,False,True,True
+389,Male,35-44,High school or equivalent,False,False,True,False
+390,Male,45-54,High school or equivalent,True,False,False,False
+391,Male,25-34,High school or equivalent,False,False,True,True
+392,Male,35-44,Bachelor or associate degree,False,False,True,True
+393,Male,25-34,High school or equivalent,False,False,True,False
+394,Female,45-54,High school or equivalent,False,False,True,True
+395,Male,25-34,High school or equivalent,False,False,True,False
+396,Female,35-44,Bachelor or associate degree,False,False,True,False
+397,Female,35-44,High school or equivalent,False,True,True,False
+398,Female,18-24,High school or equivalent,False,True,True,False
+399,Female,18-24,Bachelor or associate degree,False,False,True,False
+400,Female,25-34,Graduate degree,False,False,True,False
+401,Female,45-54,Graduate degree,True,False,True,False
+402,Female,55+,Bachelor or associate degree,False,False,True,False
+403,Female,55+,Bachelor or associate degree,False,False,True,True
+404,Female,35-44,High school or equivalent,False,False,True,True
+405,Female,35-44,High school or equivalent,False,False,True,False
+406,Male,25-34,High school or equivalent,False,False,False,False
+407,Female,55+,Bachelor or associate degree,False,False,True,True
+408,Female,25-34,Bachelor or associate degree,False,True,True,False
+409,Female,35-44,Graduate degree,False,False,True,True
+410,Female,25-34,High school or equivalent,False,False,True,False
+411,Male,18-24,High school or equivalent,False,False,False,False
+412,Female,45-54,High school or equivalent,False,True,True,False
+413,Female,25-34,Graduate degree,True,True,True,False
+414,Non-binary / third gender,18-24,High school or equivalent,False,False,True,False
+415,Female,25-34,Graduate degree,True,False,True,False
+416,Female,35-44,Bachelor or associate degree,False,False,True,True
+417,Female,35-44,Graduate degree,False,True,True,True
+418,Female,25-34,High school or equivalent,False,False,False,False
+419,Female,25-34,Bachelor or associate degree,False,False,True,False
+420,Female,35-44,High school or equivalent,True,True,True,True
+421,Male,35-44,Graduate degree,False,True,True,False
+422,Female,35-44,Graduate degree,False,False,True,False
+423,Male,18-24,High school or equivalent,True,False,True,True
+424,Male,25-34,Bachelor or associate degree,False,True,True,False
+425,Male,25-34,High school or equivalent,False,False,True,True
+426,Female,55+,Bachelor or associate degree,False,True,True,True
+427,Male,25-34,High school or equivalent,False,False,True,True
+428,Female,55+,Bachelor or associate degree,False,False,False,False
+429,Male,45-54,Bachelor or associate degree,True,True,True,True
+430,Male,35-44,Graduate degree,False,False,True,False
+431,Male,18-24,Bachelor or associate degree,True,False,True,True
+432,Male,45-54,Bachelor or associate degree,False,False,True,True
+433,Male,25-34,High school or equivalent,False,False,False,False
+434,Male,25-34,Bachelor or associate degree,True,False,False,False
+435,Male,55+,Bachelor or associate degree,False,False,True,True
+436,Male,55+,High school or equivalent,False,False,True,True
+437,Female,25-34,Bachelor or associate degree,False,False,True,False
+438,Male,25-34,Bachelor or associate degree,False,False,True,True
+439,Male,25-34,High school or equivalent,False,True,False,False
+440,Male,35-44,High school or equivalent,False,False,False,False
+441,Male,45-54,Bachelor or associate degree,False,False,True,True
+442,Male,45-54,Bachelor or associate degree,False,False,True,True
+443,Male,25-34,Bachelor or associate degree,False,False,True,True
+444,Male,35-44,High school or equivalent,False,False,True,True
+445,Male,35-44,Graduate degree,True,False,True,True
+446,Male,25-34,Bachelor or associate degree,False,False,True,True
+447,Male,18-24,High school or equivalent,False,False,True,False
+448,Female,25-34,Graduate degree,True,False,True,True
+449,Female,18-24,High school or equivalent,False,False,True,False
+450,Male,35-44,Bachelor or associate degree,False,False,True,True
+451,Male,35-44,High school or equivalent,False,False,True,False
+452,Male,25-34,Bachelor or associate degree,True,False,True,True
+453,Male,35-44,Bachelor or associate degree,False,False,True,False
+454,Female,25-34,Graduate degree,True,False,True,True
+455,Female,35-44,Bachelor or associate degree,False,False,False,False
+456,Female,25-34,Bachelor or associate degree,False,False,True,True
+457,Male,25-34,Bachelor or associate degree,False,False,True,False
+458,Male,25-34,Bachelor or associate degree,True,False,False,False
+459,Female,18-24,High school or equivalent,False,True,True,False
+460,Female,25-34,High school or equivalent,False,False,True,False
+461,Female,25-34,Bachelor or associate degree,False,False,True,True
+462,Female,25-34,Graduate degree,False,True,True,True
+463,Female,18-24,High school or equivalent,False,False,True,False
+464,Female,35-44,Bachelor or associate degree,False,False,True,True
+465,Female,35-44,Bachelor or associate degree,False,False,True,False
+466,Male,45-54,Graduate degree,False,False,True,True
+467,Male,25-34,Graduate degree,True,True,True,True
+468,Female,18-24,High school or equivalent,False,False,True,True
+469,Male,18-24,High school or equivalent,False,False,True,False
+470,Male,18-24,High school or equivalent,False,False,True,False
+471,Female,45-54,Graduate degree,False,False,True,False
+472,Female,25-34,Graduate degree,True,False,True,False
+473,Male,35-44,Bachelor or associate degree,False,False,True,True
+474,Male,35-44,Bachelor or associate degree,False,False,True,True
+475,Female,25-34,Graduate degree,False,False,True,False
+476,Male,45-54,Graduate degree,True,True,True,False
+477,Female,35-44,Bachelor or associate degree,False,False,True,False
+478,Female,35-44,High school or equivalent,False,False,True,True
+479,Male,25-34,Bachelor or associate degree,False,True,True,False
+480,Female,18-24,High school or equivalent,False,False,True,False
+481,Female,55+,Graduate degree,False,False,True,False
+482,Female,25-34,High school or equivalent,False,True,True,True
+483,Female,18-24,Bachelor or associate degree,False,False,False,True
+484,Male,35-44,Graduate degree,True,True,True,True
+485,Male,45-54,Bachelor or associate degree,True,False,True,True
+486,Male,45-54,Graduate degree,False,True,True,True
+487,Male,55+,Bachelor or associate degree,False,False,True,True
+488,Female,25-34,Bachelor or associate degree,False,False,False,False
+489,Male,18-24,Have not completed high school,False,False,True,False
+490,Male,25-34,Bachelor or associate degree,False,False,True,False
+491,Male,25-34,Bachelor or associate degree,False,False,True,True
+492,Female,45-54,High school or equivalent,False,False,False,False
+493,Male,35-44,Bachelor or associate degree,True,False,False,False
+494,Female,55+,Bachelor or associate degree,True,False,True,False
+495,Male,18-24,High school or equivalent,False,False,True,True
+496,Male,45-54,Bachelor or associate degree,False,False,True,True
+497,Female,35-44,High school or equivalent,False,False,True,False

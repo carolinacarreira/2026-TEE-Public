@@ -1,0 +1,234 @@
+﻿ResponseId,willingness,scenario,safety_post,safety_pre,scenario_complexity,scenario_scenario,EXPLN_S1,EXPLN_S2,EXPLN_S3,age,gender,education,previous_medical_research,medical_job,combined_IoT_Experience,combined_Medical_Experience,combined_CS_Experience
+R_11FzXDrfq1ew6cZ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_12S3UkEpVdKeirv,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_13YlxdIhkGwKWZ3,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_14PdyKRKcyC9mUB,Definitely would,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Technical,No Prevents,18-24,Female NB or SD,High school or below,TRUE,TRUE,TRUE,TRUE,FALSE
+R_17A5ghNOMhiMzip,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Trust,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_17Qo5EW5C0MsXl5,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_17TE5prio7BeEBS,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1Bb46sXAIEaYJoc,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1BbNsDoEUZByxhe,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Hardware,Untechnical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1D7pcdNbURwTRm0,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_1D7uIGhTiygt1b4,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1HXQuluInCw1M1E,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1I0k5iXWugbyweq,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,FALSE,TRUE,FALSE
+R_1I5WkG7nY9cdHms,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1LOIJ6ABi8BvE6l,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1NJy3nVqhStmmzf,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1O7GHLrKROKQk36,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1OOaXIkygipz0Md,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_1QLeRXyfVn0fK9Q,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1XPhQ4UkSum4aGJ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1YE2zezihUboKUX,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1ZLcN7ttwuXRMch,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1dAknzJQIhtXiJN,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1guRonw5pN3D5Zg,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_1izfMAswCCDZEnN,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1kFKP2LZzazsQKZ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1lVzyDfauC9o0q0,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1lbfpEfy4fjPKxb,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1lrWbeQEgMXwOop,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1n3oRQ0UONpgdEB,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1pRvZHvSerh9Y2t,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_1pVuesOKSApNqfK,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_1rwPFRLB5J0rmPA,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Unsubstantial,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_1zkbB7h90N8nrgT,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_31dw02xkvfS4uVQ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_33jU2mMkyMlSQaB,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_33rCy3tQBsZClIB,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_38CLhDwdJI7Ihot,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3AKEKbjvLt1pYkR,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3BLCTmMXyjgdIQ1,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Hardware,Technical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3CBp9tl687TwfTG,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3CDVR8ZooZfqKKS,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3CQrBEz8fEcNiw6,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3CjQRy14zUz6Qgh,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Technical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3Cw33OzueCob5LQ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3Cwgz6dVyWWkuAC,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3DZBCsHXJrWQgoh,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3EZzxtDvBmy7Rbr,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3FLEYhHGnm4KqLG,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3LXqLrFASXbvhl5,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3MT0zdYK4ZnSKCY,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3PQWsQU4ROF2tTz,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3PThn5E9LNyGKyp,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3SSbos6c6pmzjiN,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,45+,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_3TApwxR0NjrtczL,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3TAvVleahwKBO2k,Maybe would,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3W0KALYEQJ45tn3,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3WYCN6g0GQfuf57,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Trust,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3YXkqysYE7ic2eR,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3Z6jP9TWn49XUM9,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3dmB1HymKNEVoc1,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Untechnical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3e82INZBzLQAHTZ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3egin7VRCA4miOd,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_3ibrTbco1Tmr4IQ,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3nWriavwHjSrMEF,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_3ptce2vNcdcNPRy,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_3qEUGBVTdyUlPci,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3qX3FcHFJRrpMiQ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3qqVGLM64xY2Fe2,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_3sC45u66HnN0u4x,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3snV5y91Azbp79v,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3t07r1quZc1v4to,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3uBTM6iJ8sMRQQR,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_3wRt0tzi6LRvX2x,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Untechnical,No Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_3xXW4BiZUYTgAoN,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_4ERxNml4Z3g86M0,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_4q96Qwoa57Zt36J,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_51aZdD7Sfn9xMr9,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_52PiMf40idUY1px,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_58OkQE4me6T0RFI,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_5AoUVJNB7iOZTLb,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5BvKvYD9Oximrbr,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Technical,No Prevents,45+,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_5E133eTkzVRDfmN,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_5Ev2bIo2j9oGSYo,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,TRUE
+R_5EvuDLrsD73Rq6Z,Maybe would,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Trust,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5ExMGUDKhJ0lZC7,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5F2IiZ77XccT3yD,Would not,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Technical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5FGNf67jQDOYqxX,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5FldNW0TInNtmJF,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5LPIoPC2uP6p7Ut,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5M2Jflom1RtruPn,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_5NF1HehRlSttP3A,Would not,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5P61sy3XzcmcobP,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5PjzKhZcom7qpLl,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5PsTXeUB73DpaiY,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5PvFch2RSVPYZAG,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5QnLVGIPijUFL6U,Maybe would,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5RNUi22qTPEJYgp,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5Sw7vrxWlSGxi8N,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5T176KdAegLqmHv,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_5TB2cF2ZNF9B0pG,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5TUmwpWw77lXItO,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5TpcovTvJtmlT33,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Untechnical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5UhXbvilpndYwT1,Would not,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5VlpUMyQEgZbaRZ,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5cefft3ISAPiv8a,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5curxvnD3PXWCrr,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_5cwTJOCzo1teN12,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5d3TmRUPjzqqElr,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_5dBsVmnnuuvAroB,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_5dLN3o8tQ1Od5Zk,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5flpGfIZI56XUG5,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5hgt8KddEkcf8GM,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Technical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5iIjQTEnZRSJdWF,Would not,IoTComplex,Not at all safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,45+,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5jvayVzSJCx8no5,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE
+R_5kmWAfJnQIGLoNr,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,TRUE
+R_5n6qGKmHodFADqg,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5nAzyWxUnxVwQiK,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_5ouZWjEgGSle0k9,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5pNYuLOmKRC3Ye5,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5ptJITUun4fBDk5,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_5q7U6vL11IOQUg1,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5qeA5rDpsCuN6Oc,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_5t5ueMdl9QcZ6MS,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,25-34,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,TRUE
+R_5yBWzDmzT3dB4Zz,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_60OGVrBny8Sa4JF,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_60PAc33tSeOOzpn,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_60Y8XxjLL58tyZR,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_614vEAnRHNj1aUu,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_63BcWe4m0WrHlcJ,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_63jqa64fVKoMes6,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_648Z8k4ntpFt0LO,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_649zPYu0NTYt1Ch,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,TRUE
+R_65TS7u42BidpYMb,Would not,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_67IgIuTMdCi85ct,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6AF79SpUtgBc1X3,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6AXLRIBb9mxCmJO,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,TRUE
+R_6Avm5PtXQQJeNm9,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6BbKgTP0fPO1tSu,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6BmTZP291r3d0Wc,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6BwEcvXvAncvHgP,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6CWeQAEJAAx6uRi,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Prefer not to say,Prefer not to say,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6GxMjiI4QrqqYl3,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_6JWOWOpqU55zneh,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,TRUE
+R_6LCdBuhofbHagOr,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,45+,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_6LiiJYglqGp76UZ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_6MGTD189zL5JnFh,Would not,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6Nh50bmZSZGiZjo,Maybe would,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Hardware,Untechnical,No Prevents,35-44,Male,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_6OjGbDFuN2xQ0Pi,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Trust,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6Ok9Iy37g5CfGtZ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6RWXdRxaFpTBDK7,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6RlIZHvChCY8eYB,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6RmweMJuMuFddUb,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,18-24,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_6SRfLfdOaqOsyuR,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6TX4vEhzHz1CkH7,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,TRUE
+R_6VxBhftI46zCaIM,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,TRUE
+R_6YPu3Zpomps1A8z,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_6aylsM8uKtaGKrw,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6cQlgLqUGVFHinf,Would not,IoTComplex,Not at all safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6cTAeUvPfEsJk6C,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6cuzQZ7m3I5eqUU,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6dYRBMv39AUljUy,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6eQPhDe7ldiTKzX,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6fDlkDG2pdetNK1,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6kWPuLu4KIzMx5n,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6kh3QCa4kpS6VSe,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6kp0GuiXXMIdvCV,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6mA6wacQ44aPejD,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6mK7lKOFUDs35Ia,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_6nVFYpV0TFumzCj,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6oxq0RzEkQbcpq1,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Technical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6pMihip2gvWByZE,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,FALSE
+R_6ruEloTJwgmS2ym,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,TRUE
+R_6saNu6lNoUm2i2f,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6tW2uDEcMQJAb4J,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6toA7Bt3TlZl6Q9,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_6w1y8i1rZnWdpmt,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_6wNVdDQjSYAcZac,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_6wkibX0jJGvDQyZ,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_70SIg23NLBVBEcr,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Technical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_71HOVlxpzv786TR,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_71IcgNmBTjuFyHn,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,35-44,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,FALSE
+R_72RVfy94iFgyB69,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,45+,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_72mMEGi2XxyYFYr,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_741MmmumMLArAQI,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,No Prevents,35-44,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,FALSE
+R_77m0rSeCV22k1UI,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7E5ivAIrluCdIfT,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7Ep3sI1QjXsCOqP,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,TRUE
+R_7FQbZ79xiwV5gkH,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Male,Prefer not to say,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7FdC1UWcnfcvgzv,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7GfzXGpIUq96GV4,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Gyqz2vhaJMqk6J,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7IQ31CAJ3Gg5Ca9,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_7IlQlofOXrEJCcT,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Hardware,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7JezwAaVCHDN1fG,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7LIEr5Yfdkv1wAx,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Untechnical,No Prevents,25-34,Male,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,TRUE
+R_7LXyOyzRX6LCSF8,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,45+,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_7MtuGHHVedwgxpf,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_7Mzfvh0zu6v2gWl,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE
+R_7NDEHPqQVEwWJoX,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Nn6YR4g9wfxcWt,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7NypwLnUHaQHZPe,Definitely would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Trust,Technical,No Prevents,35-44,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7OP4JUwUmknxejD,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Trust,Technical,Prevents,18-24,Female NB or SD,High school or below,TRUE,FALSE,TRUE,TRUE,TRUE
+R_7OdIUsCOdQNahy6,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7OeMZpm0jVaIJtp,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Orb9GyhHDgTuwC,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,35-44,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Pc16VGCwQJDhBL,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7Pui6Bp5nQDkSBz,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7RravanmOHr5xWF,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Untechnical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,FALSE,TRUE,FALSE
+R_7StiuCeKPvoOP7P,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7TvMLZnCn6JuH9P,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7WJqaSty2tQ1Xug,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7YD1BBsm7xdnnJJ,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Trust,Technical,No Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7cAYIsme5fThQ1b,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7eQpZdKLNcFWe5j,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Hardware,Technical,Prevents,45+,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7gjxhmFGohYBGCJ,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7ib1OESkheRvvEY,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Male,Bachelor or Graduate degree,TRUE,TRUE,TRUE,TRUE,TRUE
+R_7idD1ufUhvmyKl3,Maybe would,IoTComplex,Completely safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7im9qXw05tCEBSp,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Untechnical,No Prevents,25-34,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7isxJTcm2yCLXnS,Maybe would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,45+,Male,Bachelor or Graduate degree,FALSE,TRUE,FALSE,TRUE,FALSE
+R_7l9mBGkyrHEXgDq,Maybe would,IoTComplex,Completely safe,Completely safe,Complex,IoT,Hardware,Technical,No Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,TRUE,FALSE,TRUE,TRUE,FALSE
+R_7ltYmBXzmLnItae,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Hardware,Technical,No Prevents,18-24,Male,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7nKtfeDh7UB4LhT,Would not,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Male,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,TRUE
+R_7nML8LiDdckFbzM,Definitely would,IoTComplex,Somewhat safe,Completely safe,Complex,IoT,Hardware,Untechnical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7q1MvLK7Rko7t3L,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Hardware,Technical,Prevents,18-24,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7qDKectFyYVT8ZP,Definitely would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,No Prevents,35-44,Male,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_7rM5n9izZuEF6N9,Maybe would,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Untechnical,Prevents,25-34,Female NB or SD,High school or below,FALSE,TRUE,TRUE,TRUE,TRUE
+R_7rdUYKSsy3sEZ3P,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Untechnical,Prevents,45+,Male,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_7rluSxVBkBMj7Uq,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Trust,Technical,Prevents,18-24,Female NB or SD,Bachelor or Graduate degree,FALSE,TRUE,TRUE,TRUE,FALSE
+R_7sRUx0kmHzTAb68,Would not,IoTComplex,Not at all safe,Somewhat safe,Complex,IoT,Hardware,Technical,Prevents,25-34,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7zFUfXSrnUqmBCC,Would not,IoTComplex,Somewhat safe,Not at all safe,Complex,IoT,Hardware,Technical,No Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,TRUE,FALSE,FALSE
+R_7zN3KmLTlCXqjTk,Would not,IoTComplex,Somewhat safe,Somewhat safe,Complex,IoT,Unsubstantial,Technical,Prevents,45+,Female NB or SD,High school or below,FALSE,FALSE,FALSE,FALSE,FALSE
+R_7zNMdn7dafeWTUn,Would not,IoTComplex,Not at all safe,Not at all safe,Complex,IoT,Unsubstantial,Untechnical,No Prevents,45+,Female NB or SD,Bachelor or Graduate degree,FALSE,FALSE,FALSE,FALSE,FALSE

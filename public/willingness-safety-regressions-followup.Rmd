@@ -1,0 +1,651 @@
+---
+title: "regressions"
+author: "Carolina Carreira"
+date: ''
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ordinal)
+library(lme4)
+library(dplyr)
+library(car)
+library(sjPlot)
+library(performance)
+library(broom)
+library(EMT)
+library(multcomp)
+library(emmeans)
+library(RVAideMemoire)
+library(ggplot2)
+library(MASS)
+library(sjPlot) 
+
+ENCODING = 'UTF-8'
+
+```
+
+
+## Medical complex
+
+```{r}
+scores <- read.csv('./data/followup/scores-medc.csv', encoding=ENCODING,  header = TRUE)
+scores$gender <- as.factor(scores$gender)
+scores$age <- as.factor(scores$age)
+scores$combined_IoT_Experience <- as.factor(scores$combined_IoT_Experience)
+scores$combined_Medical_Experience <- as.factor(scores$combined_Medical_Experience)
+scores$combined_CS_Experience <- as.factor(scores$combined_CS_Experience)
+scores$education <- as.factor(scores$education)
+scores$scenario_scenario <- as.factor(scores$scenario_scenario)
+scores$scenario_complexity <- as.factor(scores$scenario_complexity)
+names(scores) <- gsub(" ", "_", names(scores))  # Replace spaces with underscores
+
+
+scores$safety_people <- as.factor(ordered(scores$safety_people, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_data <- as.factor(ordered(scores$safety_data, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_purpose <- as.factor(ordered(scores$safety_purpose, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_tee <- as.factor(ordered(scores$safety_tee, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+
+scores$willingness <- ordered(scores$willingness, levels = c("Would not", "Maybe would", "Definitely would"))
+
+
+scores$safety_overall_init <- as.factor(ordered(scores$safety_overall_init, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+scores$safety_overall_post <- as.factor(ordered(scores$safety_overall_post, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+
+scores$scenario <- factor(scores$scenario)
+
+scores$EXPLN <- factor(scores$EXPLN, levels = c("No explanation", "Unsubstantial", "Hardware", "Trust"))
+scores$FAQ <- factor(scores$FAQ, levels = c("No FAQ", "Hide", "Show"))
+scores$scenario <- factor(scores$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+scores$EXPLN_rebinned <- factor(scores$EXPLN_rebinned)
+scores$FAQ_rebinned <- factor(scores$FAQ_rebinned)
+
+scores_medicalc = scores
+    
+
+#scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital,                                       levels = c("Safe", "Neither safe nor unsafe","Unsafe")))
+
+```
+
+```{r}
+regression_model_binary <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = scores, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+
+model_complex <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = scores, Hess=TRUE)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds_old <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = scores, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = scores, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = scores, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = scores, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+test_proportional_odds_lrt <- function(dependent_var) {
+  # Define the data and the formula for the model
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  
+  # Fit the proportional odds model using clm
+  model_full_po <- clm(formula_str, data = scores, Hess = TRUE, nAGQ = 10)
+  
+  # Fit the non-proportional odds model using vglm
+  model_partial_po <- vglm(formula_str, family = cumulative(parallel = FALSE), data = scores)
+  
+  # Calculate AIC values for both models
+  aic_full <- AIC(model_full_po)
+  aic_partial <- AIC(model_partial_po)
+  
+  # Print AIC values for comparison
+  cat("\nAIC of full proportional odds model (clm):", aic_full)
+  cat("\nAIC of partial proportional odds model (vglm):", aic_partial, "\n")
+  
+  # Compare the models
+  if (aic_partial < aic_full) {
+    cat("\nThe partial proportional odds model (vglm) fits better, suggesting that the proportional odds assumption may not hold.\n")
+  } else {
+    cat("\nThe full proportional odds model (clm) fits better, suggesting that the proportional odds assumption holds.\n")
+  }
+}
+
+```
+
+```{r}
+model_complex("safety_companyHospital")
+#test_proportional_odds("safety_companyHospital")
+```
+
+```{r}
+model_complex("safety_overall_init")
+#test_proportional_odds("safety_overall_init")
+#test_proportional_odds_lrt("safety_overall_init")
+```
+```{r}
+model_complex("safety_overall_post")
+#test_proportional_odds("safety_overall_post")
+```
+
+```{r}
+model_complex("safety_tee")
+#test_proportional_odds("safety_tee")
+```
+
+
+
+```{r}
+model_complex("safety_people")
+#test_proportional_odds("safety_people")
+```
+
+```{r}
+model_complex("safety_data")
+#test_proportional_odds("safety_data")
+```
+
+```{r}
+model_complex("safety_purpose")
+#test_proportional_odds("safety_purpose")
+```
+
+```{r}
+model_complex("willingness")
+#test_proportional_odds("willingness")
+```
+
+## Medical simple
+
+```{r}
+scores <- read.csv('./data/followup/scores-meds.csv', encoding=ENCODING,  header = TRUE)
+scores$gender <- as.factor(scores$gender)
+scores$age <- as.factor(scores$age)
+scores$combined_IoT_Experience <- as.factor(scores$combined_IoT_Experience)
+scores$combined_Medical_Experience <- as.factor(scores$combined_Medical_Experience)
+scores$combined_CS_Experience <- as.factor(scores$combined_CS_Experience)
+scores$education <- as.factor(scores$education)
+scores$scenario_scenario <- as.factor(scores$scenario_scenario)
+scores$scenario_complexity <- as.factor(scores$scenario_complexity)
+names(scores) <- gsub(" ", "_", names(scores))  # Replace spaces with underscores
+
+
+scores$safety_people <- as.factor(ordered(scores$safety_people, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_data <- as.factor(ordered(scores$safety_data, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_purpose <- as.factor(ordered(scores$safety_purpose, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_tee <- as.factor(ordered(scores$safety_tee, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+
+scores$willingness <- ordered(scores$willingness, levels = c("Would not", "Maybe would", "Definitely would"))
+
+
+scores$safety_overall_init <- as.factor(ordered(scores$safety_overall_init, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+scores$safety_overall_post <- as.factor(ordered(scores$safety_overall_post, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+
+scores$scenario <- factor(scores$scenario)
+
+scores$EXPLN <- factor(scores$EXPLN, levels = c("No explanation", "Unsubstantial", "Hardware", "Trust"))
+scores$FAQ <- factor(scores$FAQ, levels = c("No FAQ", "Hide", "Show"))
+scores$scenario <- factor(scores$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+scores$EXPLN_rebinned <- factor(scores$EXPLN_rebinned)
+scores$FAQ_rebinned <- factor(scores$FAQ_rebinned)
+
+#scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital,                                       levels = c("Safe", "Neither safe nor unsafe","Unsafe")))
+scores_medicals= scores
+
+```
+
+```{r}
+regression_model_binary <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = scores, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+
+model_complex <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = scores, Hess=TRUE)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = scores, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = scores, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+
+```
+
+```{r}
+model_complex("safety_companyHospital")
+#test_proportional_odds("safety_companyHospital")
+```
+
+```{r}
+model_complex("safety_overall_init")
+#test_proportional_odds("safety_overall_init")
+```
+```{r}
+model_complex("safety_overall_post")
+#test_proportional_odds("safety_overall_post")
+```
+
+```{r}
+model_complex("safety_tee")
+#test_proportional_odds("safety_tee")
+```
+
+
+
+```{r}
+model_complex("safety_people")
+#test_proportional_odds("safety_people")
+```
+
+```{r}
+model_complex("safety_data")
+#test_proportional_odds("safety_data")
+```
+
+```{r}
+model_complex("safety_purpose")
+#test_proportional_odds("safety_purpose")
+```
+
+```{r}
+model_complex("willingness")
+#test_proportional_odds("willingness")
+```
+
+## IoT simple
+
+```{r}
+scores <- read.csv('./data/followup/scores-iots.csv', encoding=ENCODING,  header = TRUE)
+scores$gender <- as.factor(scores$gender)
+scores$age <- as.factor(scores$age)
+scores$combined_IoT_Experience <- as.factor(scores$combined_IoT_Experience)
+scores$combined_Medical_Experience <- as.factor(scores$combined_Medical_Experience)
+scores$combined_CS_Experience <- as.factor(scores$combined_CS_Experience)
+scores$education <- as.factor(scores$education)
+scores$scenario_scenario <- as.factor(scores$scenario_scenario)
+scores$scenario_complexity <- as.factor(scores$scenario_complexity)
+names(scores) <- gsub(" ", "_", names(scores))  # Replace spaces with underscores
+
+
+scores$safety_people <- as.factor(ordered(scores$safety_people, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_data <- as.factor(ordered(scores$safety_data, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_purpose <- as.factor(ordered(scores$safety_purpose, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_tee <- as.factor(ordered(scores$safety_tee, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+
+scores$willingness <- ordered(scores$willingness, levels = c("Would not", "Maybe would", "Definitely would"))
+
+
+scores$safety_overall_init <- as.factor(ordered(scores$safety_overall_init, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+scores$safety_overall_post <- as.factor(ordered(scores$safety_overall_post, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+
+scores$scenario <- factor(scores$scenario)
+
+scores$EXPLN <- factor(scores$EXPLN, levels = c("No explanation", "Unsubstantial", "Hardware", "Trust"))
+scores$FAQ <- factor(scores$FAQ, levels = c("No FAQ", "Hide", "Show"))
+scores$scenario <- factor(scores$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+scores$EXPLN_rebinned <- factor(scores$EXPLN_rebinned)
+scores$FAQ_rebinned <- factor(scores$FAQ_rebinned)
+scores_iots= scores
+#scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital,                                       levels = c("Safe", "Neither safe nor unsafe","Unsafe")))
+
+```
+
+```{r}
+regression_model_binary <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_IoT_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = scores, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+
+model_complex <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_IoT_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = scores, Hess=TRUE)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = scores, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = scores, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+
+```
+
+```{r}
+model_complex("safety_companyHospital")
+#test_proportional_odds("safety_companyHospital")
+```
+
+```{r}
+model_complex("safety_overall_init")
+#test_proportional_odds("safety_overall_init")
+```
+```{r}
+model_complex("safety_overall_post")
+#test_proportional_odds("safety_overall_post")
+```
+
+```{r}
+model_complex("safety_tee")
+#test_proportional_odds("safety_tee")
+```
+
+
+
+```{r}
+model_complex("safety_people")
+#test_proportional_odds("safety_people")
+```
+
+```{r}
+model_complex("safety_data")
+#test_proportional_odds("safety_data")
+```
+
+```{r}
+model_complex("safety_purpose")
+#test_proportional_odds("safety_purpose")
+```
+
+```{r}
+model_complex("willingness")
+#test_proportional_odds("willingness")
+```
+
+## IoT complex
+
+```{r}
+scores <- read.csv('./data/followup/scores-iotc.csv', encoding=ENCODING,  header = TRUE)
+scores$gender <- as.factor(scores$gender)
+scores$age <- as.factor(scores$age)
+scores$combined_IoT_Experience <- as.factor(scores$combined_IoT_Experience)
+scores$combined_Medical_Experience <- as.factor(scores$combined_Medical_Experience)
+scores$combined_CS_Experience <- as.factor(scores$combined_CS_Experience)
+scores$education <- as.factor(scores$education)
+scores$scenario_scenario <- as.factor(scores$scenario_scenario)
+scores$scenario_complexity <- as.factor(scores$scenario_complexity)
+names(scores) <- gsub(" ", "_", names(scores))  # Replace spaces with underscores
+
+
+scores$safety_people <- as.factor(ordered(scores$safety_people, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_data <- as.factor(ordered(scores$safety_data, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_purpose <- as.factor(ordered(scores$safety_purpose, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+scores$safety_tee <- as.factor(ordered(scores$safety_tee, levels = c("Unsafe", "Neither safe nor unsafe","Safe")))
+
+scores$willingness <- ordered(scores$willingness, levels = c("Would not", "Maybe would", "Definitely would"))
+
+
+scores$safety_overall_init <- as.factor(ordered(scores$safety_overall_init, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+scores$safety_overall_post <- as.factor(ordered(scores$safety_overall_post, levels = c("Not at all safe", "Somewhat safe","Completely safe")))
+
+scores$scenario <- factor(scores$scenario)
+
+scores$EXPLN <- factor(scores$EXPLN, levels = c("No explanation", "Unsubstantial", "Hardware", "Trust"))
+scores$FAQ <- factor(scores$FAQ, levels = c("No FAQ", "Hide", "Show"))
+scores$scenario <- factor(scores$scenario, levels = c("MedicalComplex", "MedicalSimple", "IoTComplex", "IoTSimple"))
+scores$EXPLN_rebinned <- factor(scores$EXPLN_rebinned)
+scores$FAQ_rebinned <- factor(scores$FAQ_rebinned)
+
+
+
+    
+    scores_iotc= scores
+#scores$safety_companyHospital <- as.factor(ordered(scores$safety_companyHospital,                                       levels = c("Safe", "Neither safe nor unsafe","Unsafe")))
+
+```
+
+```{r}
+regression_model_binary <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_IoT_Experience + combined_CS_Experience"))
+  model <- glm(formula_str, data = scores, family = binomial)
+  print(summary(model))
+  print(Anova(model))
+  plot_model(model)
+  return(model)
+}
+
+model_complex <- function(dependent_var) {
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_IoT_Experience + combined_CS_Experience"))
+  
+  model_output <- clm(formula_str, data = scores, Hess=TRUE)
+  print(model_output)
+  print(summary(model_output))
+  return()
+}
+
+test_proportional_odds <- function(dependent_var) {
+  data <- regression_results
+  formula_str <- as.formula(paste(dependent_var, "~ EXPLN + FAQ + combined_Medical_Experience + combined_CS_Experience"))
+  model_clm <- clm(formula_str, data = scores, Hess = TRUE, nAGQ = 10)
+  polr_model <- polr(formula_str, data = scores, Hess = TRUE)
+  brant_result <- brant(polr_model)
+  print(brant_result)
+  p_values <- brant_result[, "probability"]
+  cat("\nBrant Test Results:\n")
+  print(brant_result)
+  if (any(p_values < 0.05, na.rm = TRUE)) {
+    cat("\nThe Proportional Odds Assumption does NOT hold for at least one predictor.\n")
+    cat("Consider using a partial proportional odds model or another approach.\n")
+  } else {
+    cat("\nThe Proportional Odds Assumption holds for all predictors.\n")
+  }
+}
+
+```
+
+```{r}
+model_complex("safety_companyHospital")
+#test_proportional_odds("safety_companyHospital")
+```
+
+```{r}
+model_complex("safety_overall_init")
+#test_proportional_odds("safety_overall_init")
+```
+```{r}
+model_complex("safety_overall_post")
+#test_proportional_odds("safety_overall_post")
+```
+
+```{r}
+model_complex("safety_tee")
+#test_proportional_odds("safety_tee")
+```
+
+
+
+```{r}
+model_complex("safety_people")
+#test_proportional_odds("safety_people")
+```
+
+```{r}
+model_complex("safety_data")
+#test_proportional_odds("safety_data")
+```
+
+```{r}
+model_complex("safety_purpose")
+#test_proportional_odds("safety_purpose")
+```
+
+```{r}
+model_complex("willingness")
+#test_proportional_odds("willingness")
+```
+
+# Corrections
+
+```{r}
+
+run_BH <- function(dependent_var) {
+  scenario_data <- list(
+    MedicalSimple  = scores_medicals,
+    MedicalComplex = scores_medicalc,
+    IoTSimple      = scores_iots,
+    IoTComplex     = scores_iotc
+  )
+
+  # ------- helper: compute Nagelkerke R² ---------
+  compute_r2 <- function(full_model, data, dependent_var) {
+    null_formula <- as.formula(paste(dependent_var, "~ 1"))
+    null_model <- clm(null_formula, data = data, Hess = TRUE)
+
+    ll_full <- as.numeric(logLik(full_model))
+    ll_null <- as.numeric(logLik(null_model))
+    n <- nobs(full_model)
+
+    # Nagelkerke R2 formula
+    r2 <- (1 - exp((2/n) * (ll_null - ll_full))) / (1 - exp(2 * ll_null / n))
+    return(r2)
+  }
+
+  # -------- extract model terms per scenario --------
+  get_model_terms <- function(df, scenario) {
+
+    exp_var <- if (grepl("Medical", scenario))
+      "combined_Medical_Experience" else "combined_IoT_Experience"
+
+    f <- as.formula(paste(
+      dependent_var,
+      "~ EXPLN + FAQ +",
+      exp_var, "+ combined_CS_Experience"
+    ))
+
+    model <- clm(f, data = df, Hess = TRUE)
+
+    # compute Nagelkerke R²
+    R2_Nagelkerke <- compute_r2(model, df, dependent_var)
+
+    broom::tidy(model, conf.int = TRUE, conf.level = 0.95) |>
+      mutate(
+        OR      = exp(estimate),
+        OR_low  = exp(conf.low),
+        OR_high = exp(conf.high),
+        CI      = sprintf("[%.3f, %.3f]", OR_low, OR_high),
+        Scenario = scenario,
+        R2_Nagelkerke = R2_Nagelkerke
+      )
+  }
+
+  # -------- combine everything --------
+  purrr::imap_dfr(scenario_data, get_model_terms) |>
+    filter(term != "(Intercept)") |>
+    group_by(term) |>
+    mutate(q_value = p.adjust(p.value, method = "BH")) |>
+    ungroup() |>
+    mutate(
+      Question = dependent_var,
+      PreSig  = p.value <= 0.05,
+      PostSig = q_value <= 0.05,
+      Status = case_when(
+        PreSig & !PostSig ~ "Lost significance",
+        !PreSig & PostSig ~ "Gained significance",
+        PreSig & PostSig  ~ "Stayed significant",
+        TRUE              ~ ""
+      )
+    ) |>
+    dplyr::select(
+      Question, Scenario, term,
+      estimate, OR, CI, OR_low, OR_high,
+      p.value, q_value, Status,
+      R2_Nagelkerke
+    )
+}
+
+write.csv(run_BH("willingness"), "BH_correction_2stStudy_will.csv", row.names = FALSE)
+
+
+write.csv(run_BH("safety_overall_init"), "BH_correction_2stStudy_safety.csv", row.names = FALSE)
+
+```

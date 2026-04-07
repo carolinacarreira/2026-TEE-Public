@@ -1,0 +1,5 @@
+"scenario","W","p_raw","p_BH","PreSig","PostSig","Status"
+"MedicalComplex",8226,0.514606746789127,0.514606746789127,FALSE,FALSE,"Not significant"
+"MedicalSimple",11723,1.50462862192687e-06,3.00925724385374e-06,TRUE,TRUE,"Stayed significant"
+"IoTComplex",10019.5,0.00436739261630303,0.00582319015507071,TRUE,TRUE,"Stayed significant"
+"IoTSimple",13756.5,4.37785178640085e-09,1.75114071456034e-08,TRUE,TRUE,"Stayed significant"
